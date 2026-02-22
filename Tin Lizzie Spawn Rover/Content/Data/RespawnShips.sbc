@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <RespawnShips>
+    <Ship>
+      <Id>
+        <TypeId>RespawnShipDefinition</TypeId>
+        <SubtypeId>RespawnRover</SubtypeId>
+      </Id>
+      <DisplayName>Tin Lizzie</DisplayName>
+      <Icon>Textures\GUI\Icons\RespawnShips\TinLizzie.png</Icon>
+      <CooldownSeconds>900</CooldownSeconds>
+      <Prefab>Tin Lizzie</Prefab>
+      <MinimalAirDensity>0.55</MinimalAirDensity>
+      <PlanetDeployAltitude>1000</PlanetDeployAltitude>
+      <UseForPlanetsWithAtmosphere>true</UseForPlanetsWithAtmosphere>
+      <InitialLinearVelocity x="0" y="-90" z="0" />
+      <InitialAngularVelocity x="0" y="0" z="0" />
+      <HelpTextLocalizationId>Description_RespawnRover</HelpTextLocalizationId>
+    </Ship>
+    <Ship>
+      <Id>
+        <TypeId>RespawnShipDefinition</TypeId>
+        <SubtypeId>RespawnMoonRover</SubtypeId>
+      </Id>
+      <DisplayName>Tin Lizzie</DisplayName>
+      <Icon>Textures\GUI\Icons\RespawnShips\TinLizzie.png</Icon>
+      <CooldownSeconds>900</CooldownSeconds>
+      <Prefab>Tin Lizzie</Prefab>
+      <UseForSpace>false</UseForSpace>
+      <UseForPlanetsWithAtmosphere>false</UseForPlanetsWithAtmosphere>
+      <UseForPlanetsWithoutAtmosphere>true</UseForPlanetsWithoutAtmosphere>
+      <PlanetDeployAltitude>10</PlanetDeployAltitude>
+      <HelpTextLocalizationId>Description_RespawnRover</HelpTextLocalizationId>
+    </Ship>
+    <Ship Enabled="false">
+      <Id>
+        <TypeId>RespawnShipDefinition</TypeId>
+        <SubtypeId>RespawnSpacePod</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_RespawnPodSpace</DisplayName>
+      <Icon>Textures\GUI\Icons\RespawnShips\RespawnSpacePod.png</Icon>
+      <CooldownSeconds>900</CooldownSeconds>
+      <Prefab>RespawnSpacePod</Prefab>
+
+      <UseForSpace>true</UseForSpace>
+      <HelpTextLocalizationId>RespawnScreeenHelpTextSpaceSpawn</HelpTextLocalizationId>
+    </Ship>
+  </RespawnShips>
+</Definitions>
