@@ -26,8 +26,11 @@
             <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
         </AdditionalFiles>
         <AdditionalFiles Remove="Content\*\**\*.cs"/>
+        <AdditionalFiles Remove="*.mdk.ini"/>
+        <AdditionalFiles Remove="*.mdk.local.ini"/>
         <AdditionalFiles Remove="Content\Other content folders"/>
         <AdditionalFiles Remove="Content\Data\SBC files can go here"/>
+        <AdditionalFiles Remove="Content\Data\placeholder.md"/>
     </ItemGroup>
     <ItemGroup>
         <Folder Include="Content\Data\" />
