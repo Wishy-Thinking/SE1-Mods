@@ -23,9 +23,10 @@ namespace Mad_Mac_Jetpack_Restrictions
                 _dataCache[c.Id.SubtypeName] = c.Jetpack.ThrustProperties.Clone() as MyObjectBuilder_ThrustDefinition;
 
                 MyLog.Default.WriteLineAndConsole($"JetPack: Updating {c.Id.SubtypeName}");
-                c.Jetpack.ThrustProperties.ForceMagnitude = 320;
+                c.Jetpack.ThrustProperties.ForceMagnitude = 160;
                 c.Jetpack.ThrustProperties.ConsumptionFactorPerG = 100;
-                c.Jetpack.ThrustProperties.EffectivenessAtMinInfluence = (float)10.0;
+                c.Jetpack.ThrustProperties.SlowdownFactor = 3;
+                c.Jetpack.ThrustProperties.EffectivenessAtMinInfluence = (float)12.0;
             }
         }
 
@@ -45,6 +46,7 @@ namespace Mad_Mac_Jetpack_Restrictions
                 MyLog.Default.WriteLineAndConsole($"JetPack: Restoring {c.Id.SubtypeName} to default");
                 c.Jetpack.ThrustProperties.ForceMagnitude = cache.ForceMagnitude;
                 c.Jetpack.ThrustProperties.ConsumptionFactorPerG = cache.ConsumptionFactorPerG;
+                c.Jetpack.ThrustProperties.SlowdownFactor = cache.SlowdownFactor;
                 c.Jetpack.ThrustProperties.EffectivenessAtMinInfluence = cache.EffectivenessAtMaxInfluence;
             }
         }
