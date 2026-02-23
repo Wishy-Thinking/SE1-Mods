@@ -28,6 +28,7 @@
         <AdditionalFiles Remove="Content\*\**\*.cs"/>
         <AdditionalFiles Remove="Content\Other content folders"/>
         <AdditionalFiles Remove="Content\Data\SBC files can go here"/>
+        <AdditionalFiles Remove="Content\Textures\BackgroundCube\Orig\SkyBox.dds"/>
         <None Remove="thumb.png"/>
     </ItemGroup>
     <ItemGroup>
