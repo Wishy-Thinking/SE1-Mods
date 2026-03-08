@@ -87,7 +87,6 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CorridorRoundDoorGroup"/>
-            <Icon>Textures\GUI\Icons\Cubes\CorridorRound_Door.dds</Icon>
             <DisplayName>DisplayName_Block_Door</DisplayName>
             <Description>Description_Door</Description>
             <Blocks>
