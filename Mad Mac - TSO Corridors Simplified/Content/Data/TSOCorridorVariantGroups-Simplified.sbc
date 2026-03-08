@@ -16,9 +16,9 @@
                 <Block Type="MyObjectBuilder_ButtonPanel" Subtype="TSOCorSciFiButtonPanel"/>
                 <Block Type="MyObjectBuilder_ButtonPanel" Subtype="TSOCorButton"/>
                 <Block Type="MyObjectBuilder_SensorBlock" Subtype="TSOCorSensor"/>
-                <!--				Corridor Corner -->
+
                 <Block Type="MyObjectBuilder_InteriorLight" Subtype="TSOCorCornerLight"/>
-                <!--				Corridor T -->
+
                 <Block Type="MyObjectBuilder_InteriorLight" Subtype="TSOCorTLight"/>
                 <Block Type="MyObjectBuilder_CargoContainer" Subtype="TSOCorTCargoSingle"/>
                 <Block Type="MyObjectBuilder_AirVent" Subtype="TSOCorTVentSingle"/>
@@ -28,10 +28,10 @@
                 <Block Type="MyObjectBuilder_ButtonPanel" Subtype="TSOCorTSciFiButtonPanel"/>
                 <Block Type="MyObjectBuilder_ButtonPanel" Subtype="TSOCorTButton"/>
                 <Block Type="MyObjectBuilder_SensorBlock" Subtype="TSOCorTSensor"/>
-                <!--				Corridor X -->
+
                 <Block Type="MyObjectBuilder_InteriorLight" Subtype="TSOCorXLight"/>
                 <Block Type="MyObjectBuilder_AirVent" Subtype="TSOCorXVentFan"/>
-                <!--				Corridor Windows -->
+
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="TSOCorTWA"/>
             </Blocks>
         </BlockVariantGroup>
@@ -41,55 +41,36 @@
             <DisplayName>Corridor Stairs</DisplayName>
             <Description>Description_Passage</Description>
             <Blocks>
-                <!--    TSO Corridor Ladders -->
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="TSOCorStairs"/>
                 <Block Type="MyObjectBuilder_InteriorLight" Subtype="TSOCorStairsLight"/>
 
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="TSOCorRamp"/>
                 <Block Type="MyObjectBuilder_InteriorLight" Subtype="TSOCorRampLight"/>
 
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="TSOCorStairsB"/>
-                <Block Type="MyObjectBuilder_InteriorLight" Subtype="TSOCorStairsLightB"/>
-
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="TSOCorRampB"/>
-                <Block Type="MyObjectBuilder_InteriorLight" Subtype="TSOCorRampLightB"/>
-
-                <!--	TSO Corridor Bottom -->
                 <Block Type="MyObjectBuilder_Ladder2" Subtype="TSOCorLadderBottomStraight"/>
                 <Block Type="MyObjectBuilder_Ladder2" Subtype="TSOCorLadderBottomX"/>
-                <!--	TSO Corridor Middle -->
+
                 <Block Type="MyObjectBuilder_Ladder2" Subtype="TSOCorLadder"/>
                 <Block Type="MyObjectBuilder_Ladder2" Subtype="TSOCorLadderG"/>
 
                 <Block Type="MyObjectBuilder_Ladder2" Subtype="TSOCorLadderRA"/>
-                <Block Type="MyObjectBuilder_Ladder2" Subtype="TSOCorLadderRB"/>
                 <Block Type="MyObjectBuilder_Ladder2" Subtype="TSOCorLadderRAG"/>
-                <Block Type="MyObjectBuilder_Ladder2" Subtype="TSOCorLadderRBG"/>
 
                 <Block Type="MyObjectBuilder_Ladder2" Subtype="TSOCorLadderLA"/>
-                <Block Type="MyObjectBuilder_Ladder2" Subtype="TSOCorLadderLB"/>
                 <Block Type="MyObjectBuilder_Ladder2" Subtype="TSOCorLadderLAG"/>
-                <Block Type="MyObjectBuilder_Ladder2" Subtype="TSOCorLadderLBG"/>
 
                 <Block Type="MyObjectBuilder_Ladder2" Subtype="TSOCorLadderRoofA"/>
-                <Block Type="MyObjectBuilder_Ladder2" Subtype="TSOCorLadderRoofB"/>
                 <Block Type="MyObjectBuilder_Ladder2" Subtype="TSOCorLadderRoofAG"/>
-                <Block Type="MyObjectBuilder_Ladder2" Subtype="TSOCorLadderRoofBG"/>
 
                 <Block Type="MyObjectBuilder_Ladder2" Subtype="TSOCorLadderDoubleA"/>
-                <Block Type="MyObjectBuilder_Ladder2" Subtype="TSOCorLadderDoubleB"/>
                 <Block Type="MyObjectBuilder_Ladder2" Subtype="TSOCorLadderDoubleAG"/>
-                <Block Type="MyObjectBuilder_Ladder2" Subtype="TSOCorLadderDoubleBG"/>
 
                 <Block Type="MyObjectBuilder_Ladder2" Subtype="TSOCorLadderTripleA"/>
-                <Block Type="MyObjectBuilder_Ladder2" Subtype="TSOCorLadderTripleB"/>
                 <Block Type="MyObjectBuilder_Ladder2" Subtype="TSOCorLadderTripleAG"/>
-                <Block Type="MyObjectBuilder_Ladder2" Subtype="TSOCorLadderTripleBG"/>
-                <!--	TSO Corridor Top -->
+
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="TSOCorLadderTopStraight"/>
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="TSOCorLadderTopStraightEnd"/>
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="TSOCorLadderTopStraightEndWA"/>
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="TSOCorLadderTopStraightEndWB"/>
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="TSOCorLadderTopX"/>
             </Blocks>
         </BlockVariantGroup>

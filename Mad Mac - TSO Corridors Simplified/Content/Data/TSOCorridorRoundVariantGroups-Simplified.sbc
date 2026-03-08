@@ -7,7 +7,6 @@
             <DisplayName>DisplayName_Block_Corridor</DisplayName>
             <Description>Description_Passage</Description>
             <Blocks>
-                <!--				Corridor Round Straight -->
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="CorridorRound"/>
                 <Block Type="MyObjectBuilder_InteriorLight" Subtype="CorridorRoundLight"/>
                 <Block Type="MyObjectBuilder_CargoContainer" Subtype="TSOCorRndCargoSingle"/>
@@ -19,10 +18,10 @@
                 <Block Type="MyObjectBuilder_ButtonPanel" Subtype="TSOCorRndSciFiButtonPanel"/>
                 <Block Type="MyObjectBuilder_ButtonPanel" Subtype="TSOCorRndButton"/>
                 <Block Type="MyObjectBuilder_SensorBlock" Subtype="TSOCorRndSensor"/>
-                <!--				Corridor Round Corner-->
+
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="CorridorRoundCorner"/>
                 <Block Type="MyObjectBuilder_InteriorLight" Subtype="TSOCorRndCornerLight"/>
-                <!--				Corridor Round T -->
+
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="CorridorRoundT"/>
                 <Block Type="MyObjectBuilder_CargoContainer" Subtype="TSOCorRndTCargoSingle"/>
                 <Block Type="MyObjectBuilder_AirVent" Subtype="TSOCorRndTVentSingle"/>
@@ -33,13 +32,11 @@
                 <Block Type="MyObjectBuilder_ButtonPanel" Subtype="TSOCorRndTButton"/>
                 <Block Type="MyObjectBuilder_SensorBlock" Subtype="TSOCorRndTSensor"/>
                 <Block Type="MyObjectBuilder_InteriorLight" Subtype="TSOCorRndTLight"/>
-                <!--				Corridor Round X -->
+
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="CorridorRoundX"/>
                 <Block Type="MyObjectBuilder_InteriorLight" Subtype="TSOCorRndXLight"/>
                 <Block Type="MyObjectBuilder_InteriorLight" Subtype="TSOCorRndXVentFan"/>
-                <!--				Corridor Round Transition -->
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="CorridorRoundTransition"/>
-                <!--				Corridor Round Windows -->
+
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="TSOCorRndWSingleA"/>
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="TSOCorRndWRoofA"/>
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="TSOCorRndWDoubleA"/>
@@ -52,16 +49,15 @@
             <DisplayName>Corridor Round Stairs</DisplayName>
             <Description>Description_Passage</Description>
             <Blocks>
-                <!--	TSO Corridor Round Stairs and Ramps -->
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="TSOCorRndStairs"/>
                 <Block Type="MyObjectBuilder_InteriorLight" Subtype="TSOCorRndStairsLight"/>
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="TSOCorRndRamp"/>
                 <Block Type="MyObjectBuilder_InteriorLight" Subtype="TSOCorRndRampLight"/>
-                <!--	TSO Corridor Round Bottom -->
+
                 <Block Type="MyObjectBuilder_Ladder2" Subtype="TSOCorRndLadderBottomStraight"/>
                 <Block Type="MyObjectBuilder_Ladder2" Subtype="TSOCorRndLadderBottomX"/>
                 <Block Type="MyObjectBuilder_Ladder2" Subtype="TSOCorRndLadderBottomXWA"/>
-                <!--	TSO Corridor Round Middle -->
+
                 <Block Type="MyObjectBuilder_Ladder2" Subtype="TSOCorRndLadder"/>
                 <Block Type="MyObjectBuilder_Ladder2" Subtype="TSOCorRndLadderG"/>
 
@@ -77,7 +73,6 @@
                 <Block Type="MyObjectBuilder_Ladder2" Subtype="TSOCorRndLadderTripleA"/>
                 <Block Type="MyObjectBuilder_Ladder2" Subtype="TSOCorRndLadderTripleAG"/>
 
-                <!--	TSO Corridor Round Top -->
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="TSOCorRndLadderTopStraight"/>
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="TSOCorRndLadderTopStraightWA"/>
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="TSOCorRndLadderTopX"/>
@@ -92,51 +87,37 @@
             <Blocks>
                 <Block Type="MyObjectBuilder_Door" Subtype="TSOCorRndStraightDoor"/>
                 <Block Type="MyObjectBuilder_Door" Subtype="TSOCorRndStraightDoorWRA"/>
-                <Block Type="MyObjectBuilder_Door" Subtype="TSOCorRndStraightDoorWRB"/>
                 <Block Type="MyObjectBuilder_Door" Subtype="TSOCorRndStraightDoorWLA"/>
-                <Block Type="MyObjectBuilder_Door" Subtype="TSOCorRndStraightDoorWLB"/>
 
                 <Block Type="MyObjectBuilder_Door" Subtype="TSOCorRndStraightDoorWRoofA"/>
-                <Block Type="MyObjectBuilder_Door" Subtype="TSOCorRndStraightDoorWRoofB"/>
                 <Block Type="MyObjectBuilder_Door" Subtype="TSOCorRndStraightDoorWDA"/>
-                <Block Type="MyObjectBuilder_Door" Subtype="TSOCorRndStraightDoorWDB"/>
 
                 <Block Type="MyObjectBuilder_Door" Subtype="TSOCorRndStraightDoorWTA"/>
-                <Block Type="MyObjectBuilder_Door" Subtype="TSOCorRndStraightDoorWTB"/>
                 <Block Type="MyObjectBuilder_Door" Subtype="TSOCorRndXWCStraightDoorA"/>
-                <Block Type="MyObjectBuilder_Door" Subtype="TSOCorRndXWCStraightDoorB"/>
 
                 <Block Type="MyObjectBuilder_Door" Subtype="TSOCorRndCornerLeftDoor"/>
                 <Block Type="MyObjectBuilder_Door" Subtype="TSOCorRndXWCCornerLeftDoorA"/>
-                <Block Type="MyObjectBuilder_Door" Subtype="TSOCorRndXWCCornerLeftDoorB"/>
 
                 <Block Type="MyObjectBuilder_Door" Subtype="TSOCorRndCornerRightDoor"/>
                 <Block Type="MyObjectBuilder_Door" Subtype="TSOCorRndXWCCornerRightDoorA"/>
-                <Block Type="MyObjectBuilder_Door" Subtype="TSOCorRndXWCCornerRightDoorB"/>
 
                 <Block Type="MyObjectBuilder_Door" Subtype="TSOCorRndTMiddleDoor"/>
                 <Block Type="MyObjectBuilder_Door" Subtype="TSOCorRndTMiddleDoorWA"/>
-                <Block Type="MyObjectBuilder_Door" Subtype="TSOCorRndTMiddleDoorWB"/>
 
                 <Block Type="MyObjectBuilder_Door" Subtype="TSOCorRndTLeftDoor"/>
                 <Block Type="MyObjectBuilder_Door" Subtype="TSOCorRndTLeftDoorWA"/>
-                <Block Type="MyObjectBuilder_Door" Subtype="TSOCorRndTLeftDoorWB"/>
 
                 <Block Type="MyObjectBuilder_Door" Subtype="TSOCorRndTRightDoor"/>
                 <Block Type="MyObjectBuilder_Door" Subtype="TSOCorRndTRightDoorWA"/>
-                <Block Type="MyObjectBuilder_Door" Subtype="TSOCorRndTRightDoorWB"/>
 
                 <Block Type="MyObjectBuilder_Door" Subtype="TSOCorRndXDoor"/>
 
                 <Block Type="MyObjectBuilder_AdvancedDoor" Subtype="TSOCorRndStraightDoorAirlock"/>
                 <Block Type="MyObjectBuilder_AdvancedDoor" Subtype="TSOCorRndTWCStraightDoorAirlockA"/>
-                <Block Type="MyObjectBuilder_AdvancedDoor" Subtype="TSOCorRndTWCStraightDoorAirlockB"/>
                 <Block Type="MyObjectBuilder_AdvancedDoor" Subtype="TSOCorRndXWCStraightDoorAirlockA"/>
-                <Block Type="MyObjectBuilder_AdvancedDoor" Subtype="TSOCorRndXWCStraightDoorAirlockB"/>
 
                 <Block Type="MyObjectBuilder_AdvancedDoor" Subtype="TSOCorRndCornerDoorAirlock"/>
                 <Block Type="MyObjectBuilder_AdvancedDoor" Subtype="TSOCorRndXCCornerDoorAirlockA"/>
-                <Block Type="MyObjectBuilder_AdvancedDoor" Subtype="TSOCorRndXCCornerDoorAirlockB"/>
             </Blocks>
         </BlockVariantGroup>
 
