@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <BlockVariantGroups>
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CorridorRoundGroup"/>
+            <Icon>Textures\GUI\Icons\Cubes\CorridorRound_Straight.dds</Icon>
+            <DisplayName>DisplayName_Block_Corridor</DisplayName>
+            <Description>Description_Passage</Description>
+            <Blocks>
+                <!--				Corridor Round Straight -->
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="CorridorRound"/>
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="CorridorRoundLight"/>
+                <Block Type="MyObjectBuilder_CargoContainer" Subtype="TSOCorRndCargoSingle"/>
+                <Block Type="MyObjectBuilder_AirVent" Subtype="TSOCorRndVentSingle"/>
+                <Block Type="MyObjectBuilder_AirVent" Subtype="TSOCorRndVentFanSingle"/>
+                <Block Type="MyObjectBuilder_MedicalRoom" Subtype="TSOCorRndRefillSingle"/>
+                <Block Type="MyObjectBuilder_TextPanel" Subtype="TSOCorRndLCD"/>
+                <Block Type="MyObjectBuilder_LCDPanelsBlock" Subtype="TSOCorRndDoubleLCD"/>
+                <Block Type="MyObjectBuilder_ButtonPanel" Subtype="TSOCorRndSciFiButtonPanel"/>
+                <Block Type="MyObjectBuilder_ButtonPanel" Subtype="TSOCorRndButton"/>
+                <Block Type="MyObjectBuilder_SensorBlock" Subtype="TSOCorRndSensor"/>
+                <!--				Corridor Round Corner-->
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="CorridorRoundCorner"/>
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="TSOCorRndCornerLight"/>
+                <!--				Corridor Round T -->
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="CorridorRoundT"/>
+                <Block Type="MyObjectBuilder_CargoContainer" Subtype="TSOCorRndTCargoSingle"/>
+                <Block Type="MyObjectBuilder_AirVent" Subtype="TSOCorRndTVentSingle"/>
+                <Block Type="MyObjectBuilder_AirVent" Subtype="TSOCorRndTVentFanSingle"/>
+                <Block Type="MyObjectBuilder_MedicalRoom" Subtype="TSOCorRndTRefillSingle"/>
+                <Block Type="MyObjectBuilder_TextPanel" Subtype="TSOCorRndTLCD"/>
+                <Block Type="MyObjectBuilder_ButtonPanel" Subtype="TSOCorRndTSciFiButtonPanel"/>
+                <Block Type="MyObjectBuilder_ButtonPanel" Subtype="TSOCorRndTButton"/>
+                <Block Type="MyObjectBuilder_SensorBlock" Subtype="TSOCorRndTSensor"/>
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="TSOCorRndTLight"/>
+                <!--				Corridor Round X -->
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="CorridorRoundX"/>
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="TSOCorRndXLight"/>
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="TSOCorRndXVentFan"/>
+                <!--				Corridor Round Transition -->
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="CorridorRoundTransition"/>
+                <!--				Corridor Round Windows -->
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="TSOCorRndWSingleA"/>
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="TSOCorRndWRoofA"/>
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="TSOCorRndWDoubleA"/>
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="TSOCorRndTWA"/>
+            </Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CorridorRoundStairsGroup"/>
+            <DisplayName>Corridor Round Stairs</DisplayName>
+            <Description>Description_Passage</Description>
+            <Blocks>
+                <!--	TSO Corridor Round Stairs and Ramps -->
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="TSOCorRndStairs"/>
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="TSOCorRndStairsLight"/>
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="TSOCorRndRamp"/>
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="TSOCorRndRampLight"/>
+                <!--	TSO Corridor Round Bottom -->
+                <Block Type="MyObjectBuilder_Ladder2" Subtype="TSOCorRndLadderBottomStraight"/>
+                <Block Type="MyObjectBuilder_Ladder2" Subtype="TSOCorRndLadderBottomX"/>
+                <Block Type="MyObjectBuilder_Ladder2" Subtype="TSOCorRndLadderBottomXWA"/>
+                <!--	TSO Corridor Round Middle -->
+                <Block Type="MyObjectBuilder_Ladder2" Subtype="TSOCorRndLadder"/>
+                <Block Type="MyObjectBuilder_Ladder2" Subtype="TSOCorRndLadderG"/>
+
+                <Block Type="MyObjectBuilder_Ladder2" Subtype="TSOCorRndLadderRA"/>
+                <Block Type="MyObjectBuilder_Ladder2" Subtype="TSOCorRndLadderRAG"/>
+
+                <Block Type="MyObjectBuilder_Ladder2" Subtype="TSOCorRndLadderRoofA"/>
+                <Block Type="MyObjectBuilder_Ladder2" Subtype="TSOCorRndLadderRoofAG"/>
+
+                <Block Type="MyObjectBuilder_Ladder2" Subtype="TSOCorRndLadderDoubleA"/>
+                <Block Type="MyObjectBuilder_Ladder2" Subtype="TSOCorRndLadderDoubleAG"/>
+
+                <Block Type="MyObjectBuilder_Ladder2" Subtype="TSOCorRndLadderTripleA"/>
+                <Block Type="MyObjectBuilder_Ladder2" Subtype="TSOCorRndLadderTripleAG"/>
+
+                <!--	TSO Corridor Round Top -->
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="TSOCorRndLadderTopStraight"/>
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="TSOCorRndLadderTopStraightWA"/>
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="TSOCorRndLadderTopX"/>
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="TSOCorRndLadderTopXWA"/>
+            </Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CorridorRoundDoorGroup"/>
+            <Icon>Textures\GUI\Icons\Cubes\CorridorRound_Door.dds</Icon>
+            <DisplayName>DisplayName_Block_Door</DisplayName>
+            <Description>Description_Door</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_Door" Subtype="TSOCorRndStraightDoor"/>
+                <Block Type="MyObjectBuilder_Door" Subtype="TSOCorRndStraightDoorWRA"/>
+                <Block Type="MyObjectBuilder_Door" Subtype="TSOCorRndStraightDoorWRB"/>
+                <Block Type="MyObjectBuilder_Door" Subtype="TSOCorRndStraightDoorWLA"/>
+                <Block Type="MyObjectBuilder_Door" Subtype="TSOCorRndStraightDoorWLB"/>
+
+                <Block Type="MyObjectBuilder_Door" Subtype="TSOCorRndStraightDoorWRoofA"/>
+                <Block Type="MyObjectBuilder_Door" Subtype="TSOCorRndStraightDoorWRoofB"/>
+                <Block Type="MyObjectBuilder_Door" Subtype="TSOCorRndStraightDoorWDA"/>
+                <Block Type="MyObjectBuilder_Door" Subtype="TSOCorRndStraightDoorWDB"/>
+
+                <Block Type="MyObjectBuilder_Door" Subtype="TSOCorRndStraightDoorWTA"/>
+                <Block Type="MyObjectBuilder_Door" Subtype="TSOCorRndStraightDoorWTB"/>
+                <Block Type="MyObjectBuilder_Door" Subtype="TSOCorRndXWCStraightDoorA"/>
+                <Block Type="MyObjectBuilder_Door" Subtype="TSOCorRndXWCStraightDoorB"/>
+
+                <Block Type="MyObjectBuilder_Door" Subtype="TSOCorRndCornerLeftDoor"/>
+                <Block Type="MyObjectBuilder_Door" Subtype="TSOCorRndXWCCornerLeftDoorA"/>
+                <Block Type="MyObjectBuilder_Door" Subtype="TSOCorRndXWCCornerLeftDoorB"/>
+
+                <Block Type="MyObjectBuilder_Door" Subtype="TSOCorRndCornerRightDoor"/>
+                <Block Type="MyObjectBuilder_Door" Subtype="TSOCorRndXWCCornerRightDoorA"/>
+                <Block Type="MyObjectBuilder_Door" Subtype="TSOCorRndXWCCornerRightDoorB"/>
+
+                <Block Type="MyObjectBuilder_Door" Subtype="TSOCorRndTMiddleDoor"/>
+                <Block Type="MyObjectBuilder_Door" Subtype="TSOCorRndTMiddleDoorWA"/>
+                <Block Type="MyObjectBuilder_Door" Subtype="TSOCorRndTMiddleDoorWB"/>
+
+                <Block Type="MyObjectBuilder_Door" Subtype="TSOCorRndTLeftDoor"/>
+                <Block Type="MyObjectBuilder_Door" Subtype="TSOCorRndTLeftDoorWA"/>
+                <Block Type="MyObjectBuilder_Door" Subtype="TSOCorRndTLeftDoorWB"/>
+
+                <Block Type="MyObjectBuilder_Door" Subtype="TSOCorRndTRightDoor"/>
+                <Block Type="MyObjectBuilder_Door" Subtype="TSOCorRndTRightDoorWA"/>
+                <Block Type="MyObjectBuilder_Door" Subtype="TSOCorRndTRightDoorWB"/>
+
+                <Block Type="MyObjectBuilder_Door" Subtype="TSOCorRndXDoor"/>
+
+                <Block Type="MyObjectBuilder_AdvancedDoor" Subtype="TSOCorRndStraightDoorAirlock"/>
+                <Block Type="MyObjectBuilder_AdvancedDoor" Subtype="TSOCorRndTWCStraightDoorAirlockA"/>
+                <Block Type="MyObjectBuilder_AdvancedDoor" Subtype="TSOCorRndTWCStraightDoorAirlockB"/>
+                <Block Type="MyObjectBuilder_AdvancedDoor" Subtype="TSOCorRndXWCStraightDoorAirlockA"/>
+                <Block Type="MyObjectBuilder_AdvancedDoor" Subtype="TSOCorRndXWCStraightDoorAirlockB"/>
+
+                <Block Type="MyObjectBuilder_AdvancedDoor" Subtype="TSOCorRndCornerDoorAirlock"/>
+                <Block Type="MyObjectBuilder_AdvancedDoor" Subtype="TSOCorRndXCCornerDoorAirlockA"/>
+                <Block Type="MyObjectBuilder_AdvancedDoor" Subtype="TSOCorRndXCCornerDoorAirlockB"/>
+            </Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CorridorRoundLadderGroup"/>
+            <Icon>Textures\GUI\Icons\Cubes\CorridorRound_Light.dds</Icon>
+            <DisplayName>Corridor Round Ladder</DisplayName>
+            <Description>Description_Ladder</Description>
+            <Blocks/>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CorridorRoundCargoGroup"/>
+            <Icon>Textures\GUI\Icons\Cubes\CorridorRound_Light.dds</Icon>
+            <DisplayName>Corridor Round - Cargo Access</DisplayName>
+            <Description>Description_Passage</Description>
+            <Blocks/>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CorridorRoundVentGroup"/>
+            <Icon>Textures\GUI\Icons\Cubes\CorridorRound_Light.dds</Icon>
+            <DisplayName>Corridor Round - Vent</DisplayName>
+            <Description>Description_Passage</Description>
+            <Blocks/>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CorridorRoundConveyorGroup"/>
+            <Icon>Textures\GUI\Icons\Cubes\CorridorRound_Light.dds</Icon>
+            <DisplayName>Corridor Round - Conveyor</DisplayName>
+            <Description>Description_Passage</Description>
+            <Blocks/>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CorridorRoundRefillGroup"/>
+            <Icon>Textures\GUI\Icons\Cubes\CorridorRound_Light.dds</Icon>
+            <DisplayName>Corridor Round - Refill</DisplayName>
+            <Description>Description_Passage</Description>
+            <Blocks/>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CorridorRoundWindowGroup"/>
+            <Icon>Textures\GUI\Icons\Cubes\CorridorRound_Light.dds</Icon>
+            <DisplayName>Corridor Round - Window</DisplayName>
+            <Description>Description_Passage</Description>
+            <Blocks/>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CorridorRoundLCDGroup"/>
+            <Icon>Textures\GUI\Icons\Cubes\CorridorRound_Light.dds</Icon>
+            <DisplayName>Corridor Round - LCD</DisplayName>
+            <Description>Description_Passage</Description>
+            <Blocks/>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CorridorRoundSoundGroup"/>
+            <Icon>Textures\GUI\Icons\Cubes\CorridorRound_Light.dds</Icon>
+            <DisplayName>Corridor Round - Sound Block</DisplayName>
+            <Description>Description_Passage</Description>
+            <Blocks/>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CorridorRoundJukeBoxGroup"/>
+            <Icon>Textures\GUI\Icons\Cubes\CorridorRound_Light.dds</Icon>
+            <DisplayName>Corridor Round - Jukebox</DisplayName>
+            <Description>Description_Passage</Description>
+            <Blocks/>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CorridorRoundSciFiGroup"/>
+            <Icon>Textures\GUI\Icons\Cubes\CorridorRound_Light.dds</Icon>
+            <DisplayName>Corridor Round - Button Pannel</DisplayName>
+            <Description>Description_Passage</Description>
+            <Blocks/>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CorridorRoundButtonGroup"/>
+            <Icon>Textures\GUI\Icons\Cubes\CorridorRound_Light.dds</Icon>
+            <DisplayName>Corridor Round - Button</DisplayName>
+            <Description>Description_Passage</Description>
+            <Blocks/>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CorridorRoundSensorGroup"/>
+            <Icon>Textures\GUI\Icons\Cubes\CorridorRound_Light.dds</Icon>
+            <DisplayName>Corridor Round - Button</DisplayName>
+            <Description>Description_Passage</Description>
+            <Blocks/>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CorridorRoundLightGroup"/>
+            <Icon>Textures\GUI\Icons\Cubes\CorridorRound_Light.dds</Icon>
+            <DisplayName>Corridor Round Light</DisplayName>
+            <Description>Description_Passage</Description>
+            <Blocks/>
+        </BlockVariantGroup>
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CorridorRndVentGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\CorridorRound_Straight.dds</Icon>
+            <DisplayName>Corridor Round - Vent Fan</DisplayName>
+            <Description>Description_Passage</Description>
+            <Blocks/>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CorridorRndVentLightGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\CorridorRound_Straight.dds</Icon>
+            <DisplayName>Corridor - Vent Fan Light</DisplayName>
+            <Description>Description_Passage</Description>
+            <Blocks/>
+        </BlockVariantGroup>
+    </BlockVariantGroups>
+</Definitions>

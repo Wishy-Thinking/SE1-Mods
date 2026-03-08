@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
     <PropertyGroup>
         <TargetFramework>netframework48</TargetFramework>
-        <RootNamespace>Tin_Lizzie_Spawn_Rover</RootNamespace>
+        <RootNamespace>Mad_Mac_More_Corridors_Simplified</RootNamespace>
         <LangVersion>6</LangVersion>
         <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
         <Configurations>Release;Debug</Configurations>
@@ -16,7 +16,10 @@
             <PrivateAssets>all</PrivateAssets>
             <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
         </PackageReference>
-        <PackageReference Include="Mal.Mdk2.References" Version="2.2.8" />
+        <PackageReference Include="Mal.Mdk2.References" Version="2.2.8">
+            <PrivateAssets>all</PrivateAssets>
+            <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
     </ItemGroup>
     <ItemGroup>
         <AdditionalFiles Include="Content\*\**\*">
@@ -31,7 +34,6 @@
         <None Remove="thumb.jpg"/>
     </ItemGroup>
     <ItemGroup>
-        <Folder Include="Content\Textures\GUI\Icons\RespawnShips\" />
-        <Folder Include="Images\" />
+      <Folder Include="Content\Data\ModAdjuster\" />
     </ItemGroup>
 </Project>

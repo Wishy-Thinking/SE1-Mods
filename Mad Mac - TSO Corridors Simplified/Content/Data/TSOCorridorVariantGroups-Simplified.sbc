@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <BlockVariantGroups>
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CorridorTSOGroup"/>
+            <DisplayName>Corridor TSO</DisplayName>
+            <Description>Description_Passage</Description>
+            <Blocks>
+                <!--				Corridor Straight -->
+                <Block Type="MyObjectBuilder_CargoContainer" Subtype="TSOCorCargoSingle"/>
+                <Block Type="MyObjectBuilder_AirVent" Subtype="TSOCorVentSingle"/>
+                <Block Type="MyObjectBuilder_AirVent" Subtype="TSOCorVentFanSingle"/>
+                <Block Type="MyObjectBuilder_MedicalRoom" Subtype="TSOCorRefillSingle"/>
+                <Block Type="MyObjectBuilder_TextPanel" Subtype="TSOCorLCD"/>
+                <Block Type="MyObjectBuilder_LCDPanelsBlock" Subtype="TSOCorDoubleLCD"/>
+                <Block Type="MyObjectBuilder_ButtonPanel" Subtype="TSOCorSciFiButtonPanel"/>
+                <Block Type="MyObjectBuilder_ButtonPanel" Subtype="TSOCorButton"/>
+                <Block Type="MyObjectBuilder_SensorBlock" Subtype="TSOCorSensor"/>
+                <!--				Corridor Corner -->
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="TSOCorCornerLight"/>
+                <!--				Corridor T -->
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="TSOCorTLight"/>
+                <Block Type="MyObjectBuilder_CargoContainer" Subtype="TSOCorTCargoSingle"/>
+                <Block Type="MyObjectBuilder_AirVent" Subtype="TSOCorTVentSingle"/>
+                <Block Type="MyObjectBuilder_AirVent" Subtype="TSOCorTVentFanSingle"/>
+                <Block Type="MyObjectBuilder_MedicalRoom" Subtype="TSOCorTRefillSingle"/>
+                <Block Type="MyObjectBuilder_TextPanel" Subtype="TSOCorTLCD"/>
+                <Block Type="MyObjectBuilder_ButtonPanel" Subtype="TSOCorTSciFiButtonPanel"/>
+                <Block Type="MyObjectBuilder_ButtonPanel" Subtype="TSOCorTButton"/>
+                <Block Type="MyObjectBuilder_SensorBlock" Subtype="TSOCorTSensor"/>
+                <!--				Corridor X -->
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="TSOCorXLight"/>
+                <Block Type="MyObjectBuilder_AirVent" Subtype="TSOCorXVentFan"/>
+                <!--				Corridor Windows -->
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="TSOCorTWA"/>
+            </Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CorridorStairsGroup"/>
+            <DisplayName>Corridor Stairs</DisplayName>
+            <Description>Description_Passage</Description>
+            <Blocks>
+                <!--    TSO Corridor Ladders -->
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="TSOCorStairs"/>
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="TSOCorStairsLight"/>
+
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="TSOCorRamp"/>
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="TSOCorRampLight"/>
+
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="TSOCorStairsB"/>
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="TSOCorStairsLightB"/>
+
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="TSOCorRampB"/>
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="TSOCorRampLightB"/>
+
+                <!--	TSO Corridor Bottom -->
+                <Block Type="MyObjectBuilder_Ladder2" Subtype="TSOCorLadderBottomStraight"/>
+                <Block Type="MyObjectBuilder_Ladder2" Subtype="TSOCorLadderBottomX"/>
+                <!--	TSO Corridor Middle -->
+                <Block Type="MyObjectBuilder_Ladder2" Subtype="TSOCorLadder"/>
+                <Block Type="MyObjectBuilder_Ladder2" Subtype="TSOCorLadderG"/>
+
+                <Block Type="MyObjectBuilder_Ladder2" Subtype="TSOCorLadderRA"/>
+                <Block Type="MyObjectBuilder_Ladder2" Subtype="TSOCorLadderRB"/>
+                <Block Type="MyObjectBuilder_Ladder2" Subtype="TSOCorLadderRAG"/>
+                <Block Type="MyObjectBuilder_Ladder2" Subtype="TSOCorLadderRBG"/>
+
+                <Block Type="MyObjectBuilder_Ladder2" Subtype="TSOCorLadderLA"/>
+                <Block Type="MyObjectBuilder_Ladder2" Subtype="TSOCorLadderLB"/>
+                <Block Type="MyObjectBuilder_Ladder2" Subtype="TSOCorLadderLAG"/>
+                <Block Type="MyObjectBuilder_Ladder2" Subtype="TSOCorLadderLBG"/>
+
+                <Block Type="MyObjectBuilder_Ladder2" Subtype="TSOCorLadderRoofA"/>
+                <Block Type="MyObjectBuilder_Ladder2" Subtype="TSOCorLadderRoofB"/>
+                <Block Type="MyObjectBuilder_Ladder2" Subtype="TSOCorLadderRoofAG"/>
+                <Block Type="MyObjectBuilder_Ladder2" Subtype="TSOCorLadderRoofBG"/>
+
+                <Block Type="MyObjectBuilder_Ladder2" Subtype="TSOCorLadderDoubleA"/>
+                <Block Type="MyObjectBuilder_Ladder2" Subtype="TSOCorLadderDoubleB"/>
+                <Block Type="MyObjectBuilder_Ladder2" Subtype="TSOCorLadderDoubleAG"/>
+                <Block Type="MyObjectBuilder_Ladder2" Subtype="TSOCorLadderDoubleBG"/>
+
+                <Block Type="MyObjectBuilder_Ladder2" Subtype="TSOCorLadderTripleA"/>
+                <Block Type="MyObjectBuilder_Ladder2" Subtype="TSOCorLadderTripleB"/>
+                <Block Type="MyObjectBuilder_Ladder2" Subtype="TSOCorLadderTripleAG"/>
+                <Block Type="MyObjectBuilder_Ladder2" Subtype="TSOCorLadderTripleBG"/>
+                <!--	TSO Corridor Top -->
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="TSOCorLadderTopStraight"/>
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="TSOCorLadderTopStraightEnd"/>
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="TSOCorLadderTopStraightEndWA"/>
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="TSOCorLadderTopStraightEndWB"/>
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="TSOCorLadderTopX"/>
+            </Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CorridorLadderGroup"/>
+            <Icon>Textures\GUI\Icons\Cubes\CorridorLight.dds</Icon>
+            <DisplayName>Corridor Ladder</DisplayName>
+            <Description>Description_Ladder</Description>
+            <Blocks/>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CorridorCargoGroup"/>
+            <Icon>Textures\GUI\Icons\Cubes\CorridorLight.dds</Icon>
+            <DisplayName>Corridor - Cargo Access</DisplayName>
+            <Description>Description_Passage</Description>
+            <Blocks/>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CorridorVentGroup"/>
+            <Icon>Textures\GUI\Icons\Cubes\CorridorLight.dds</Icon>
+            <DisplayName>Corridor - Vent Fan</DisplayName>
+            <Description>Description_Passage</Description>
+            <Blocks/>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CorridorVentLightGroup"/>
+            <Icon>Textures\GUI\Icons\Cubes\CorridorLight.dds</Icon>
+            <DisplayName>Corridor - Vent Fan Light</DisplayName>
+            <Description>Description_Passage</Description>
+            <Blocks/>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CorridorVentGroup"/>
+            <Icon>Textures\GUI\Icons\Cubes\CorridorLight.dds</Icon>
+            <DisplayName>Corridor - Vent</DisplayName>
+            <Description>Description_Passage</Description>
+            <Blocks/>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CorridorConveyorGroup"/>
+            <Icon>Textures\GUI\Icons\Cubes\CorridorLight.dds</Icon>
+            <DisplayName>Corridor - Conveyor</DisplayName>
+            <Description>Description_Passage</Description>
+            <Blocks/>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CorridorRefillGroup"/>
+            <Icon>Textures\GUI\Icons\Cubes\CorridorLight.dds</Icon>
+            <DisplayName>Corridor Round - Refill</DisplayName>
+            <Description>Description_Passage</Description>
+            <Blocks/>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CorridorWindowGroup"/>
+            <Icon>Textures\GUI\Icons\Cubes\CorridorLight.dds</Icon>
+            <DisplayName>Corridor - Window</DisplayName>
+            <Description>Description_Passage</Description>
+            <Blocks/>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CorridorLCDGroup"/>
+            <Icon>Textures\GUI\Icons\Cubes\CorridorLight.dds</Icon>
+            <DisplayName>Corridor - LCD</DisplayName>
+            <Description>Description_Passage</Description>
+            <Blocks/>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CorridorSoundGroup"/>
+            <Icon>Textures\GUI\Icons\Cubes\CorridorLight.dds</Icon>
+            <DisplayName>Corridor - Sound Block</DisplayName>
+            <Description>Description_Passage</Description>
+            <Blocks/>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CorridorJukeBoxGroup"/>
+            <Icon>Textures\GUI\Icons\Cubes\CorridorLight.dds</Icon>
+            <DisplayName>Corridor - Jukebox</DisplayName>
+            <Description>Description_Passage</Description>
+            <Blocks/>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CorridorSciFiGroup"/>
+            <Icon>Textures\GUI\Icons\Cubes\CorridorLight.dds</Icon>
+            <DisplayName>Corridor - Button Pannel</DisplayName>
+            <Description>Description_Passage</Description>
+            <Blocks/>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CorridorButtonGroup"/>
+            <Icon>Textures\GUI\Icons\Cubes\CorridorLight.dds</Icon>
+            <DisplayName>Corridor - Button</DisplayName>
+            <Description>Description_Passage</Description>
+            <Blocks/>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CorridorSensorGroup"/>
+            <Icon>Textures\GUI\Icons\Cubes\CorridorLight.dds</Icon>
+            <DisplayName>Corridor - Sensor</DisplayName>
+            <Description>Description_Passage</Description>
+            <Blocks/>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CorridorLightGroup"/>
+            <Icon>Textures\GUI\Icons\Cubes\CorridorLight.dds</Icon>
+            <DisplayName>Corridor Light</DisplayName>
+            <Description>Description_Passage</Description>
+            <Blocks/>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="MedicalGroup"/>
+            <Icon>Textures\GUI\Icons\Cubes\CorridorLight.dds</Icon>
+            <DisplayName>DisplayName_Block_MedicalRoom</DisplayName>
+            <Description>Description_MedicalRoom</Description>
+            <Blocks/>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CorridorCameraGroup"/>
+            <Icon>Textures\GUI\Icons\Cubes\CorridorLight.dds</Icon>
+            <DisplayName>Corridor Camera</DisplayName>
+            <Description>Description_Camera</Description>
+            <Blocks/>
+        </BlockVariantGroup>
+
+    </BlockVariantGroups>
+</Definitions>
