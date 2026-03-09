@@ -153,7 +153,15 @@
             </Blocks>
         </BlockVariantGroup>
 
-        <!-- Moved *CameraBottomMounted (mod) here -->
+        <!-- Moved to CameraGroup and AutomationGroup2 -->
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="AutomationGroup1" />
+            <Icon>Textures\GUI\Icons\Cubes\Sensor.dds</Icon>
+            <DisplayName>DisplayName_Block_Sensor</DisplayName>
+            <Description>Description_Sensor</Description>
+            <Blocks/>
+        </BlockVariantGroup>
+        <!-- Moved AutomationGroup1 (sensors) *CameraBottomMounted (mod) here -->
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CameraGroup" />
             <Icon>Textures\GUI\Icons\Camera.dds</Icon>
@@ -166,6 +174,10 @@
                 <Block Type="MyObjectBuilder_CameraBlock" Subtype="SmallCameraTopMounted" />
                 <Block Type="MyObjectBuilder_CameraBlock" Subtype="LargeCameraBottomMounted" />
                 <Block Type="MyObjectBuilder_CameraBlock" Subtype="SmallCameraBottomMounted" />
+                <Block Type="MyObjectBuilder_SensorBlock" Subtype="LargeBlockSensor" />
+                <Block Type="MyObjectBuilder_SensorBlock" Subtype="SmallBlockSensor" />
+                <Block Type="MyObjectBuilder_SensorBlock" Subtype="LargeBlockSensorReskin" />
+                <Block Type="MyObjectBuilder_SensorBlock" Subtype="SmallBlockSensorReskin" />
             </Blocks>
         </BlockVariantGroup>
 
@@ -543,6 +555,7 @@
             <Description>Description_Planters</Description>
             <Blocks/>
         </BlockVariantGroup>
+        <!-- Added TrussLadder LargeBlockInsetButtonPanel here -->
         <!-- Moved BathroomGroup, InsetPlanter, Entertainment, Aquarium, Terrariums here -->
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="KitchenGroup" />
@@ -554,14 +567,15 @@
                 <Block Type="MyObjectBuilder_InteriorLight" Subtype="LargeBlockInsetKitchen" />
                 <Block Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockInsetBookshelf" />
                 <Block Type="MyObjectBuilder_Jukebox" Subtype="LargeBlockInsetEntertainmentCorner" />
+                <Block Type="MyObjectBuilder_ButtonPanel" Subtype="LargeBlockInsetButtonPanel" />
                 <Block Type="MyObjectBuilder_Cockpit" Subtype="LargeBlockInsetPlantCouch" />
                 <Block Type="MyObjectBuilder_InteriorLight" Subtype="LargeInsetPlanter" />
                 <Block Type="MyObjectBuilder_InteriorLight" Subtype="LargeBlockInsetAquarium" />
                 <Block Type="MyObjectBuilder_InteriorLight" Subtype="LargeBlockInsetTerrariumDesert" />
                 <Block Type="MyObjectBuilder_InteriorLight" Subtype="LargeBlockInsetTerrariumForest" />
+                <Block Type="MyObjectBuilder_Cockpit" Subtype="LargeBlockToilet" />
                 <Block Type="MyObjectBuilder_Cockpit" Subtype="LargeBlockBathroomOpen" />
                 <Block Type="MyObjectBuilder_Cockpit" Subtype="LargeBlockBathroom" />
-                <Block Type="MyObjectBuilder_Cockpit" Subtype="LargeBlockToilet" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="Shower" />
             </Blocks>
         </BlockVariantGroup>
@@ -720,6 +734,82 @@
                 <Block Type="MyObjectBuilder_HydrogenEngine" Subtype="LargeHydrogenEngineReskin" />
                 <Block Type="MyObjectBuilder_HydrogenEngine" Subtype="SmallHydrogenEngine" />
                 <Block Type="MyObjectBuilder_HydrogenEngine" Subtype="SmallHydrogenEngineReskin" />
+            </Blocks>
+        </BlockVariantGroup>
+
+        <!-- Reordered to put drill first -->
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ShipToolGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\drill.dds</Icon>
+            <DisplayName>DisplayName_BlockGroup_ShipToolGroup</DisplayName>
+            <Description>Description_BlockGroup_ShipToolGroup</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_Drill" Subtype="LargeBlockDrill" />
+                <Block Type="MyObjectBuilder_Drill" Subtype="SmallBlockDrill" />
+                <Block Type="MyObjectBuilder_Drill" Subtype="LargeBlockDrillReskin" />
+                <Block Type="MyObjectBuilder_Drill" Subtype="SmallBlockDrillReskin" />
+                <Block Type="MyObjectBuilder_ShipWelder" Subtype="LargeShipWelder" />
+                <Block Type="MyObjectBuilder_ShipWelder" Subtype="SmallShipWelder" />
+                <Block Type="MyObjectBuilder_ShipWelder" Subtype="LargeShipWelderReskin" />
+                <Block Type="MyObjectBuilder_ShipWelder" Subtype="SmallShipWelderReskin" />
+                <Block Type="MyObjectBuilder_ShipGrinder" Subtype="LargeShipGrinder" />
+                <Block Type="MyObjectBuilder_ShipGrinder" Subtype="SmallShipGrinder" />
+                <Block Type="MyObjectBuilder_ShipGrinder" Subtype="LargeShipGrinderReskin" />
+                <Block Type="MyObjectBuilder_ShipGrinder" Subtype="SmallShipGrinderReskin" />
+            </Blocks>
+        </BlockVariantGroup>
+
+        <!-- Moved to AutomationGroup2 -->
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ProgrammableBlockGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\ProgrammingBlock.dds</Icon>
+            <DisplayName>DisplayName_BlockGroup_AutomationGroup</DisplayName>
+            <Description>Description_BlockGroup_AutomationGroup</Description>
+            <Blocks/>
+        </BlockVariantGroup>
+        <!-- Moved ProgrammableBlockGroup here -->
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="AutomationGroup2" />
+            <Icon>Textures\GUI\Icons\Cubes\TimerBlock.dds</Icon>
+            <DisplayName>DisplayName_Block_TimerBlock</DisplayName>
+            <Description>Description_Timer</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_TimerBlock" Subtype="TimerBlockLarge" />
+                <Block Type="MyObjectBuilder_TimerBlock" Subtype="TimerBlockSmall" />
+                <Block Type="MyObjectBuilder_TimerBlock" Subtype="TimerBlockReskinLarge" />
+                <Block Type="MyObjectBuilder_TimerBlock" Subtype="TimerBlockReskinSmall" />
+                <Block Type="MyObjectBuilder_EventControllerBlock" Subtype="EventControllerLarge" />
+                <Block Type="MyObjectBuilder_EventControllerBlock" Subtype="EventControllerSmall" />
+                <Block Type="MyObjectBuilder_MyProgrammableBlock" Subtype="LargeProgrammableBlock" />
+                <Block Type="MyObjectBuilder_MyProgrammableBlock" Subtype="SmallProgrammableBlock" />
+                <Block Type="MyObjectBuilder_MyProgrammableBlock" Subtype="LargeProgrammableBlockReskin" />
+                <Block Type="MyObjectBuilder_MyProgrammableBlock" Subtype="SmallProgrammableBlockReskin" />
+                <Block Type="MyObjectBuilder_TransponderBlock" Subtype="LargeBlockTransponder" />
+                <Block Type="MyObjectBuilder_TransponderBlock" Subtype="SmallBlockTransponder" />
+                <Block Type="MyObjectBuilder_SensorBlock" Subtype="LargeBlockSensor" />
+                <Block Type="MyObjectBuilder_SensorBlock" Subtype="SmallBlockSensor" />
+                <Block Type="MyObjectBuilder_SensorBlock" Subtype="LargeBlockSensorReskin" />
+                <Block Type="MyObjectBuilder_SensorBlock" Subtype="SmallBlockSensorReskin" />
+            </Blocks>
+        </BlockVariantGroup>
+
+        <!-- Moved to StatueGroup -->
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="TargetDummyGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\TargetDummy.dds</Icon>
+            <DisplayName>DisplayName_Block_TargetDummy</DisplayName>
+            <Description>Description_TargetDummy</Description>
+            <Blocks/>
+        </BlockVariantGroup>
+        <!-- Moved TargetDummyGroup here -->
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="StatueGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\10YearStatue.dds</Icon>
+            <DisplayName>DisplayName_Block_StatueEngineer</DisplayName>
+            <Description>Description_EngineerPlushie</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockStatueEngineer" />
+                <Block Type="MyObjectBuilder_TargetDummyBlock" Subtype="TargetDummy" />
             </Blocks>
         </BlockVariantGroup>
 

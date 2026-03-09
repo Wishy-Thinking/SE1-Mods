@@ -159,9 +159,57 @@
 			<Position><X>6</X><Y>12</Y></Position>
 		</BlockPosition>
 
+		<!-- Row 13 -->
+		<BlockPosition>
+			<Name>Cockpit</Name>
+			<Position><X>0</X><Y>13</Y></Position>
+		</BlockPosition>
+		<BlockPosition>
+			<Name>OpenCockpit</Name>
+			<Position><X>1</X><Y>13</Y></Position>
+		</BlockPosition>
+		<BlockPosition>
+			<Name>ModularBridgeCockpit</Name>
+			<Position><X>2</X><Y>13</Y></Position>
+		</BlockPosition>
+		<BlockPosition>
+			<Name>Camera</Name>
+			<Position><X>3</X><Y>13</Y></Position>
+		</BlockPosition>
+		<BlockPosition>
+			<Name>RemoteControl</Name>
+			<Position><X>4</X><Y>13</Y></Position>
+		</BlockPosition>
+		<BlockPosition>
+			<Name>LandingGear</Name>
+			<Position><X>5</X><Y>13</Y></Position>
+		</BlockPosition>
+		<BlockPosition>
+			<Name>MergeBlock</Name>
+			<Position><X>8</X><Y>13</Y></Position>
+		</BlockPosition>
+		<BlockPosition>
+			<Name>WeldPad</Name>
+			<Position><X>9</X><Y>13</Y></Position>
+		</BlockPosition>
+
+		<!-- Row 15 (thrusters, etc.) -->
+		<BlockPosition>
+			<Name>ExhaustPipe</Name>
+			<Position><X>5</X><Y>15</Y></Position>
+		</BlockPosition>
+
 		<!-- Row 17 -->
 		<BlockPosition>
+			<Name>SurvivalKit</Name>
+			<Position><X>0</X><Y>17</Y></Position>
+		</BlockPosition>
+		<BlockPosition>
 			<Name>AlgaeFarm</Name>
+			<Position><X>1</X><Y>17</Y></Position>
+		</BlockPosition>
+		<BlockPosition>
+			<Name>Assembler</Name>
 			<Position><X>2</X><Y>17</Y></Position>
 		</BlockPosition>
 		<BlockPosition>
@@ -169,15 +217,85 @@
 			<Position><X>3</X><Y>17</Y></Position>
 		</BlockPosition>
 		<BlockPosition>
-			<Name>Assembler</Name>
+			<Name>AirVent</Name>
 			<Position><X>4</X><Y>17</Y></Position>
 		</BlockPosition>
+
+		<!-- Row 18 now unused -->
+
+		<!-- Row 19 -->
 		<BlockPosition>
-			<Name>AirVent</Name>
-			<Position><X>5</X><Y>17</Y></Position>
+			<Name>InteriorLight</Name>
+			<Position><X>0</X><Y>19</Y></Position>
+		</BlockPosition>
+		<BlockPosition>
+			<Name>ReflectorLight</Name>
+			<Position><X>1</X><Y>19</Y></Position>
+		</BlockPosition>
+		<BlockPosition>
+			<Name>SoundBlock</Name>
+			<Position><X>2</X><Y>19</Y></Position>
+		</BlockPosition>
+		<BlockPosition>
+			<Name>TimerBlock</Name>
+			<Position><X>3</X><Y>19</Y></Position>
+		</BlockPosition>
+		<BlockPosition>
+			<Name>ButtonPanel</Name>
+			<Position><X>4</X><Y>19</Y></Position>
 		</BlockPosition>
 
-		<!-- Row 23 is now unused (all moved to 17 -->
+		<!-- Row 20 -->
+		<BlockPosition>
+			<Name>Drill</Name>
+			<Position><X>0</X><Y>20</Y></Position>
+		</BlockPosition>
+		<BlockPosition>
+			<Name>OreDetector</Name>
+			<Position><X>1</X><Y>20</Y></Position>
+		</BlockPosition>
+		<BlockPosition>
+			<Name>Antenna</Name>
+			<Position><X>2</X><Y>20</Y></Position>
+		</BlockPosition>
+		<BlockPosition>
+			<Name>Projector</Name>
+			<Position><X>5</X><Y>20</Y></Position>
+		</BlockPosition>
+
+		<!-- Row 22 -->
+		<BlockPosition>
+			<Name>Connector</Name>
+			<Position><X>0</X><Y>22</Y></Position>
+		</BlockPosition>
+		<BlockPosition>
+			<Name>Conveyor</Name>
+			<Position><X>1</X><Y>22</Y></Position>
+		</BlockPosition>
+		<BlockPosition>
+			<Name>ConveyorPipeJunction</Name>
+			<Position><X>2</X><Y>22</Y></Position>
+		</BlockPosition>
+		<BlockPosition>
+			<Name>ConveyorSmall</Name>
+			<Position><X>3</X><Y>22</Y></Position>
+		</BlockPosition>
+		<BlockPosition>
+			<Name>ExtendedPistonBase</Name>
+			<Position><X>4</X><Y>22</Y></Position>
+		</BlockPosition>
+		<BlockPosition>
+			<Name>MotorStator</Name>
+			<Position><X>5</X><Y>22</Y></Position>
+		</BlockPosition>
+		<BlockPosition>
+			<Name>LargeHinge</Name>
+			<Position><X>6</X><Y>22</Y></Position>
+		</BlockPosition>
+
+		<!-- Row 23 is now unused (all moved to 17) -->
+		
+		<!-- Row 26 is now unused --> 
 		
 		<!-- Row 29 (windows 2) -->
 		<BlockPosition>
@@ -274,10 +392,6 @@
 		<BlockPosition>
 			<Name>GCMGratedStairsWithGratedSides1x1</Name>
 			<Position><X>9</X><Y>31</Y></Position>
-		</BlockPosition>
-		<BlockPosition>
-			<Name>GCMHingeSupportStrut</Name>
-			<Position><X>10</X><Y>31</Y></Position>
 		</BlockPosition>
 
 		<!-- Row 32 (consolidated 30-32) to accomodate grated catwalks expansion -->
