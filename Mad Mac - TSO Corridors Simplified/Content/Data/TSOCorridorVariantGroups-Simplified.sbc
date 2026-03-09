@@ -196,14 +196,6 @@
         </BlockVariantGroup>
 
         <BlockVariantGroup>
-            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="MedicalGroup"/>
-            <Icon>Textures\GUI\Icons\Cubes\CorridorLight.dds</Icon>
-            <DisplayName>DisplayName_Block_MedicalRoom</DisplayName>
-            <Description>Description_MedicalRoom</Description>
-            <Blocks/>
-        </BlockVariantGroup>
-
-        <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CorridorCameraGroup"/>
             <Icon>Textures\GUI\Icons\Cubes\CorridorLight.dds</Icon>
             <DisplayName>Corridor Camera</DisplayName>
