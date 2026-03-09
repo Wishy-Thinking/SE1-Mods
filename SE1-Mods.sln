@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mad Mac - Full of Scrap", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mad Mac - TSO Corridors Simplified", "Mad Mac - TSO Corridors Simplified\Mad Mac - TSO Corridors Simplified.csproj", "{D2DCA176-0C3A-4578-8364-1A0546289E6F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mad Mac - Build Menu Adjustments", "Mad Mac - Build Menu Adjustments\Mad Mac - Build Menu Adjustments.csproj", "{255C5A71-F9D9-4243-B914-0731FC050DE8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -36,5 +38,9 @@ Global
 		{D2DCA176-0C3A-4578-8364-1A0546289E6F}.Debug|x64.Build.0 = Debug|x64
 		{D2DCA176-0C3A-4578-8364-1A0546289E6F}.Release|x64.ActiveCfg = Release|x64
 		{D2DCA176-0C3A-4578-8364-1A0546289E6F}.Release|x64.Build.0 = Release|x64
+		{255C5A71-F9D9-4243-B914-0731FC050DE8}.Debug|x64.ActiveCfg = Debug|x64
+		{255C5A71-F9D9-4243-B914-0731FC050DE8}.Debug|x64.Build.0 = Debug|x64
+		{255C5A71-F9D9-4243-B914-0731FC050DE8}.Release|x64.ActiveCfg = Release|x64
+		{255C5A71-F9D9-4243-B914-0731FC050DE8}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 EndGlobal

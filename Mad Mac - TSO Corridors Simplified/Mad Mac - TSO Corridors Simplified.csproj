@@ -35,7 +35,4 @@
         <AdditionalFiles Remove="Content\Data\SBC files can go here"/>
         <None Remove="thumb.jpg"/>
     </ItemGroup>
-    <ItemGroup>
-      <Folder Include="Content\Data\ModAdjuster\" />
-    </ItemGroup>
 </Project>

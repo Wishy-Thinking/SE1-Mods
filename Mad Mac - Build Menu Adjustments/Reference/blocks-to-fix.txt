@@ -1,0 +1,25 @@
+x Scrap beacon https://steamcommunity.com/workshop/filedetails/?id=2965390174
+x Jeje hangar gates https://steamcommunity.com/workshop/filedetails/?id=3496037506
+x Middle gate (missing from gate group) https://steamcommunity.com/workshop/filedetails/?id=2227123639
+x Humanoid's airlock doors (put in doors row) https://steamcommunity.com/workshop/filedetails/?id=3454269412
+x Cross-barred windows (put in barred window group) https://steamcommunity.com/workshop/filedetails/?id=3329381499
+x Half railing 45° (not in railing group) https://steamcommunity.com/workshop/filedetails/?id=3607556414
+x Catwalk expansion clutters up the second window row https://steamcommunity.com/workshop/filedetails/?id=2503712170
+x Add Bottom mounted camera to camera group) https://steamcommunity.com/workshop/filedetails/?id=3029477034
+  (Currently in remote control group)
+
+x Add AI stuff to remote group
+x Interior wall group (move to same row as floor)
+x Ramp group (move to same row as floor)
+x Add grated stairs to grated catwalk group
+x Combine catwalks and cover walls
+x Add old window to cross-barred window group
+x Add cylindrical column to rounded edge group 
+x Move heavy armor to second row if possible
+x Add entertainment center to another decorative block group (inset couch?)
+x Move refill stations, medical rooms, and cryo rooms to survivial kit group
+x Move heat vent to exhaust pipe group
+x Add freight, storage bins, and cargo crate groups to barrels group
+x Move collector to connector group
+x Add scaffold ladder to ladder group
+x Move oxygen farm to food group and make algae farm the main block
