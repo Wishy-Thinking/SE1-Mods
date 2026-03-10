@@ -220,6 +220,10 @@
 			<Name>AirVent</Name>
 			<Position><X>4</X><Y>17</Y></Position>
 		</BlockPosition>
+		<BlockPosition>
+			<Name>AQD_AirlockConnector_Flat</Name>
+			<Position><X>5</X><Y>17</Y></Position>
+		</BlockPosition>
 
 		<!-- Row 18 now unused -->
 
@@ -294,7 +298,13 @@
 		</BlockPosition>
 
 		<!-- Row 23 is now unused (all moved to 17) -->
-		
+
+		<!-- Row 24 -->
+		<BlockPosition>
+			<Name>Pulley_Base</Name>
+			<Position><X>9</X><Y>24</Y></Position>
+		</BlockPosition>
+
 		<!-- Row 26 is now unused --> 
 		
 		<!-- Row 29 (windows 2) -->
@@ -418,6 +428,24 @@
 		<BlockPosition>
 			<Name>PrototechJumpDrive</Name>
 			<Position><X>5</X><Y>32</Y></Position>
+		</BlockPosition>
+
+		<!-- Row 33 -->
+		<BlockPosition>
+			<Name>StatueEngineer</Name>
+			<Position><X>0</X><Y>33</Y></Position>
+		</BlockPosition>
+		<BlockPosition>
+			<Name>EngineerPlushie</Name>
+			<Position><X>1</X><Y>33</Y></Position>
+		</BlockPosition>
+		<BlockPosition>
+			<Name>DeadBody</Name>
+			<Position><X>2</X><Y>33</Y></Position>
+		</BlockPosition>
+		<BlockPosition>
+			<Name>NPC_Dummies_Standing_Normal</Name>
+			<Position><X>3</X><Y>33</Y></Position>
 		</BlockPosition>
 
 	</BlockPositions>
