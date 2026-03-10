@@ -15,7 +15,7 @@
 			<Position><X>2</X><Y>0</Y></Position>
 		</BlockPosition>
 		<BlockPosition>
-			<Name>LargeBlockArmorInvCorner2Base</Name> <!-- typo in original file... -->
+			<Name>LargeBlockArmorInvCorner2Base</Name> <!-- Error in original file... -->
 			<Position><X>3</X><Y>0</Y></Position>
 		</BlockPosition>
 		<BlockPosition>
@@ -23,7 +23,7 @@
 			<Position><X>3</X><Y>0</Y></Position>
 		</BlockPosition>
 		<BlockPosition>
-			<Name>ArmorLightTransitionBlocks</Name> <!-- typo in original file... -->
+			<Name>ArmorLightTransitionBlocks</Name> <!-- Error in original file... -->
 			<Position><X>4</X><Y>0</Y></Position>
 		</BlockPosition>
 		<BlockPosition>
@@ -58,7 +58,7 @@
 			<Position><X>2</X><Y>1</Y></Position>
 		</BlockPosition>
 		<BlockPosition>
-			<Name>LargeHeavyBlockArmorInvCorner2Base</Name> <!-- typo in original file... -->
+			<Name>LargeHeavyBlockArmorInvCorner2Base</Name> <!-- Error in original file... -->
 			<Position><X>3</X><Y>1</Y></Position>
 		</BlockPosition>
 		<BlockPosition>
@@ -66,7 +66,7 @@
 			<Position><X>3</X><Y>1</Y></Position>
 		</BlockPosition>
 		<BlockPosition>
-			<Name>ArmorHeavyTransitionBlocks</Name> <!-- typo in original file... -->
+			<Name>ArmorHeavyTransitionBlocks</Name> <!-- Error in original file... -->
 			<Position><X>4</X><Y>1</Y></Position>
 		</BlockPosition>
 		<BlockPosition>
@@ -149,6 +149,30 @@
 
 		<!-- Row 11 (doors) -->
 		<BlockPosition>
+			<Name>Door</Name>
+			<Position><X>0</X><Y>11</Y></Position>
+		</BlockPosition>
+		<BlockPosition>
+			<Name>Gate</Name>
+			<Position><X>1</X><Y>11</Y></Position>
+		</BlockPosition>
+		<BlockPosition>
+			<Name>AirtightHangarDoor</Name>
+			<Position><X>2</X><Y>11</Y></Position>
+		</BlockPosition>
+		<BlockPosition>
+			<Name>Kham_WindowDoor_Frame</Name>
+			<Position><X>3</X><Y>11</Y></Position>
+		</BlockPosition>
+		<BlockPosition>
+			<Name>TSOCorStraightDoor</Name>
+			<Position><X>7</X><Y>11</Y></Position>
+		</BlockPosition>
+		<BlockPosition>
+			<Name>TSOCorRndStraightDoor</Name>
+			<Position><X>8</X><Y>11</Y></Position>
+		</BlockPosition>
+		<BlockPosition>
 			<Name>LargeBlockSlideDoorDouble</Name>
 			<Position><X>9</X><Y>11</Y></Position>
 		</BlockPosition>
@@ -199,6 +223,32 @@
 			<Position><X>5</X><Y>15</Y></Position>
 		</BlockPosition>
 
+		<!-- Row 16 -->
+		<BlockPosition>
+			<Name>Wheel1x1</Name>
+			<Position><X>0</X><Y>16</Y></Position>
+		</BlockPosition>
+		<BlockPosition>
+			<Name>Suspension3x3mirrored</Name>
+			<Position><X>1</X><Y>16</Y></Position>
+		</BlockPosition>
+		<BlockPosition>
+			<Name>Suspension3x3</Name>
+			<Position><X>2</X><Y>16</Y></Position>
+		</BlockPosition>
+		<BlockPosition>
+			<Name>OffroadSuspension3x3mirrored</Name>
+			<Position><X>3</X><Y>16</Y></Position>
+		</BlockPosition>
+		<BlockPosition>
+			<Name>OffroadSuspension3x3</Name>
+			<Position><X>4</X><Y>16</Y></Position>
+		</BlockPosition>
+		<BlockPosition>
+			<Name>TankTrackBuilder</Name>
+			<Position><X>5</X><Y>16</Y></Position>
+		</BlockPosition>
+
 		<!-- Row 17 -->
 		<BlockPosition>
 			<Name>SurvivalKit</Name>
@@ -219,10 +269,6 @@
 		<BlockPosition>
 			<Name>AirVent</Name>
 			<Position><X>4</X><Y>17</Y></Position>
-		</BlockPosition>
-		<BlockPosition>
-			<Name>AQD_AirlockConnector_Flat</Name>
-			<Position><X>5</X><Y>17</Y></Position>
 		</BlockPosition>
 
 		<!-- Row 18 now unused -->
@@ -299,14 +345,22 @@
 
 		<!-- Row 23 is now unused (all moved to 17) -->
 
-		<!-- Row 24 -->
+		<!-- Row 26 is now unused -->
+
+		<!-- Row 27 -->
 		<BlockPosition>
-			<Name>Pulley_Base</Name>
-			<Position><X>9</X><Y>24</Y></Position>
+			<Name>EmissiveSymbolAPair</Name>
+			<Position><X>6</X><Y>27</Y></Position>
+		</BlockPosition>
+		<BlockPosition>
+			<Name>EmissiveSymbol1Pair</Name>
+			<Position><X>7</X><Y>27</Y></Position>
+		</BlockPosition>
+		<BlockPosition>
+			<Name>EmissiveSymbolHyphenPair</Name>
+			<Position><X>8</X><Y>27</Y></Position>
 		</BlockPosition>
 
-		<!-- Row 26 is now unused --> 
-		
 		<!-- Row 29 (windows 2) -->
 		<BlockPosition>
 			<Name>CrossBarredWindow_Flat_LG</Name> <!-- Same as BarredWindow -->
@@ -446,6 +500,98 @@
 		<BlockPosition>
 			<Name>NPC_Dummies_Standing_Normal</Name>
 			<Position><X>3</X><Y>33</Y></Position>
+		</BlockPosition>
+		<BlockPosition>
+			<Name>Leafy Tree Large</Name>
+			<Position><X>4</X><Y>33</Y></Position>
+		</BlockPosition>
+		<BlockPosition>
+			<Name>Broad Leaf Bush Medium</Name>
+			<Position><X>6</X><Y>33</Y></Position>
+		</BlockPosition>
+
+		<!-- Row 36 Light Armor Panels Expanded -->
+		<BlockPosition>
+			<Name>LightArmorPanelSlopedSide2</Name>
+			<Position><X>0</X><Y>36</Y></Position>
+		</BlockPosition>
+		<BlockPosition>
+			<Name>ArmorPanelRoundLight</Name>
+			<Position><X>1</X><Y>36</Y></Position>
+		</BlockPosition>
+		<BlockPosition>
+			<Name>ArmorHalfRaisedPanelLight</Name>
+			<Position><X>2</X><Y>36</Y></Position>
+		</BlockPosition>
+		<BlockPosition>
+			<Name>LightArmorPanel2x1CornerTip</Name>
+			<Position><X>3</X><Y>36</Y></Position>
+		</BlockPosition>
+		<BlockPosition>
+			<Name>LightArmorPanelSlopedCorner</Name>
+			<Position><X>4</X><Y>36</Y></Position>
+		</BlockPosition>
+		<BlockPosition>
+			<Name>LightArmorPanelSlopeTransition</Name>
+			<Position><X>5</X><Y>36</Y></Position>
+		</BlockPosition>
+		<BlockPosition>
+			<Name>LightArmorPanelDouble</Name>
+			<Position><X>6</X><Y>36</Y></Position>
+		</BlockPosition>
+		<BlockPosition>
+			<Name>LightArmorPanelIsoHalfTriangle</Name>
+			<Position><X>7</X><Y>36</Y></Position>
+		</BlockPosition>
+		<BlockPosition>
+			<Name>LightArmorPanelConveyorPlate</Name>
+			<Position><X>8</X><Y>36</Y></Position>
+		</BlockPosition>
+		<BlockPosition>
+			<Name>LightArmorPanelMolding</Name>
+			<Position><X>9</X><Y>36</Y></Position>
+		</BlockPosition>
+
+		<!-- Row 37 Heavy Armor Panels Expanded -->
+		<BlockPosition>
+			<Name>HeavyArmorPanelSlopedSide2</Name>
+			<Position><X>0</X><Y>37</Y></Position>
+		</BlockPosition>
+		<BlockPosition>
+			<Name>ArmorPanelRoundHeavy</Name>
+			<Position><X>1</X><Y>37</Y></Position>
+		</BlockPosition>
+		<BlockPosition>
+			<Name>ArmorHalfRaisedPanelHeavy</Name>
+			<Position><X>2</X><Y>37</Y></Position>
+		</BlockPosition>
+		<BlockPosition>
+			<Name>HeavyArmorPanel2x1CornerTip</Name>
+			<Position><X>3</X><Y>37</Y></Position>
+		</BlockPosition>
+		<BlockPosition>
+			<Name>HeavyArmorPanelSlopedCorner</Name>
+			<Position><X>4</X><Y>37</Y></Position>
+		</BlockPosition>
+		<BlockPosition>
+			<Name>HeavyArmorPanelSlopeTransition</Name>
+			<Position><X>5</X><Y>37</Y></Position>
+		</BlockPosition>
+		<BlockPosition>
+			<Name>HeavyArmorPanelDouble</Name>
+			<Position><X>6</X><Y>37</Y></Position>
+		</BlockPosition>
+		<BlockPosition>
+			<Name>HeavyArmorPanelIsoHalfTriangle</Name>
+			<Position><X>7</X><Y>37</Y></Position>
+		</BlockPosition>
+		<BlockPosition>
+			<Name>HeavyArmorPanelConveyorPlate</Name>
+			<Position><X>8</X><Y>37</Y></Position>
+		</BlockPosition>
+		<BlockPosition>
+			<Name>HeavyArmorPanelMolding</Name>
+			<Position><X>9</X><Y>37</Y></Position>
 		</BlockPosition>
 
 	</BlockPositions>
