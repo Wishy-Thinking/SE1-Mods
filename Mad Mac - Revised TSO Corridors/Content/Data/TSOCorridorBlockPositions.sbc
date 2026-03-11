@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <!-- Move these to the previous row, which is open -->
     <BlockPositions>
         <BlockPosition>
             <Name>Passage</Name>
@@ -51,6 +52,7 @@
             </Position>
         </BlockPosition>
 
+        <!-- Put these at the end of row 11, which includes doors -->
         <BlockPosition>
             <Name>TSOCorStraightDoor</Name>
             <Position>
