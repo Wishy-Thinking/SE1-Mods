@@ -28,6 +28,9 @@
         <AdditionalFiles Include="thumb.jpg" Condition="Exists('thumb.jpg')">
             <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
         </AdditionalFiles>
+        <AdditionalFiles Include="Mad Mac - Revised TSO Corridors.md">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </AdditionalFiles>
         <AdditionalFiles Remove="Content\*\**\*.cs"/>
         <AdditionalFiles Remove="*mdk.ini"/>
         <AdditionalFiles Remove="*mdk.local.ini"/>

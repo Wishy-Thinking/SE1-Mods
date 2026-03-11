@@ -28,6 +28,9 @@
         <AdditionalFiles Include="thumb.jpg" Condition="Exists('thumb.jpg')">
             <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
         </AdditionalFiles>
+        <AdditionalFiles Include="Mad Mac - Revised Build Menu.md">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </AdditionalFiles>
         <AdditionalFiles Remove="Content\*\**\*.cs"/>
         <AdditionalFiles Remove="Reference\*"/>
         <AdditionalFiles Remove="*mdk.ini"/>

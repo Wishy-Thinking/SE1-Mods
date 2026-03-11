@@ -184,6 +184,7 @@
             <Description>Description_BroadcastController</Description>
             <Blocks/>
         </BlockVariantGroup>
+        <!-- Added TrussPillarDecoy, OreDetectors -->
         <!-- Moved BeaconGroup, ScrapBeaconGroup, Broadcast Controller here -->
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="AntennaGroup"/>
@@ -205,8 +206,13 @@
                 <Block Type="MyObjectBuilder_Beacon" Subtype="SmallBlockBeaconReskin"/>
                 <Block Type="MyObjectBuilder_Beacon" Subtype="LargeBlockScrapBeacon"/>
                 <Block Type="MyObjectBuilder_Beacon" Subtype="SmallBlockScrapBeacon"/>
+                <Block Type="MyObjectBuilder_OreDetector" Subtype="LargeOreDetector" />
+                <Block Type="MyObjectBuilder_OreDetector" Subtype="SmallBlockOreDetector" />
+                <Block Type="MyObjectBuilder_OreDetector" Subtype="LargeOreDetectorReskin" />
+                <Block Type="MyObjectBuilder_OreDetector" Subtype="SmallOreDetectorReskin" />
                 <Block Type="MyObjectBuilder_BroadcastController" Subtype="LargeBlockBroadcastController"/>
                 <Block Type="MyObjectBuilder_BroadcastController" Subtype="SmallBlockBroadcastController"/>
+                <Block Type="MyObjectBuilder_Decoy" Subtype="TrussPillarDecoy" />
             </Blocks>
         </BlockVariantGroup>
 
@@ -339,22 +345,35 @@
             </Blocks>
         </BlockVariantGroup>
 
-        <!-- Added Chipstick's MiddleGate JejeServeur HangarGates -->
+        <!-- Moved to AirtightHangarDoorGroup -->
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="GateGroup" />
             <Icon>Textures\GUI\Icons\Cubes\Gate.dds</Icon>
             <DisplayName>DisplayName_Block_Gate</DisplayName>
             <Description>Description_Gate</Description>
+            <Blocks/>
+        </BlockVariantGroup>
+        <!-- Added Chipstick's MiddleGate JejeServeur HangarGates -->
+        <!-- Moved GateGroup here -->
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="AirtightHangarDoorGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\HangarDoor.dds</Icon>
+            <DisplayName>DisplayName_Block_AirtightHangarDoor</DisplayName>
+            <Description>Description_HangarDoor</Description>
             <Blocks>
-                <Block Type="MyObjectBuilder_Door" Subtype="LargeBlockGate" />
-                <Block Type="MyObjectBuilder_Door" Subtype="LargeBlockMidGate" />
+                <Block Type="MyObjectBuilder_AirtightHangarDoor" Subtype="" />
+                <Block Type="MyObjectBuilder_AirtightHangarDoor" Subtype="AirtightHangarDoorWarfare2A" />
+                <Block Type="MyObjectBuilder_AirtightHangarDoor" Subtype="AirtightHangarDoorWarfare2B" />
+                <Block Type="MyObjectBuilder_AirtightHangarDoor" Subtype="AirtightHangarDoorWarfare2C" />
                 <Block Type="MyObjectBuilder_Door" Subtype="LargeBlockSmallGate" />
                 <Block Type="MyObjectBuilder_Door" Subtype="LargeBlockEvenWideDoor" />
                 <Block Type="MyObjectBuilder_Door" Subtype="LargeBlockSmallGateXL" />
-                <Block Type="MyObjectBuilder_Door" Subtype="LargeBlockGateXL" />
-                <Block Type="MyObjectBuilder_Door" Subtype="LargeBlockGateL" />
-                <Block Type="MyObjectBuilder_Door" Subtype="LargeBlockGateM" />
+                <Block Type="MyObjectBuilder_Door" Subtype="LargeBlockGate" />
+                <Block Type="MyObjectBuilder_Door" Subtype="LargeBlockMidGate" />
                 <Block Type="MyObjectBuilder_Door" Subtype="LargeBlockGateS" />
+                <Block Type="MyObjectBuilder_Door" Subtype="LargeBlockGateM" />
+                <Block Type="MyObjectBuilder_Door" Subtype="LargeBlockGateL" />
+                <Block Type="MyObjectBuilder_Door" Subtype="LargeBlockGateXL" />
             </Blocks>
         </BlockVariantGroup>
 
@@ -366,15 +385,8 @@
             <Description>Cross Barred Windows have double the bars of barred windows and thus have a little more integrity.</Description>
             <Blocks/>
         </BlockVariantGroup>
-        <!-- Moved to BarredWindows -->
-        <BlockVariantGroup>
-            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ShutterGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\window.dds</Icon>
-            <DisplayName>DisplayName_BlockGroup_ShutterGroup</DisplayName>
-            <Description>Description_VerticalWindow</Description>
-            <Blocks/>
-        </BlockVariantGroup>
-        <!-- Moved CrossBarredWindows (mod), ShutterGroup (old windows) here -->
+        <!-- Added ShutterGroup (old windows), Decorative SN Shutter1x1 -->
+        <!-- Moved CrossBarredWindows (mod) here -->
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="BarredWindows" />
             <Icon>Textures\GUI\Icons\Cubes\BarredWindow_Racing_Flat.dds</Icon>
@@ -395,6 +407,7 @@
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="BarredWindowFace" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeWindowSquare" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeWindowEdge" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Shutter1x1" />
             </Blocks>
         </BlockVariantGroup>
 
@@ -414,6 +427,7 @@
             <Description>Description_FullCoverWall</Description>
             <Blocks/>
         </BlockVariantGroup>
+        <!-- Added Decorative SN GlassRailings -->
         <!-- Moved CoverWallGroup here -->
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CatwalkGroup" />
@@ -445,6 +459,8 @@
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallCoverWallSE2" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="FireCover" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="FireCoverCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="GlassRailing1x1" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="GlassRailing2x1" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="Embrasure" />
             </Blocks>
         </BlockVariantGroup>
@@ -708,6 +724,7 @@
             <Blocks/>
         </BlockVariantGroup>
         <!-- Moved FirstAidCabinet to SmallBlockKitchenGroup -->
+        <!-- Added Decorative SN Wheels Rack -->
         <!-- Moved StorageShelves here -->
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="LockersGroup" />
@@ -725,6 +742,7 @@
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="StorageShelf1" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="StorageShelf2" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="StorageShelf3" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Wheels Rack" />
             </Blocks>
         </BlockVariantGroup>
         <!-- Moved SmallBlockBunkBed here -->
@@ -793,6 +811,7 @@
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="Shower" />
             </Blocks>
         </BlockVariantGroup>
+        <!-- Added Decorative SN Table Sci Fi -->
         <!-- Moved LargeBlockPlanters, BarCounters here -->
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CouchGroup" />
@@ -805,6 +824,7 @@
                 <Block Type="MyObjectBuilder_Planter" Subtype="LargeBlockPlanters" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockBarCounter" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockBarCounterCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Table Sci Fi" />
             </Blocks>
         </BlockVariantGroup>
 
@@ -951,7 +971,7 @@
             </Blocks>
         </BlockVariantGroup>
 
-        <!-- Moved to ShipToolGroup -->
+        <!-- Moved to ShipToolGroup, AntennaGroup -->
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="OreDetectorGroup" />
             <Icon>Textures\GUI\Icons\Cubes\detector.dds</Icon>
@@ -1047,16 +1067,16 @@
         <!-- Moved TurretControlGroup, ProgrammableBlockGroup here -->
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="AutomationGroup2" />
-            <Icon>Textures\GUI\Icons\Cubes\TimerBlock.dds</Icon>
-            <DisplayName>DisplayName_Block_TimerBlock</DisplayName>
-            <Description>Description_Timer</Description>
+            <Icon>Textures\GUI\Icons\Cubes\EventController_large.dds</Icon>
+            <DisplayName>DisplayName_Block_EventController</DisplayName>
+            <Description>Description_EventController</Description>
             <Blocks>
+                <Block Type="MyObjectBuilder_EventControllerBlock" Subtype="EventControllerLarge" />
+                <Block Type="MyObjectBuilder_EventControllerBlock" Subtype="EventControllerSmall" />
                 <Block Type="MyObjectBuilder_TimerBlock" Subtype="TimerBlockLarge" />
                 <Block Type="MyObjectBuilder_TimerBlock" Subtype="TimerBlockSmall" />
                 <Block Type="MyObjectBuilder_TimerBlock" Subtype="TimerBlockReskinLarge" />
                 <Block Type="MyObjectBuilder_TimerBlock" Subtype="TimerBlockReskinSmall" />
-                <Block Type="MyObjectBuilder_EventControllerBlock" Subtype="EventControllerLarge" />
-                <Block Type="MyObjectBuilder_EventControllerBlock" Subtype="EventControllerSmall" />
                 <Block Type="MyObjectBuilder_MyProgrammableBlock" Subtype="LargeProgrammableBlock" />
                 <Block Type="MyObjectBuilder_MyProgrammableBlock" Subtype="SmallProgrammableBlock" />
                 <Block Type="MyObjectBuilder_MyProgrammableBlock" Subtype="LargeProgrammableBlockReskin" />
@@ -1082,6 +1102,7 @@
             <Description>Description_TargetDummy</Description>
             <Blocks/>
         </BlockVariantGroup>
+        <!-- Added Decorative SN Sculptures -->
         <!-- Moved TargetDummyGroup here -->
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="StatueGroup" />
@@ -1091,6 +1112,9 @@
             <Blocks>
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockStatueEngineer" />
                 <Block Type="MyObjectBuilder_TargetDummyBlock" Subtype="TargetDummy" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Sculpture Human DNA" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SculptureAlienDNA" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SculptureMonolith" />
             </Blocks>
         </BlockVariantGroup>
 
@@ -1102,6 +1126,7 @@
             <Description>Description_Decoy</Description>
             <Blocks/>
         </BlockVariantGroup>
+        <!-- Added TrussPillarDecoy -->
         <!-- Moved DecoyGroup here -->
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="WarheadGroup" />
@@ -1119,6 +1144,7 @@
                 <Block Type="MyObjectBuilder_Jukebox" Subtype="SmallBlockJukeboxReskin" />
                 <Block Type="MyObjectBuilder_Decoy" Subtype="LargeDecoy" />
                 <Block Type="MyObjectBuilder_Decoy" Subtype="SmallDecoy" />
+                <Block Type="MyObjectBuilder_Decoy" Subtype="TrussPillarDecoy" />
             </Blocks>
         </BlockVariantGroup>
 
@@ -1189,6 +1215,33 @@
             </Blocks>
         </BlockVariantGroup>
 
+        <!-- Added TrussPillarLights -->
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="LightingGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\interior_light.dds</Icon>
+            <DisplayName>DisplayName_Block_InteriorLight</DisplayName>
+            <Description>Description_InteriorLight</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="SmallLight" />
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="SmallBlockSmallLight" />
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="LargeBlockLight_1corner" />
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="LargeBlockLight_2corner" />
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="SmallBlockLight_1corner" />
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="SmallBlockLight_2corner" />
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="OffsetLight" />
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="TrussPillarLight" />
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="TrussPillarLightSmall" />
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="SmallLightPanel" />
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="LargeLightPanel" />
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="LargeBlockInsetLight" />
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="SmallBlockInsetLight" />
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="LargeBlockTrofferLight" />
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="LargeBlockHalfTrofferLight" />
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="LargeBlockHalfTrofferLightInv" />
+            </Blocks>
+        </BlockVariantGroup>
+        
+        <!-- Added JejeServeur empty frames -->
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ThrusterAtmoGroup" />
             <Icon>Textures\GUI\Icons\Cubes\AtmosphericThrusterLargeLarge.dds</Icon>
@@ -1296,6 +1349,144 @@
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="Fern Pink" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="Flax Blue Flower" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="Flax" />
+            </Blocks>
+        </BlockVariantGroup>
+
+        <!-- Added Decorative SN Round Windows -->
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="WindowWallGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\WindowWall.dds</Icon>
+            <DisplayName>DisplayName_Block_WindowWall</DisplayName>
+            <Description>Description_WindowWall</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="WindowWall" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="WindowWallLeft" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="WindowWallRight" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Viewport1" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Viewport2" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Big Round Window" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Big Round Window 2x2" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="RoundWindowHal" />
+            </Blocks>
+        </BlockVariantGroup>
+
+        <!-- Added Decorative SN Scifi Spiral Staircase -->
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="StairsGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\ramp.dds</Icon>
+            <DisplayName>DisplayName_Block_Ramp</DisplayName>
+            <Description>Description_Ramp</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeRamp" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeStairs" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="GratedStairs" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="GratedHalfStairs" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="GratedHalfStairsMirrored" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Scifi Spiral Staircase" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Scifi Spiral Staircase Cover" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Scifi Spiral Staircase End Cover" />
+            </Blocks>
+        </BlockVariantGroup>
+
+        <!-- Added Decorative SN Floor Sci Fi, RoofScifi* -->
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="FloorBlockGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\DecorativeFloorCenter.dds</Icon>
+            <DisplayName>DisplayName_Block_FloorCenter</DisplayName>
+            <Description>Description_DecorativeFloor</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockFloorCenter" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockFloorDecal" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockFloorEdge" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockFloorPassage" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockFloorSlab" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockFloorCenter" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockFloorSlab" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Floor Sci Fi" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="RoofScifi01" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="RoofScifi02" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="RoofScifi03" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="RoofScifi04" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="RoofScifi05" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="RoofScifi06" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="RoofScifi07" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="RoofScifi08" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="RoofScifi09" />
+            </Blocks>
+        </BlockVariantGroup>
+
+        <!-- Disabled original Decorative SN groups -->
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ArcGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\DecorativeFloorCenter.dds</Icon>
+            <DisplayName>ArcBlocks</DisplayName>
+            <Description>ArcBlocs</Description>
+            <Blocks/>
+        </BlockVariantGroup>
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="PillarScifi" />
+            <Icon>Textures\GUI\Icons\Cubes\DecorativeFloorCenter.dds</Icon>
+            <DisplayName>ArcBlocks</DisplayName>
+            <Description>ArcBlocs</Description>
+            <Blocks/>
+        </BlockVariantGroup>
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="RoofScifi" />
+            <Icon>Textures\GUI\Icons\Cubes\DecorativeFloorCenter.dds</Icon>
+            <DisplayName>ArcBlocks</DisplayName>
+            <Description>ArcBlocs</Description>
+            <Blocks/>
+        </BlockVariantGroup>
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="Scifi Spiral Staircase" />
+            <Icon>Textures\GUI\Icons\Cubes\DecorativeFloorCenter.dds</Icon>
+            <DisplayName>ArcBlocks</DisplayName>
+            <Description>ArcBlocs</Description>
+            <Blocks/>
+        </BlockVariantGroup>
+
+        <!-- Consolidated Decorative SN groups -->
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="DecorativeSnStructural" />
+            <DisplayName>ArcBlocks</DisplayName>
+            <Description>ArcBlocs</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Arc Entrance" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="RoundWindowHal" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Big Round Window 2x2" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Big Round Window" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Floor Sci Fi" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="RoofScifi01" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="RoofScifi02" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="RoofScifi03" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="RoofScifi04" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="RoofScifi05" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="RoofScifi06" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="RoofScifi07" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="RoofScifi08" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="RoofScifi09" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Scifi Spiral Staircase" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Scifi Spiral Staircase Cover" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Scifi Spiral Staircase End Cover" />
+            </Blocks>
+        </BlockVariantGroup>
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="DecorativeSnDecoration" />
+            <DisplayName>ArcBlocks</DisplayName>
+            <Description>ArcBlocs</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Table Sci Fi" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Suport Pillar 1x2" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="PillarScifi01" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="PillarScifi02" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="GlassRailing1x1" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="GlassRailing2x1" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Shutter1x1" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Wheels Rack" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Chanrelier Top" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Sculpture Human DNA" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SculptureAlienDNA" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SculptureMonolith" />
             </Blocks>
         </BlockVariantGroup>
 
