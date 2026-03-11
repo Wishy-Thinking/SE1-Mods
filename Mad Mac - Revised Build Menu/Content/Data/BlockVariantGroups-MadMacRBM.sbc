@@ -367,13 +367,109 @@
                 <Block Type="MyObjectBuilder_AirtightHangarDoor" Subtype="AirtightHangarDoorWarfare2C" />
                 <Block Type="MyObjectBuilder_Door" Subtype="LargeBlockSmallGate" />
                 <Block Type="MyObjectBuilder_Door" Subtype="LargeBlockEvenWideDoor" />
-                <Block Type="MyObjectBuilder_Door" Subtype="LargeBlockSmallGateXL" />
                 <Block Type="MyObjectBuilder_Door" Subtype="LargeBlockGate" />
                 <Block Type="MyObjectBuilder_Door" Subtype="LargeBlockMidGate" />
                 <Block Type="MyObjectBuilder_Door" Subtype="LargeBlockGateS" />
                 <Block Type="MyObjectBuilder_Door" Subtype="LargeBlockGateM" />
                 <Block Type="MyObjectBuilder_Door" Subtype="LargeBlockGateL" />
                 <Block Type="MyObjectBuilder_Door" Subtype="LargeBlockGateXL" />
+                <Block Type="MyObjectBuilder_Door" Subtype="LargeBlockSmallGateXL" />
+            </Blocks>
+        </BlockVariantGroup>
+
+
+        <!-- Moved to WindowSmallGroup -->
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="WindowSmallCornerGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\Window1x1Face.dds</Icon>
+            <DisplayName>DisplayName_BlockGroup_WindowSmallCornerGroup</DisplayName>
+            <Description>Description_Window</Description>
+            <Blocks/>
+        </BlockVariantGroup>
+        <!-- Moved WindowSmallCornerGroup here -->
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="WindowSmallGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\Window1x1Flat.dds</Icon>
+            <DisplayName>DisplayName_BlockGroup_WindowSmallGroup</DisplayName>
+            <Description>Description_Window</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Flat" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1FlatInv" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Slope" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallWindow1x1Flat" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallWindow1x1FlatInv" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallWindow1x1Slope" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Face" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Inv" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Side" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1SideInv" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallWindow1x1Face" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallWindow1x1Inv" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallWindow1x1Side" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallWindow1x1SideInv" />
+            </Blocks>
+        </BlockVariantGroup>
+
+        <!-- Moved to WindowMediumGroup -->
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="WindowMediumCornerGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\Window1x2Face.dds</Icon>
+            <DisplayName>DisplayName_BlockGroup_WindowMediumCornerGroup</DisplayName>
+            <Description>Description_Window</Description>
+            <Blocks/>
+        </BlockVariantGroup>
+        <!-- Moved WindowMediumCornerGroup here -->
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="WindowMediumGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\Window1x2Flat.dds</Icon>
+            <DisplayName>DisplayName_BlockGroup_WindowMediumGroup</DisplayName>
+            <Description>Description_Window</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x2Flat" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x2FlatInv" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x2Slope" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallWindow1x2Flat" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallWindow1x2FlatInv" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallWindow1x2Slope" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x2Face" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x2Inv" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x2SideLeft" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x2SideLeftInv" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x2SideRight" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x2SideRightInv" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallWindow1x2Face" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallWindow1x2Inv" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallWindow1x2SideLeft" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallWindow1x2SideLeftInv" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallWindow1x2SideRight" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallWindow1x2SideRightInv" />
+            </Blocks>
+        </BlockVariantGroup>
+
+        <!-- Added HalfWindowRound -->
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="RoundWindowGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\WindowRoundLarge.dds</Icon>
+            <DisplayName>DisplayName_BlockGroup_RoundWindows</DisplayName>
+            <Description>Description_Window</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="WindowRound" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="WindowRoundInv" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="WindowRoundCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="WindowRoundCornerInv" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="WindowRoundFace" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="WindowRoundFaceInv" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="WindowRoundInwardsCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="WindowRoundInwardsCornerInv" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallWindowRound" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallWindowRoundInv" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallWindowRoundCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallWindowRoundCornerInv" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallWindowRoundFace" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallWindowRoundFaceInv" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallWindowRoundInwardsCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallWindowRoundInwardsCornerInv" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="HalfWindowRound" />
             </Blocks>
         </BlockVariantGroup>
 
