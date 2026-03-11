@@ -8,7 +8,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tin Lizzie Spawn Rover", "T
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mad Mac - Full of Scrap", "Mad Mac - Full of Scrap\Mad Mac - Full of Scrap.csproj", "{59CB4668-7138-4E10-A3FC-A45F7A1CBEBA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mad Mac - TSO Corridors Simplified", "Mad Mac - TSO Corridors Simplified\Mad Mac - TSO Corridors Simplified.csproj", "{D2DCA176-0C3A-4578-8364-1A0546289E6F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mad Mac - Revised TSO Corridors", "Mad Mac - Revised TSO Corridors\Mad Mac - Revised TSO Corridors.csproj", "{D2DCA176-0C3A-4578-8364-1A0546289E6F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mad Mac - Revised Build Menu", "Mad Mac - Revised Build Menu\Mad Mac - Revised Build Menu.csproj", "{255C5A71-F9D9-4243-B914-0731FC050DE8}"
 EndProject
