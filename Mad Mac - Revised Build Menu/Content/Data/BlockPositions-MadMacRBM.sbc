@@ -692,5 +692,46 @@
 			<Position><X>9</X><Y>37</Y></Position>
 		</BlockPosition>
 
+		<BlockPosition>
+			<Name>TSOCorRndTWCStraightDoorAirlockA</Name>
+			<Position><X>0</X><Y>39</Y></Position>
+		</BlockPosition>
+		<BlockPosition>
+			<Name>TSOCorRndConveyorCornerA</Name>
+			<Position><X>1</X><Y>39</Y></Position>
+		</BlockPosition>
+		<BlockPosition>
+			<Name>TSOCorRndTVentFanLSingle</Name>
+			<Position><X>2</X><Y>39</Y></Position>
+		</BlockPosition>
+		<BlockPosition>
+			<Name>TSOCorRndLadderBottomXWA</Name>
+			<Position><X>3</X><Y>39</Y></Position>
+		</BlockPosition>
+		<BlockPosition>
+			<Name>TSOCorRndCargoCornerA</Name>
+			<Position><X>4</X><Y>39</Y></Position>
+		</BlockPosition>
+
+		<BlockPosition>
+			<Name>TSOCorStraightDoorWDB</Name>
+			<Position><X>0</X><Y>40</Y></Position>
+		</BlockPosition>
+		<BlockPosition>
+			<Name>TSOCorConveyorCornerA</Name>
+			<Position><X>1</X><Y>40</Y></Position>
+		</BlockPosition>
+		<BlockPosition>
+			<Name>TSOCorTVentFanLSingle</Name>
+			<Position><X>2</X><Y>40</Y></Position>
+		</BlockPosition>
+		<BlockPosition>
+			<Name>TSOCorLadderDoubleA</Name>
+			<Position><X>3</X><Y>40</Y></Position>
+		</BlockPosition>
+		<BlockPosition>
+			<Name>TSOCorCargoCornerA</Name>
+			<Position><X>4</X><Y>40</Y></Position>
+		</BlockPosition>
 	</BlockPositions>
 </Definitions>
