@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
     <PropertyGroup>
         <TargetFramework>netframework48</TargetFramework>
-        <RootNamespace>Mad_Mac_Build_Menu_Adjustments</RootNamespace>
+        <RootNamespace>Mad_Mac_Revised_Build_Menu</RootNamespace>
         <LangVersion>6</LangVersion>
         <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
         <Configurations>Release;Debug</Configurations>
