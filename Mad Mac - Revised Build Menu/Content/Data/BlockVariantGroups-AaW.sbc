@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <BlockVariantGroups>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="Assembler2Group" />
+            <Icon>Textures\GUI\Icons\Cubes\assembler.dds</Icon>
+            <DisplayName>DisplayName_Block_Assembler</DisplayName>
+            <Description>Description_Assembler</Description>
+            <Blocks/>
+        </BlockVariantGroup>
+
+        <!-- Moved to OpenCockpitGroup -->
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="AQD_Group_CompactSeat" />
+            <Icon>Textures\GUI\Icons\Cubes\PassengerSeat.dds</Icon>
+            <DisplayName>AQD_SG_CompactControlSeat</DisplayName>
+            <Description>Description_OpenCockpitSmall</Description>
+            <Blocks/>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="NavigationScreenGroupTransparent"/>
+            <Icon>Textures\GUI\Icons\Cubes\TextPanel.dds</Icon>
+            <DisplayName>Ares at War Transparent Navigation Screens</DisplayName>
+            <Description>PLEASE TELL ME HOW YOU FOUND THIS COMMENT! WHERE DOES THIS DESCRIPTION SHOW UP?!</Description>
+            <Blocks/>
+        </BlockVariantGroup>
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="NavigationScreenGroupHolographic"/>
+            <Icon>Textures\GUI\Icons\Cubes\TextPanel.dds</Icon>
+            <DisplayName>Ares at War Holographic Navigation Screens</DisplayName>
+            <Description>PLEASE TELL ME HOW YOU FOUND THIS COMMENT! WHERE DOES THIS DESCRIPTION SHOW UP?!</Description>
+            <Blocks/>
+        </BlockVariantGroup>
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="NavigationScreenGroup"/>
+            <DisplayName>Ares at War Navigation Screens</DisplayName>
+            <Description>PLEASE TELL ME HOW YOU FOUND THIS COMMENT! WHERE DOES THIS DESCRIPTION SHOW UP?!</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_TextPanel" Subtype="LargeNavigationScreen2x1x1"/>
+                <Block Type="MyObjectBuilder_TextPanel" Subtype="LargeNavigationScreen4x1x2"/>
+                <Block Type="MyObjectBuilder_TextPanel" Subtype="LargeNavigationScreen5x1x3"/>
+                <Block Type="MyObjectBuilder_TextPanel" Subtype="SmallNavigationScreen2x1x1"/>
+                <Block Type="MyObjectBuilder_TextPanel" Subtype="SmallNavigationScreen4x1x2"/>
+                <Block Type="MyObjectBuilder_TextPanel" Subtype="LargeFullBlockNavigationScreen4x1x2"/>
+                <Block Type="MyObjectBuilder_TextPanel" Subtype="LargeFullBlockNavigationScreen5x1x3"/>
+                <Block Type="MyObjectBuilder_TextPanel" Subtype="LargeFullBlockNavigationScreen8x1x4"/>
+                <Block Type="MyObjectBuilder_TextPanel" Subtype="SmallFullBlockNavigationScreen1x1x1"/>
+                <Block Type="MyObjectBuilder_TextPanel" Subtype="SmallFullBlockNavigationScreen2x1x1"/>
+                <Block Type="MyObjectBuilder_TextPanel" Subtype="SmallTransparentNavigationScreen1x1x1"/>
+                <Block Type="MyObjectBuilder_TextPanel" Subtype="SmallTransparentNavigationScreen2x1x1"/>
+                <Block Type="MyObjectBuilder_TextPanel" Subtype="SmallTransparentNavigationScreen3x1x3"/>
+                <Block Type="MyObjectBuilder_TextPanel" Subtype="SmallSlopedTransparentNavigationScreen1x1x1"/>
+                <Block Type="MyObjectBuilder_TextPanel" Subtype="SmallSlopedTransparentNavigationScreen2x1x1"/>
+                <Block Type="MyObjectBuilder_TextPanel" Subtype="SmallTransparentSlopedNavigationScreen3x1x3"/>
+                <Block Type="MyObjectBuilder_TextPanel" Subtype="SmallTransparentNavigationHoloScreen1x1x1"/>
+                <Block Type="MyObjectBuilder_TextPanel" Subtype="SmallTransparentNavigationHoloScreen1x1x1_2x1"/>
+                <Block Type="MyObjectBuilder_TextPanel" Subtype="SmallTransparentNavigationHoloScreen1x1x1_3x2"/>
+            </Blocks>
+        </BlockVariantGroup>
+
+    </BlockVariantGroups>
+</Definitions>

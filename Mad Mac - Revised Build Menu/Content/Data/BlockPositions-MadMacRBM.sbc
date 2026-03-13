@@ -267,16 +267,20 @@
 			<Position><X>0</X><Y>12</Y></Position>
 		</BlockPosition>
 		<BlockPosition>
-			<Name>OpenCockpit</Name>
+			<Name>AaWNavScreenSmallBlockCockpit</Name>
 			<Position><X>1</X><Y>12</Y></Position>
 		</BlockPosition>
 		<BlockPosition>
-			<Name>ModularBridgeCockpit</Name>
+			<Name>OpenCockpit</Name>
 			<Position><X>2</X><Y>12</Y></Position>
 		</BlockPosition>
 		<BlockPosition>
-			<Name>LandingGear</Name>
+			<Name>ModularBridgeCockpit</Name>
 			<Position><X>3</X><Y>12</Y></Position>
+		</BlockPosition>
+		<BlockPosition>
+			<Name>LandingGear</Name>
+			<Position><X>4</X><Y>12</Y></Position>
 		</BlockPosition>
 		<BlockPosition>
 			<Name>MergeBlock</Name>
@@ -381,6 +385,10 @@
 			<Position><X>2</X><Y>17</Y></Position>
 		</BlockPosition>
 		<BlockPosition>
+			<Name>BasicAssembler</Name> <!-- For AaW/AQD small grid expansion -->
+			<Position><X>2</X><Y>17</Y></Position>
+		</BlockPosition>
+		<BlockPosition>
 			<Name>OxygenTank</Name>
 			<Position><X>3</X><Y>17</Y></Position>
 		</BlockPosition>
@@ -455,16 +463,44 @@
 
 		<!-- Row 27 -->
 		<BlockPosition>
-			<Name>EmissiveSymbolAPair</Name>
+			<Name>TextPanel</Name>
+			<Position><X>0</X><Y>27</Y></Position>
+		</BlockPosition>
+		<BlockPosition>
+			<Name>NavigationScreen2x1x1</Name> <!-- AaW map -->
+			<Position><X>1</X><Y>27</Y></Position>
+		</BlockPosition>
+		<BlockPosition>
+			<Name>EmotionController</Name>
+			<Position><X>2</X><Y>27</Y></Position>
+		</BlockPosition>
+		<BlockPosition>
+			<Name>WarningSignEaster9</Name>
+			<Position><X>3</X><Y>27</Y></Position>
+		</BlockPosition>
+		<BlockPosition>
+			<Name>SymbolA</Name>
+			<Position><X>4</X><Y>27</Y></Position>
+		</BlockPosition>
+		<BlockPosition>
+			<Name>Symbol1</Name>
+			<Position><X>5</X><Y>27</Y></Position>
+		</BlockPosition>
+		<BlockPosition>
+			<Name>SymbolHyphen</Name>
 			<Position><X>6</X><Y>27</Y></Position>
 		</BlockPosition>
 		<BlockPosition>
-			<Name>EmissiveSymbol1Pair</Name>
+			<Name>EmissiveSymbolAPair</Name>
 			<Position><X>7</X><Y>27</Y></Position>
 		</BlockPosition>
 		<BlockPosition>
-			<Name>EmissiveSymbolHyphenPair</Name>
+			<Name>EmissiveSymbol1Pair</Name>
 			<Position><X>8</X><Y>27</Y></Position>
+		</BlockPosition>
+		<BlockPosition>
+			<Name>EmissiveSymbolHyphenPair</Name>
+			<Position><X>9</X><Y>27</Y></Position>
 		</BlockPosition>
 
 		<!-- Row 29 (windows 2) -->
@@ -606,6 +642,32 @@
 		<BlockPosition>
 			<Name>Broad Leaf Bush Medium</Name>
 			<Position><X>6</X><Y>33</Y></Position>
+		</BlockPosition>
+		
+		<!-- Row 34 Ares at War reinforced armor -->
+		<BlockPosition>
+			<Name>ReinforcedArmorCube</Name>
+			<Position><X>0</X><Y>34</Y></Position>
+		</BlockPosition>
+		<BlockPosition>
+			<Name>ReinforcedArmorSlope2x1x1Base</Name>
+			<Position><X>1</X><Y>34</Y></Position>
+		</BlockPosition>
+		<BlockPosition>
+			<Name>ReinforcedArmorCorner2x1x1Base</Name>
+			<Position><X>2</X><Y>34</Y></Position>
+		</BlockPosition>
+		<BlockPosition>
+			<Name>SlopedCornerReinforcedArmorTip</Name>
+			<Position><X>3</X><Y>34</Y></Position>
+		</BlockPosition>
+		<BlockPosition>
+			<Name>ReinforcedArmorCube</Name>
+			<Position><X>4</X><Y>34</Y></Position>
+		</BlockPosition>
+		<BlockPosition>
+			<Name>ReinforcedArmorCube</Name>
+			<Position><X>5</X><Y>34</Y></Position>
 		</BlockPosition>
 
 		<!-- Row 36 Light Armor Panels Expanded -->

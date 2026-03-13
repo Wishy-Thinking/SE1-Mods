@@ -216,6 +216,32 @@
             </Blocks>
         </BlockVariantGroup>
 
+        <!-- Added LG_TransparentLCD_ButtonPanel from AaW -->
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ButtonPanelGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\ButtonPanel.dds</Icon>
+            <DisplayName>DisplayName_Block_ButtonPanel</DisplayName>
+            <Description>Description_ButtonPanel</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_ButtonPanel" Subtype="ButtonPanelLarge" />
+                <Block Type="MyObjectBuilder_ButtonPanel" Subtype="ButtonPanelSmall" />
+                <Block Type="MyObjectBuilder_ButtonPanel" Subtype="LargeSciFiButtonPanel" />
+                <Block Type="MyObjectBuilder_ButtonPanel" Subtype="LargeSciFiButtonTerminal" />
+                <Block Type="MyObjectBuilder_TerminalBlock" Subtype="ControlPanel" />
+                <Block Type="MyObjectBuilder_TerminalBlock" Subtype="MaintenancePanelLarge" />
+                <Block Type="MyObjectBuilder_TerminalBlock" Subtype="SmallControlPanel" />
+                <Block Type="MyObjectBuilder_TerminalBlock" Subtype="LargeBlockSciFiTerminal" />
+                <Block Type="MyObjectBuilder_ButtonPanel" Subtype="VerticalButtonPanelLarge" />
+                <Block Type="MyObjectBuilder_ButtonPanel" Subtype="VerticalButtonPanelSmall" />
+                <Block Type="MyObjectBuilder_ButtonPanel" Subtype="LargeButtonPanelPedestal" />
+                <Block Type="MyObjectBuilder_ButtonPanel" Subtype="SmallButtonPanelPedestal" />
+                <Block Type="MyObjectBuilder_ButtonPanel" Subtype="LargeBlockInsetButtonPanel" />
+                <Block Type="MyObjectBuilder_TerminalBlock" Subtype="LargeControlPanelPedestal" />
+                <Block Type="MyObjectBuilder_TerminalBlock" Subtype="SmallControlPanelPedestal" />
+                <Block Type="MyObjectBuilder_ButtonPanel" Subtype="LG_TransparentLCD_ButtonPanel" />
+            </Blocks>
+        </BlockVariantGroup>
+
         <!-- Moved to ExhaustPipeGroup -->
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="HeatVentGroup" />
@@ -224,6 +250,7 @@
             <Description>Description_HeatVent</Description>
             <Blocks/>
         </BlockVariantGroup>
+        <!-- Added LargeExhaustPipeAaW -->
         <!-- Moved HeatVentGroup here -->
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ExhaustPipeGroup" />
@@ -235,6 +262,7 @@
                 <Block Type="MyObjectBuilder_ExhaustBlock" Subtype="SmallExhaustPipe" />
                 <Block Type="MyObjectBuilder_ExhaustBlock" Subtype="LargeExhaustCap" />
                 <Block Type="MyObjectBuilder_ExhaustBlock" Subtype="SmallExhaustCap" />
+                <Block Type="MyObjectBuilder_ExhaustBlock" Subtype="LargeExhaustPipeAaW" />
                 <Block Type="MyObjectBuilder_HeatVentBlock" Subtype="LargeHeatVentBlock" />
                 <Block Type="MyObjectBuilder_HeatVentBlock" Subtype="SmallHeatVentBlock" />
             </Blocks>
@@ -681,6 +709,9 @@
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="Freight1" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="Freight2" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="Freight3" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_SG_Freight_I" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_SG_Freight_II" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_SG_Freight_III" />
                 <Block Type="MyObjectBuilder_TerminalBlock" Subtype="LargeCrate" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeStorageBin1" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeStorageBin2" />
@@ -849,6 +880,7 @@
             <Description>Description_Kitchen</Description>
             <Blocks>
                 <Block Type="MyObjectBuilder_CryoChamber" Subtype="SmallBlockBunkBed" />
+                <Block Type="MyObjectBuilder_CryoChamber" Subtype="AQD_SG_OpenBed" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockKitchenSink" />
                 <Block Type="MyObjectBuilder_TerminalBlock" Subtype="SmallBlockKitchenFridge" />
                 <Block Type="MyObjectBuilder_TerminalBlock" Subtype="SmallBlockKitchenOven" />
@@ -946,6 +978,7 @@
             <Description>Description_PassengerSeat</Description>
             <Blocks/>
         </BlockVariantGroup>
+        <!-- Added AQD_SG_CompactControlSeat, AQD_SG_CompactSeat for AaW -->
         <!-- Moved PassengerSeatGroup here -->
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="OpenCockpitGroup" />
@@ -967,6 +1000,8 @@
                 <Block Type="MyObjectBuilder_Cockpit" Subtype="LargeBlockSuspendedControlSeatB" />
                 <Block Type="MyObjectBuilder_Cockpit" Subtype="SmallBlockSuspendedControlSeat" />
                 <Block Type="MyObjectBuilder_Cockpit" Subtype="SmallBlockSuspendedControlSeatB" />
+                <Block Type="MyObjectBuilder_Cockpit" Subtype="AQD_SG_CompactControlSeat" />
+                <Block Type="MyObjectBuilder_Cockpit" Subtype="AQD_SG_CompactSeat" />
                 <Block Type="MyObjectBuilder_Cockpit" Subtype="PassengerSeatLarge" />
                 <Block Type="MyObjectBuilder_Cockpit" Subtype="PassengerSeatSmallNew" />
                 <Block Type="MyObjectBuilder_Cockpit" Subtype="PassengerSeatSmallOffset" />
@@ -990,6 +1025,7 @@
             <Description>Description_BlockGroup_UpgradeModuleGroup</Description>
             <Blocks/>
         </BlockVariantGroup>
+        <!-- Added Assembling Bench from Ares at War -->
         <!-- Moved RefineryGroup, UpgradeModuleGroup here -->
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="AssemblerGroup" />
@@ -997,15 +1033,19 @@
             <DisplayName>DisplayName_Block_Assembler</DisplayName>
             <Description>Description_Assembler</Description>
             <Blocks>
+                <Block Type="MyObjectBuilder_Assembler" Subtype="BasicAssembler" />
+                <Block Type="MyObjectBuilder_Assembler" Subtype="AQD_SG_BasicAssembler" />
+                <Block Type="MyObjectBuilder_Assembler" Subtype="Assembling Bench" /> <!-- Ares at War -->
                 <Block Type="MyObjectBuilder_Assembler" Subtype="LargeAssembler" />
                 <Block Type="MyObjectBuilder_Assembler" Subtype="LargeAssemblerIndustrial" />
-                <Block Type="MyObjectBuilder_Assembler" Subtype="BasicAssembler" />
                 <Block Type="MyObjectBuilder_Refinery" Subtype="LargeRefinery" />
                 <Block Type="MyObjectBuilder_Refinery" Subtype="LargeRefineryIndustrial" />
                 <Block Type="MyObjectBuilder_Refinery" Subtype="Blast Furnace" />
+                <Block Type="MyObjectBuilder_Refinery" Subtype="AQD_SG_BasicRefinery" />
                 <Block Type="MyObjectBuilder_UpgradeModule" Subtype="LargeProductivityModule" />
                 <Block Type="MyObjectBuilder_UpgradeModule" Subtype="LargeEffectivenessModule" />
                 <Block Type="MyObjectBuilder_UpgradeModule" Subtype="LargeEnergyModule" />
+                <Block Type="MyObjectBuilder_Assembler" Subtype="Assembling Bench" />
             </Blocks>
         </BlockVariantGroup>
 
@@ -1082,6 +1122,7 @@
             <DisplayName>Static Drills</DisplayName>
             <Blocks/>
         </BlockVariantGroup>
+        <!-- Added ReinforcedDrill from AaW -->
         <!-- Moved OreDetectorGroup, StaticDrills here, added Seismic Surveying LandingGear (thumper) -->
         <!-- Reordered to put drill first -->
         <BlockVariantGroup>
@@ -1113,6 +1154,7 @@
                 <Block Type="MyObjectBuilder_Drill" Subtype="StaticDrill" />
                 <Block Type="MyObjectBuilder_Drill" Subtype="BasicStaticDrill" />
                 <Block Type="MyObjectBuilder_Drill" Subtype="AdvancedStaticDrill" />
+                <Block Type="MyObjectBuilder_Drill" Subtype="ReinforcedDrill" />
             </Blocks>
         </BlockVariantGroup>
 
@@ -1336,7 +1378,32 @@
                 <Block Type="MyObjectBuilder_InteriorLight" Subtype="LargeBlockHalfTrofferLightInv" />
             </Blocks>
         </BlockVariantGroup>
-        
+
+        <!-- Moved to JumpDriveGroup -->
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="GravityGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\gravity_generator.dds</Icon>
+            <DisplayName>DisplayName_Block_GravityGenerator</DisplayName>
+            <Description>Description_GravityGenerator</Description>
+            <Blocks/>
+        </BlockVariantGroup>
+        <!-- Added AQD_SG_Jumpdrive, AQD_SG_GravityGenerator (for AaW) -->
+        <!-- Moved GravityGroup here -->
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="JumpDriveGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\JumpDrive.dds</Icon>
+            <DisplayName>DisplayName_Block_JumpDrive</DisplayName>
+            <Description>Description_JumpDrive</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_JumpDrive" Subtype="LargeJumpDrive" />
+                <Block Type="MyObjectBuilder_JumpDrive" Subtype="AQD_SG_Jumpdrive" />
+                <Block Type="MyObjectBuilder_JumpDrive" Subtype="LargeJumpDriveReskin" />
+                <Block Type="MyObjectBuilder_GravityGenerator" Subtype="" />
+                <Block Type="MyObjectBuilder_GravityGenerator" Subtype="AQD_SG_GravityGenerator" />
+                <Block Type="MyObjectBuilder_GravityGeneratorSphere" Subtype="" />
+            </Blocks>
+        </BlockVariantGroup>
+
         <!-- Added JejeServeur empty frames -->
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ThrusterAtmoGroup" />
@@ -1584,511 +1651,6 @@
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="SculptureAlienDNA" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="SculptureMonolith" />
             </Blocks>
-        </BlockVariantGroup>
-
-        <!-- TSO Corridor Block groups for those that are disabled in the other mod (in case that mod is not being used) -->
-        <BlockVariantGroup>
-            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="TSOCorRndDoor2" />
-            <DisplayName>TSO Round Corridor Doors</DisplayName>
-            <Description>Description_Door</Description>
-            <Blocks>
-                <Block Type="AdvancedDoor" Subtype="TSOCorRndTWCStraightDoorAirlockA"/>
-                <Block Type="AdvancedDoor" Subtype="TSOCorRndTWCStraightDoorAirlockB"/>
-                <Block Type="AdvancedDoor" Subtype="TSOCorRndXCCornerDoorAirlockA"/>
-                <Block Type="AdvancedDoor" Subtype="TSOCorRndXCCornerDoorAirlockB"/>
-                <Block Type="AdvancedDoor" Subtype="TSOCorRndXWCStraightDoorAirlockA"/>
-                <Block Type="AdvancedDoor" Subtype="TSOCorRndXWCStraightDoorAirlockB"/>
-                <Block Type="Door" Subtype="TSOCorRndStraightDoorWDB"/>
-                <Block Type="Door" Subtype="TSOCorRndStraightDoorWLB"/>
-                <Block Type="Door" Subtype="TSOCorRndStraightDoorWRA"/>
-                <Block Type="Door" Subtype="TSOCorRndStraightDoorWRB"/>
-                <Block Type="Door" Subtype="TSOCorRndStraightDoorWRoofA"/>
-                <Block Type="Door" Subtype="TSOCorRndStraightDoorWRoofB"/>
-                <Block Type="Door" Subtype="TSOCorRndStraightDoorWTA"/>
-                <Block Type="Door" Subtype="TSOCorRndStraightDoorWTB"/>
-                <Block Type="Door" Subtype="TSOCorRndTLeftDoorWB"/>
-                <Block Type="Door" Subtype="TSOCorRndTMiddleDoorWB"/>
-                <Block Type="Door" Subtype="TSOCorRndTRightDoorWB"/>
-                <Block Type="Door" Subtype="TSOCorRndXWCCornerLeftDoorA"/>
-                <Block Type="Door" Subtype="TSOCorRndXWCCornerLeftDoorB"/>
-                <Block Type="Door" Subtype="TSOCorRndXWCCornerRightDoorA"/>
-                <Block Type="Door" Subtype="TSOCorRndXWCCornerRightDoorB"/>
-                <Block Type="Door" Subtype="TSOCorRndXWCStraightDoorA"/>
-                <Block Type="Door" Subtype="TSOCorRndXWCStraightDoorB"/>
-            </Blocks>
-        </BlockVariantGroup>
-
-        <BlockVariantGroup>
-            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="TSOCorDoor2" />
-            <DisplayName>TSO Corridor Doors</DisplayName>
-            <Description>Description_Door</Description>
-            <Blocks>
-                <Block Type="Door" Subtype="TSOCorStraightDoorWDB"/>
-                <Block Type="Door" Subtype="TSOCorStraightDoorWLB"/>
-                <Block Type="Door" Subtype="TSOCorStraightDoorWRA"/>
-                <Block Type="Door" Subtype="TSOCorStraightDoorWRB"/>
-                <Block Type="Door" Subtype="TSOCorStraightDoorWRoofA"/>
-                <Block Type="Door" Subtype="TSOCorStraightDoorWRoofB"/>
-                <Block Type="Door" Subtype="TSOCorStraightDoorWTA"/>
-                <Block Type="Door" Subtype="TSOCorStraightDoorWTB"/>
-                <Block Type="Door" Subtype="TSOCorTLeftDoorWB"/>
-                <Block Type="Door" Subtype="TSOCorTMiddleDoorWB"/>
-                <Block Type="Door" Subtype="TSOCorTRightDoorWB"/>
-            </Blocks>
-        </BlockVariantGroup>
-
-        <BlockVariantGroup>
-            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="TSOCorRndConveyor2" />
-            <DisplayName>TSO Round Corridor Conveyors</DisplayName>
-            <Description>Description_ConveyorTube</Description>
-            <Blocks>
-                <Block Type="Conveyor" Subtype="TSOCorRndConveyorCornerA"/>
-                <Block Type="Conveyor" Subtype="TSOCorRndConveyorCornerB"/>
-                <Block Type="Conveyor" Subtype="TSOCorRndConveyorStraightA"/>
-                <Block Type="Conveyor" Subtype="TSOCorRndConveyorStraightB"/>
-                <Block Type="Conveyor" Subtype="TSOCorRndConveyorTA"/>
-                <Block Type="Conveyor" Subtype="TSOCorRndConveyorTB"/>
-                <Block Type="Conveyor" Subtype="TSOCorRndConveyorX"/>
-                <Block Type="Conveyor" Subtype="TSOCorRndCornerConveyor"/>
-                <Block Type="Conveyor" Subtype="TSOCorRndCornerConveyorFourWay"/>
-                <Block Type="Conveyor" Subtype="TSOCorRndCornerConveyorStraight"/>
-            </Blocks>
-        </BlockVariantGroup>
-
-        <BlockVariantGroup>
-            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="TSOCorConveyor2" />
-            <DisplayName>TSO Corridor Conveyors</DisplayName>
-            <Description>Description_ConveyorTube</Description>
-            <Blocks>
-                <Block Type="Conveyor" Subtype="TSOCorConveyorCornerA"/>
-                <Block Type="Conveyor" Subtype="TSOCorConveyorCornerB"/>
-                <Block Type="Conveyor" Subtype="TSOCorConveyorStraightA"/>
-                <Block Type="Conveyor" Subtype="TSOCorConveyorStraightB"/>
-                <Block Type="Conveyor" Subtype="TSOCorConveyorTA"/>
-                <Block Type="Conveyor" Subtype="TSOCorConveyorTB"/>
-                <Block Type="Conveyor" Subtype="TSOCorConveyorX"/>
-                <Block Type="Conveyor" Subtype="TSOCorCornerConveyor"/>
-                <Block Type="Conveyor" Subtype="TSOCorCornerConveyorFourWay"/>
-                <Block Type="Conveyor" Subtype="TSOCorCornerConveyorStraight"/>
-                <Block Type="Conveyor" Subtype="TSOCorXConveyor"/>
-            </Blocks>
-        </BlockVariantGroup>
-
-        <BlockVariantGroup>
-            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="TSOCorRndVent2" />
-            <DisplayName>TSO Corridor Air Vents</DisplayName>
-            <Description>Description_AirVent</Description>
-            <Blocks>
-                <Block Type="AirVent" Subtype="TSOCorRndTVentFanLSingle"/>
-                <Block Type="AirVent" Subtype="TSOCorRndVentCornerA"/>
-                <Block Type="AirVent" Subtype="TSOCorRndVentCornerB"/>
-                <Block Type="AirVent" Subtype="TSOCorRndVentFanCornerA"/>
-                <Block Type="AirVent" Subtype="TSOCorRndVentFanCornerB"/>
-                <Block Type="AirVent" Subtype="TSOCorRndVentFanLCornerA"/>
-                <Block Type="AirVent" Subtype="TSOCorRndVentFanLCornerB"/>
-                <Block Type="AirVent" Subtype="TSOCorRndVentFanLSingle"/>
-                <Block Type="AirVent" Subtype="TSOCorRndVentFanLStraightA"/>
-                <Block Type="AirVent" Subtype="TSOCorRndVentFanLStraightB"/>
-                <Block Type="AirVent" Subtype="TSOCorRndVentFanLTA"/>
-                <Block Type="AirVent" Subtype="TSOCorRndVentFanLTB"/>
-                <Block Type="AirVent" Subtype="TSOCorRndVentFanLX"/>
-                <Block Type="AirVent" Subtype="TSOCorRndVentFanStraightA"/>
-                <Block Type="AirVent" Subtype="TSOCorRndVentFanStraightB"/>
-                <Block Type="AirVent" Subtype="TSOCorRndVentFanTA"/>
-                <Block Type="AirVent" Subtype="TSOCorRndVentFanTB"/>
-                <Block Type="AirVent" Subtype="TSOCorRndVentFanX"/>
-                <Block Type="AirVent" Subtype="TSOCorRndVentStraightA"/>
-                <Block Type="AirVent" Subtype="TSOCorRndVentStraightB"/>
-                <Block Type="AirVent" Subtype="TSOCorRndVentTA"/>
-                <Block Type="AirVent" Subtype="TSOCorRndVentTB"/>
-                <Block Type="AirVent" Subtype="TSOCorRndVentX"/>
-            </Blocks>
-        </BlockVariantGroup>
-
-        <BlockVariantGroup>
-            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="TSOCorVent2" />
-            <DisplayName>TSO Corridor Air Vents</DisplayName>
-            <Description>Description_AirVent</Description>
-            <Blocks>
-                <Block Type="AirVent" Subtype="TSOCorTVentFanLSingle"/>
-                <Block Type="AirVent" Subtype="TSOCorVentCornerA"/>
-                <Block Type="AirVent" Subtype="TSOCorVentCornerB"/>
-                <Block Type="AirVent" Subtype="TSOCorVentFanCornerA"/>
-                <Block Type="AirVent" Subtype="TSOCorVentFanCornerB"/>
-                <Block Type="AirVent" Subtype="TSOCorVentFanLCornerA"/>
-                <Block Type="AirVent" Subtype="TSOCorVentFanLCornerB"/>
-                <Block Type="AirVent" Subtype="TSOCorVentFanLSingle"/>
-                <Block Type="AirVent" Subtype="TSOCorVentFanLStraightA"/>
-                <Block Type="AirVent" Subtype="TSOCorVentFanLStraightB"/>
-                <Block Type="AirVent" Subtype="TSOCorVentFanLTA"/>
-                <Block Type="AirVent" Subtype="TSOCorVentFanLTB"/>
-                <Block Type="AirVent" Subtype="TSOCorVentFanLX"/>
-                <Block Type="AirVent" Subtype="TSOCorVentFanStraightA"/>
-                <Block Type="AirVent" Subtype="TSOCorVentFanStraightB"/>
-                <Block Type="AirVent" Subtype="TSOCorVentFanTA"/>
-                <Block Type="AirVent" Subtype="TSOCorVentFanTB"/>
-                <Block Type="AirVent" Subtype="TSOCorVentFanX"/>
-                <Block Type="AirVent" Subtype="TSOCorVentStraightA"/>
-                <Block Type="AirVent" Subtype="TSOCorVentStraightB"/>
-                <Block Type="AirVent" Subtype="TSOCorVentTA"/>
-                <Block Type="AirVent" Subtype="TSOCorVentTB"/>
-                <Block Type="AirVent" Subtype="TSOCorVentX"/>
-            </Blocks>
-        </BlockVariantGroup>
-
-        <BlockVariantGroup>
-            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="TSOCorRndLadder2" />
-            <DisplayName>TSO Round Corridor Ladder</DisplayName>
-            <Description>Description_Ladder</Description>
-            <Blocks>
-                <Block Type="Ladder2" Subtype="TSOCorRndLadderBottomXWA"/>
-                <Block Type="Ladder2" Subtype="TSOCorRndLadderBottomXWB"/>
-                <Block Type="Ladder2" Subtype="TSOCorRndLadderDoubleA"/>
-                <Block Type="Ladder2" Subtype="TSOCorRndLadderDoubleAG"/>
-                <Block Type="Ladder2" Subtype="TSOCorRndLadderDoubleB"/>
-                <Block Type="Ladder2" Subtype="TSOCorRndLadderDoubleBG"/>
-                <Block Type="Ladder2" Subtype="TSOCorRndLadderLA"/>
-                <Block Type="Ladder2" Subtype="TSOCorRndLadderLAG"/>
-                <Block Type="Ladder2" Subtype="TSOCorRndLadderLB"/>
-                <Block Type="Ladder2" Subtype="TSOCorRndLadderLBG"/>
-                <Block Type="Ladder2" Subtype="TSOCorRndLadderRA"/>
-                <Block Type="Ladder2" Subtype="TSOCorRndLadderRAG"/>
-                <Block Type="Ladder2" Subtype="TSOCorRndLadderRB"/>
-                <Block Type="Ladder2" Subtype="TSOCorRndLadderRBG"/>
-                <Block Type="Ladder2" Subtype="TSOCorRndLadderRoofA"/>
-                <Block Type="Ladder2" Subtype="TSOCorRndLadderRoofAG"/>
-                <Block Type="Ladder2" Subtype="TSOCorRndLadderRoofB"/>
-                <Block Type="Ladder2" Subtype="TSOCorRndLadderRoofBG"/>
-                <Block Type="Ladder2" Subtype="TSOCorRndLadderTripleA"/>
-                <Block Type="Ladder2" Subtype="TSOCorRndLadderTripleAG"/>
-                <Block Type="Ladder2" Subtype="TSOCorRndLadderTripleB"/>
-                <Block Type="Ladder2" Subtype="TSOCorRndLadderTripleBG"/>
-                <Block Type="CubeBlock" Subtype="TSOCorRndLadderTopStraightWA"/>
-                <Block Type="CubeBlock" Subtype="TSOCorRndLadderTopStraightWB"/>
-                <Block Type="CubeBlock" Subtype="TSOCorRndLadderTopXWA"/>
-                <Block Type="CubeBlock" Subtype="TSOCorRndLadderTopXWB"/>
-            </Blocks>
-        </BlockVariantGroup>
-
-        <BlockVariantGroup>
-            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="TSOCorLadder2" />
-            <DisplayName>TSO Corridor Ladder</DisplayName>
-            <Description>Description_Ladder</Description>
-            <Blocks>
-                <Block Type="Ladder2" Subtype="TSOCorLadderDoubleA"/>
-                <Block Type="Ladder2" Subtype="TSOCorLadderDoubleAG"/>
-                <Block Type="Ladder2" Subtype="TSOCorLadderDoubleB"/>
-                <Block Type="Ladder2" Subtype="TSOCorLadderDoubleBG"/>
-                <Block Type="Ladder2" Subtype="TSOCorLadderLA"/>
-                <Block Type="Ladder2" Subtype="TSOCorLadderLAG"/>
-                <Block Type="Ladder2" Subtype="TSOCorLadderLB"/>
-                <Block Type="Ladder2" Subtype="TSOCorLadderLBG"/>
-                <Block Type="Ladder2" Subtype="TSOCorLadderRA"/>
-                <Block Type="Ladder2" Subtype="TSOCorLadderRAG"/>
-                <Block Type="Ladder2" Subtype="TSOCorLadderRB"/>
-                <Block Type="Ladder2" Subtype="TSOCorLadderRBG"/>
-                <Block Type="Ladder2" Subtype="TSOCorLadderRoofA"/>
-                <Block Type="Ladder2" Subtype="TSOCorLadderRoofAG"/>
-                <Block Type="Ladder2" Subtype="TSOCorLadderRoofB"/>
-                <Block Type="Ladder2" Subtype="TSOCorLadderRoofBG"/>
-                <Block Type="Ladder2" Subtype="TSOCorLadderTripleA"/>
-                <Block Type="Ladder2" Subtype="TSOCorLadderTripleAG"/>
-                <Block Type="Ladder2" Subtype="TSOCorLadderTripleB"/>
-                <Block Type="Ladder2" Subtype="TSOCorLadderTripleBG"/>
-                <Block Type="CubeBlock" Subtype="TSOCorLadderTopStraightEnd"/>
-                <Block Type="CubeBlock" Subtype="TSOCorLadderTopStraightEndWA"/>
-                <Block Type="CubeBlock" Subtype="TSOCorLadderTopStraightEndWB"/>
-                <Block Type="CubeBlock" Subtype="TSOCorRampB"/>
-                <Block Type="CubeBlock" Subtype="TSOCorStairsB"/>
-            </Blocks>
-        </BlockVariantGroup>
-
-        <BlockVariantGroup>
-            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="TSOCorRndOther2" />
-            <DisplayName>TSO Round Corridor Other</DisplayName>
-            <Description>TSO Round Corridor Other</Description>
-            <Blocks>
-                <Block Type="CargoContainer" Subtype="TSOCorRndCargoCornerA"/>
-                <Block Type="CargoContainer" Subtype="TSOCorRndCargoCornerB"/>
-                <Block Type="CargoContainer" Subtype="TSOCorRndCargoStraightA"/>
-                <Block Type="CargoContainer" Subtype="TSOCorRndCargoStraightB"/>
-                <Block Type="CargoContainer" Subtype="TSOCorRndCargoTA"/>
-                <Block Type="CargoContainer" Subtype="TSOCorRndCargoTB"/>
-                <Block Type="CargoContainer" Subtype="TSOCorRndCargoX"/>
-                <Block Type="CubeBlock" Subtype="TSOCorRndTWB"/>
-                <Block Type="CubeBlock" Subtype="TSOCorRndWDoubleB"/>
-                <Block Type="CubeBlock" Subtype="TSOCorRndWRoofB"/>
-                <Block Type="CubeBlock" Subtype="TSOCorRndWSingleB"/>
-                <Block Type="CubeBlock" Subtype="TSOCorRndWTripleA"/>
-                <Block Type="CubeBlock" Subtype="TSOCorRndWTripleB"/>
-                <Block Type="MedicalRoom" Subtype="TSOCorRndRefillCornerA"/>
-                <Block Type="MedicalRoom" Subtype="TSOCorRndRefillCornerB"/>
-                <Block Type="MedicalRoom" Subtype="TSOCorRndRefillStraightA"/>
-                <Block Type="MedicalRoom" Subtype="TSOCorRndRefillStraightB"/>
-                <Block Type="MedicalRoom" Subtype="TSOCorRndRefillTA"/>
-                <Block Type="MedicalRoom" Subtype="TSOCorRndRefillTB"/>
-                <Block Type="MedicalRoom" Subtype="TSOCorRndRefillX"/>
-                <Block Type="Jukebox" Subtype="TSOCorRndJukeBox"/>
-                <Block Type="Jukebox" Subtype="TSOCorRndTJukeBox"/>
-                <Block Type="SoundBlock" Subtype="TSOCorRndSoundBlock"/>
-                <Block Type="SoundBlock" Subtype="TSOCorRndTSoundBlock"/>
-            </Blocks>
-        </BlockVariantGroup>
-
-        <BlockVariantGroup>
-            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="TSOCorOther2" />
-            <DisplayName>TSO Corridor Other</DisplayName>
-            <Description>TSO Corridor Other</Description>
-            <Blocks>
-                <Block Type="CargoContainer" Subtype="TSOCorCargoCornerA"/>
-                <Block Type="CargoContainer" Subtype="TSOCorCargoCornerB"/>
-                <Block Type="CargoContainer" Subtype="TSOCorCargoStraightA"/>
-                <Block Type="CargoContainer" Subtype="TSOCorCargoStraightB"/>
-                <Block Type="CargoContainer" Subtype="TSOCorCargoTA"/>
-                <Block Type="CargoContainer" Subtype="TSOCorCargoTB"/>
-                <Block Type="CargoContainer" Subtype="TSOCorCargoX"/>
-                <Block Type="CubeBlock" Subtype="TSOCorTWB"/>
-                <Block Type="CubeBlock" Subtype="TSOCorWDoubleB"/>
-                <Block Type="CubeBlock" Subtype="TSOCorWRoofB"/>
-                <Block Type="CubeBlock" Subtype="TSOCorWSingleB"/>
-                <Block Type="CubeBlock" Subtype="TSOCorWTripleA"/>
-                <Block Type="CubeBlock" Subtype="TSOCorWTripleB"/>
-                <Block Type="InteriorLight" Subtype="TSOCorRampLightB"/>
-                <Block Type="InteriorLight" Subtype="TSOCorStairsLightB"/>
-                <Block Type="CameraBlock" Subtype="TSOCorTCameraWall"/>
-                <Block Type="MedicalRoom" Subtype="TSOCorMedical"/>
-                <Block Type="MedicalRoom" Subtype="TSOCorMedicalB"/>
-                <Block Type="MedicalRoom" Subtype="TSOCorRefillCornerA"/>
-                <Block Type="MedicalRoom" Subtype="TSOCorRefillCornerB"/>
-                <Block Type="MedicalRoom" Subtype="TSOCorRefillStraightA"/>
-                <Block Type="MedicalRoom" Subtype="TSOCorRefillStraightB"/>
-                <Block Type="MedicalRoom" Subtype="TSOCorRefillTA"/>
-                <Block Type="MedicalRoom" Subtype="TSOCorRefillTB"/>
-                <Block Type="MedicalRoom" Subtype="TSOCorRefillX"/>
-                <Block Type="Jukebox" Subtype="TSOCorJukeBox"/>
-                <Block Type="Jukebox" Subtype="TSOCorTJukeBox"/>
-                <Block Type="SoundBlock" Subtype="TSOCorSoundBlock"/>
-                <Block Type="SoundBlock" Subtype="TSOCorTSoundBlock"/>
-            </Blocks>
-        </BlockVariantGroup>
-        
-        <!-- Disabled original TSO groups -->
-        <BlockVariantGroup>
-            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CorridorRoundLadderGroup"/>
-            <Icon>Textures\GUI\Icons\Cubes\door.dds</Icon>
-            <DisplayName>Corridor Round Ladder</DisplayName>
-            <Description>Description_Ladder</Description>
-            <Blocks/>
-        </BlockVariantGroup>
-        <BlockVariantGroup>
-            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CorridorRoundCargoGroup"/>
-            <Icon>Textures\GUI\Icons\Cubes\door.dds</Icon>
-            <DisplayName>Corridor Round - Cargo Access</DisplayName>
-            <Description>Description_Passage</Description>
-            <Blocks/>
-        </BlockVariantGroup>
-        <BlockVariantGroup>
-            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CorridorRoundVentGroup"/>
-            <Icon>Textures\GUI\Icons\Cubes\door.dds</Icon>
-            <DisplayName>Corridor Round - Vent</DisplayName>
-            <Description>Description_Passage</Description>
-            <Blocks/>
-        </BlockVariantGroup>
-        <BlockVariantGroup>
-            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CorridorRoundConveyorGroup"/>
-            <Icon>Textures\GUI\Icons\Cubes\door.dds</Icon>
-            <DisplayName>Corridor Round - Conveyor</DisplayName>
-            <Description>Description_Passage</Description>
-            <Blocks/>
-        </BlockVariantGroup>
-        <BlockVariantGroup>
-            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CorridorRoundRefillGroup"/>
-            <Icon>Textures\GUI\Icons\Cubes\door.dds</Icon>
-            <DisplayName>Corridor Round - Refill</DisplayName>
-            <Description>Description_Passage</Description>
-            <Blocks/>
-        </BlockVariantGroup>
-        <BlockVariantGroup>
-            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CorridorRoundWindowGroup"/>
-            <Icon>Textures\GUI\Icons\Cubes\door.dds</Icon>
-            <DisplayName>Corridor Round - Window</DisplayName>
-            <Description>Description_Passage</Description>
-            <Blocks/>
-        </BlockVariantGroup>
-        <BlockVariantGroup>
-            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CorridorRoundLCDGroup"/>
-            <Icon>Textures\GUI\Icons\Cubes\door.dds</Icon>
-            <DisplayName>Corridor Round - LCD</DisplayName>
-            <Description>Description_Passage</Description>
-            <Blocks/>
-        </BlockVariantGroup>
-        <BlockVariantGroup>
-            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CorridorRoundSoundGroup"/>
-            <Icon>Textures\GUI\Icons\Cubes\door.dds</Icon>
-            <DisplayName>Corridor Round - Sound Block</DisplayName>
-            <Description>Description_Passage</Description>
-            <Blocks/>
-        </BlockVariantGroup>
-        <BlockVariantGroup>
-            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CorridorRoundJukeBoxGroup"/>
-            <Icon>Textures\GUI\Icons\Cubes\door.dds</Icon>
-            <DisplayName>Corridor Round - Jukebox</DisplayName>
-            <Description>Description_Passage</Description>
-            <Blocks/>
-        </BlockVariantGroup>
-        <BlockVariantGroup>
-            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CorridorRoundSciFiGroup"/>
-            <Icon>Textures\GUI\Icons\Cubes\door.dds</Icon>
-            <DisplayName>Corridor Round - Button Pannel</DisplayName>
-            <Description>Description_Passage</Description>
-            <Blocks/>
-        </BlockVariantGroup>
-        <BlockVariantGroup>
-            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CorridorRoundButtonGroup"/>
-            <Icon>Textures\GUI\Icons\Cubes\CorridorRound_Light.dds</Icon>
-            <DisplayName>Corridor Round - Button</DisplayName>
-            <Description>Description_Passage</Description>
-            <Blocks/>
-        </BlockVariantGroup>
-        <BlockVariantGroup>
-            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CorridorRoundSensorGroup"/>
-            <Icon>Textures\GUI\Icons\Cubes\door.dds</Icon>
-            <DisplayName>Corridor Round - Button</DisplayName>
-            <Description>Description_Passage</Description>
-            <Blocks/>
-        </BlockVariantGroup>
-        <BlockVariantGroup>
-            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CorridorRoundLightGroup"/>
-            <Icon>Textures\GUI\Icons\Cubes\door.dds</Icon>
-            <DisplayName>Corridor Round Light</DisplayName>
-            <Description>Description_Passage</Description>
-            <Blocks/>
-        </BlockVariantGroup>
-        <BlockVariantGroup>
-            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CorridorRndVentGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\door.dds</Icon>
-            <DisplayName>Corridor Round - Vent Fan</DisplayName>
-            <Description>Description_Passage</Description>
-            <Blocks/>
-        </BlockVariantGroup>
-        <BlockVariantGroup>
-            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CorridorRndVentLightGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\door.dds</Icon>
-            <DisplayName>Corridor - Vent Fan Light</DisplayName>
-            <Description>Description_Passage</Description>
-            <Blocks/>
-        </BlockVariantGroup>
-        <BlockVariantGroup>
-            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CorridorLadderGroup"/>
-            <Icon>Textures\GUI\Icons\Cubes\door.dds</Icon>
-            <DisplayName>Corridor Ladder</DisplayName>
-            <Description>Description_Ladder</Description>
-            <Blocks/>
-        </BlockVariantGroup>
-        <BlockVariantGroup>
-            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CorridorCargoGroup"/>
-            <Icon>Textures\GUI\Icons\Cubes\door.dds</Icon>
-            <DisplayName>Corridor - Cargo Access</DisplayName>
-            <Description>Description_Passage</Description>
-            <Blocks/>
-        </BlockVariantGroup>
-        <BlockVariantGroup>
-            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CorridorVentGroup"/>
-            <Icon>Textures\GUI\Icons\Cubes\door.dds</Icon>
-            <DisplayName>Corridor - Vent Fan</DisplayName>
-            <Description>Description_Passage</Description>
-            <Blocks/>
-        </BlockVariantGroup>
-        <BlockVariantGroup>
-            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CorridorVentLightGroup"/>
-            <Icon>Textures\GUI\Icons\Cubes\door.dds</Icon>
-            <DisplayName>Corridor - Vent Fan Light</DisplayName>
-            <Description>Description_Passage</Description>
-            <Blocks/>
-        </BlockVariantGroup>
-        <BlockVariantGroup>
-            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CorridorVentGroup"/>
-            <Icon>Textures\GUI\Icons\Cubes\door.dds</Icon>
-            <DisplayName>Corridor - Vent</DisplayName>
-            <Description>Description_Passage</Description>
-            <Blocks/>
-        </BlockVariantGroup>
-        <BlockVariantGroup>
-            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CorridorConveyorGroup"/>
-            <Icon>Textures\GUI\Icons\Cubes\door.dds</Icon>
-            <DisplayName>Corridor - Conveyor</DisplayName>
-            <Description>Description_Passage</Description>
-            <Blocks/>
-        </BlockVariantGroup>
-        <BlockVariantGroup>
-            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CorridorRefillGroup"/>
-            <Icon>Textures\GUI\Icons\Cubes\door.dds</Icon>
-            <DisplayName>Corridor Round - Refill</DisplayName>
-            <Description>Description_Passage</Description>
-            <Blocks/>
-        </BlockVariantGroup>
-        <BlockVariantGroup>
-            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CorridorWindowGroup"/>
-            <Icon>Textures\GUI\Icons\Cubes\door.dds</Icon>
-            <DisplayName>Corridor - Window</DisplayName>
-            <Description>Description_Passage</Description>
-            <Blocks/>
-        </BlockVariantGroup>
-        <BlockVariantGroup>
-            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CorridorLCDGroup"/>
-            <Icon>Textures\GUI\Icons\Cubes\door.dds</Icon>
-            <DisplayName>Corridor - LCD</DisplayName>
-            <Description>Description_Passage</Description>
-            <Blocks/>
-        </BlockVariantGroup>
-        <BlockVariantGroup>
-            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CorridorSoundGroup"/>
-            <Icon>Textures\GUI\Icons\Cubes\door.dds</Icon>
-            <DisplayName>Corridor - Sound Block</DisplayName>
-            <Description>Description_Passage</Description>
-            <Blocks/>
-        </BlockVariantGroup>
-        <BlockVariantGroup>
-            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CorridorJukeBoxGroup"/>
-            <Icon>Textures\GUI\Icons\Cubes\door.dds</Icon>
-            <DisplayName>Corridor - Jukebox</DisplayName>
-            <Description>Description_Passage</Description>
-            <Blocks/>
-        </BlockVariantGroup>
-        <BlockVariantGroup>
-            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CorridorSciFiGroup"/>
-            <Icon>Textures\GUI\Icons\Cubes\door.dds</Icon>
-            <DisplayName>Corridor - Button Pannel</DisplayName>
-            <Description>Description_Passage</Description>
-            <Blocks/>
-        </BlockVariantGroup>
-        <BlockVariantGroup>
-            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CorridorButtonGroup"/>
-            <Icon>Textures\GUI\Icons\Cubes\door.dds</Icon>
-            <DisplayName>Corridor - Button</DisplayName>
-            <Description>Description_Passage</Description>
-            <Blocks/>
-        </BlockVariantGroup>
-        <BlockVariantGroup>
-            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CorridorSensorGroup"/>
-            <Icon>Textures\GUI\Icons\Cubes\door.dds</Icon>
-            <DisplayName>Corridor - Sensor</DisplayName>
-            <Description>Description_Passage</Description>
-            <Blocks/>
-        </BlockVariantGroup>
-        <BlockVariantGroup>
-            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CorridorLightGroup"/>
-            <Icon>Textures\GUI\Icons\Cubes\door.dds</Icon>
-            <DisplayName>Corridor Light</DisplayName>
-            <Description>Description_Passage</Description>
-            <Blocks/>
-        </BlockVariantGroup>
-        <BlockVariantGroup>
-            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CorridorCameraGroup"/>
-            <Icon>Textures\GUI\Icons\Cubes\door.dds</Icon>
-            <DisplayName>Corridor Camera</DisplayName>
-            <Description>Description_Camera</Description>
-            <Blocks/>
         </BlockVariantGroup>
 
     </BlockVariantGroups>
