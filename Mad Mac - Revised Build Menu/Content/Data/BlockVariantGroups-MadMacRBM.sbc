@@ -242,6 +242,45 @@
             </Blocks>
         </BlockVariantGroup>
 
+        <!-- Added Inverted TransparentLCD -->
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="LCDGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\TextPanel.dds</Icon>
+            <DisplayName>DisplayName_BlockGroup_LCDGroup</DisplayName>
+            <Description>Description_BlockGroup_LCDGroup</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_TextPanel" Subtype="LargeTextPanel" />
+                <Block Type="MyObjectBuilder_TextPanel" Subtype="LargeLCDPanelWide" />
+                <Block Type="MyObjectBuilder_TextPanel" Subtype="LargeLCDPanel" />
+                <Block Type="MyObjectBuilder_TextPanel" Subtype="SmallTextPanel" />
+                <Block Type="MyObjectBuilder_TextPanel" Subtype="SmallLCDPanelWide" />
+                <Block Type="MyObjectBuilder_TextPanel" Subtype="SmallLCDPanel" />
+                <Block Type="MyObjectBuilder_TextPanel" Subtype="TransparentLCDLarge" />
+                <Block Type="MyObjectBuilder_TextPanel" Subtype="TransparentLCDSmall" />
+                <Block Type="MyObjectBuilder_TextPanel" Subtype="TransparentLCDLargeInv" />
+                <Block Type="MyObjectBuilder_TextPanel" Subtype="TransparentLCDSmallInv" />
+                <Block Type="MyObjectBuilder_TextPanel" Subtype="LargeFullBlockLCDPanel" />
+                <Block Type="MyObjectBuilder_TextPanel" Subtype="SmallFullBlockLCDPanel" />
+                <Block Type="MyObjectBuilder_TextPanel" Subtype="LargeDiagonalLCDPanel" />
+                <Block Type="MyObjectBuilder_TextPanel" Subtype="SmallDiagonalLCDPanel" />
+                <Block Type="MyObjectBuilder_TextPanel" Subtype="LargeCurvedLCDPanel" />
+                <Block Type="MyObjectBuilder_TextPanel" Subtype="SmallCurvedLCDPanel" />
+                <Block Type="MyObjectBuilder_TextPanel" Subtype="HoloLCDLarge" />
+                <Block Type="MyObjectBuilder_TextPanel" Subtype="HoloLCDSmall" />
+                <Block Type="MyObjectBuilder_TextPanel" Subtype="LargeLCDPanel5x5" />
+                <Block Type="MyObjectBuilder_TextPanel" Subtype="LargeLCDPanel5x3" />
+                <Block Type="MyObjectBuilder_TextPanel" Subtype="LargeLCDPanel3x3" />
+                <Block Type="MyObjectBuilder_TextPanel" Subtype="LargeBlockCorner_LCD_1" />
+                <Block Type="MyObjectBuilder_TextPanel" Subtype="LargeBlockCorner_LCD_2" />
+                <Block Type="MyObjectBuilder_TextPanel" Subtype="LargeBlockCorner_LCD_Flat_1" />
+                <Block Type="MyObjectBuilder_TextPanel" Subtype="LargeBlockCorner_LCD_Flat_2" />
+                <Block Type="MyObjectBuilder_TextPanel" Subtype="SmallBlockCorner_LCD_1" />
+                <Block Type="MyObjectBuilder_TextPanel" Subtype="SmallBlockCorner_LCD_2" />
+                <Block Type="MyObjectBuilder_TextPanel" Subtype="SmallBlockCorner_LCD_Flat_1" />
+                <Block Type="MyObjectBuilder_TextPanel" Subtype="SmallBlockCorner_LCD_Flat_2" />
+            </Blocks>
+        </BlockVariantGroup>
+
         <!-- Moved to ExhaustPipeGroup -->
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="HeatVentGroup" />
@@ -1373,7 +1412,7 @@
             </Blocks>
         </BlockVariantGroup>
 
-        <!-- Added TrussPillarLights -->
+        <!-- Added TrussPillarLights, inverted light panels, half-block light panels -->
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="LightingGroup" />
             <Icon>Textures\GUI\Icons\Cubes\interior_light.dds</Icon>
@@ -1391,6 +1430,12 @@
                 <Block Type="MyObjectBuilder_InteriorLight" Subtype="TrussPillarLightSmall" />
                 <Block Type="MyObjectBuilder_InteriorLight" Subtype="SmallLightPanel" />
                 <Block Type="MyObjectBuilder_InteriorLight" Subtype="LargeLightPanel" />
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="SmallLightPanelInv" />
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="LargeLightPanelInv" />
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="HalfBlockLightPanel" />
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="HalfBlockLightPanel_offset" />
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="HalfBlockLightPanel_SG" />
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="HalfBlockLightPanel_offset_SG" />
                 <Block Type="MyObjectBuilder_InteriorLight" Subtype="LargeBlockInsetLight" />
                 <Block Type="MyObjectBuilder_InteriorLight" Subtype="SmallBlockInsetLight" />
                 <Block Type="MyObjectBuilder_InteriorLight" Subtype="LargeBlockTrofferLight" />
@@ -1474,7 +1519,6 @@
         <!-- Added Imperial Light Panels - By JejeServeur -->
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="JSImperialLightPanel" />
-            <Icon>Textures\GUI\Icons\Cubes\SafeZoneBlock.dds</Icon>
             <DisplayName>Imperial Light Panels - By JejeServeur</DisplayName>
             <Description>Description_InteriorLight</Description>
             <Blocks>
