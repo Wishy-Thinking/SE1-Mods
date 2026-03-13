@@ -44,6 +44,9 @@
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="TSOCorStairs"/>
                 <Block Type="MyObjectBuilder_InteriorLight" Subtype="TSOCorStairsLight"/>
 
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="JS_CorridorStairWindow" />
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="JS_CorridorStair" />
+
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="TSOCorRamp"/>
                 <Block Type="MyObjectBuilder_InteriorLight" Subtype="TSOCorRampLight"/>
 

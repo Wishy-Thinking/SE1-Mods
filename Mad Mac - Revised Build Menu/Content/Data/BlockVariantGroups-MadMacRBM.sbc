@@ -139,6 +139,34 @@
             </Blocks>
         </BlockVariantGroup>
 
+        <!-- Added JS_CorridorStairs -->
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CorridorGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\Corridor.dds</Icon>
+            <DisplayName>DisplayName_Block_Corridor</DisplayName>
+            <Description>Description_Passage</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Corridor" />
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="CorridorLight" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="CorridorCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="CorridorT" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="CorridorX" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="CorridorWindow" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="CorridorDoubleWindow" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="CorridorWindowRoof" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="JS_CorridorStairWindow" />
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="JS_CorridorStair" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="CorridorNarrow" />
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="CorridorNarrowStowage" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="CorridorRound" />
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="CorridorRoundLight" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="CorridorRoundCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="CorridorRoundT" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="CorridorRoundX" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="CorridorRoundTransition" />
+            </Blocks>
+        </BlockVariantGroup>
+
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ContainerGroup" />
             <Icon>Textures\GUI\Icons\Cubes\container.dds</Icon>
