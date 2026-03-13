@@ -292,6 +292,7 @@
             <Description>Description_BlockGroup_MedicalGroup</Description>
             <Blocks/>
         </BlockVariantGroup>
+        <!-- Added PowerbankChargers (Mod) -->
         <!-- Moved MedicalGroup, RefillStation here -->
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="SurvivalKitGroup" />
@@ -312,6 +313,8 @@
                 <Block Type="MyObjectBuilder_CryoChamber" Subtype="LargeBlockCryoRoom" />
                 <Block Type="MyObjectBuilder_CryoChamber" Subtype="SmallBlockCryoChamber" />
                 <Block Type="MyObjectBuilder_CryoChamber" Subtype="LargeBlockCryoLabVat" />
+                <Block Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockPowerbankCharger" />
+                <Block Type="MyObjectBuilder_CargoContainer" Subtype="SmallBlockPowerbankCharger" />
             </Blocks>
         </BlockVariantGroup>
 
@@ -1076,7 +1079,24 @@
                 <Block Type="MyObjectBuilder_WindTurbine" Subtype="LargeBlockWindTurbineReskin" />
             </Blocks>
         </BlockVariantGroup>
-        
+
+        <!-- Added PowerCoreFrames -->
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="BatteryGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\Battery.dds</Icon>
+            <DisplayName>DisplayName_Block_Battery</DisplayName>
+            <Description>Description_Battery</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_BatteryBlock" Subtype="LargeBlockBatteryBlock" />
+                <Block Type="MyObjectBuilder_BatteryBlock" Subtype="SmallBlockBatteryBlock" />
+                <Block Type="MyObjectBuilder_BatteryBlock" Subtype="SmallBlockSmallBatteryBlock" />
+                <Block Type="MyObjectBuilder_BatteryBlock" Subtype="LargeBlockBatteryBlockWarfare2" />
+                <Block Type="MyObjectBuilder_BatteryBlock" Subtype="SmallBlockBatteryBlockWarfare2" />
+                <Block Type="MyObjectBuilder_BatteryBlock" Subtype="LargePowerCoreFrame" />
+                <Block Type="MyObjectBuilder_BatteryBlock" Subtype="SmallPowerCoreFrame" />
+            </Blocks>
+        </BlockVariantGroup>
+
         <!-- Moved to ReactorsGroup -->
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="HydrogenEngineGroup" />
@@ -1387,8 +1407,16 @@
             <Description>Description_GravityGenerator</Description>
             <Blocks/>
         </BlockVariantGroup>
+        <!-- Moved to JumpDriveGroup -->
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="SafeZoneGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\SafeZoneBlock.dds</Icon>
+            <DisplayName>DisplayName_Block_SafeZone</DisplayName>
+            <Description>Description_SafeZone</Description>
+            <Blocks/>
+        </BlockVariantGroup>
         <!-- Added AQD_SG_Jumpdrive, AQD_SG_GravityGenerator (for AaW) -->
-        <!-- Moved GravityGroup here -->
+        <!-- Moved GravityGroup SafeZoneBlock here -->
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="JumpDriveGroup" />
             <Icon>Textures\GUI\Icons\Cubes\JumpDrive.dds</Icon>
@@ -1401,6 +1429,7 @@
                 <Block Type="MyObjectBuilder_GravityGenerator" Subtype="" />
                 <Block Type="MyObjectBuilder_GravityGenerator" Subtype="AQD_SG_GravityGenerator" />
                 <Block Type="MyObjectBuilder_GravityGeneratorSphere" Subtype="" />
+                <Block Type="MyObjectBuilder_SafeZoneBlock" Subtype="SafeZoneBlock" />
             </Blocks>
         </BlockVariantGroup>
 
@@ -1439,6 +1468,28 @@
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallFullEmpty" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeDShapeEmpty" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallDShapeEmpty" />
+            </Blocks>
+        </BlockVariantGroup>
+
+        <!-- Added Imperial Light Panels - By JejeServeur -->
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="JSImperialLightPanel" />
+            <Icon>Textures\GUI\Icons\Cubes\SafeZoneBlock.dds</Icon>
+            <DisplayName>Imperial Light Panels - By JejeServeur</DisplayName>
+            <Description>Description_InteriorLight</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="JSSW_ImperialLightPanel_x1" />
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="JSSW_ImperialLightPanel_Inv_x1" />
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="JSSW_ImperialLightPanel_Half_x1" />
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="JSSW_ImperialLightPanel_45deg" />
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="JSSW_ImperialLightPanel_27deg" />
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="JSSW_ImperialLightPanel_63deg" />
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="JSSW_ImperialLightPanel_SlopInv" />
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="JSSW_ImperialLightPanel_SlopSlag" />
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="JSSW_ImperialLightPanel_x5" />
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="JSSW_ImperialLightPanel_x4" />
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="JSSW_ImperialLightPanel_x3" />
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="JSSW_ImperialLightPanel_x2" />
             </Blocks>
         </BlockVariantGroup>
 
