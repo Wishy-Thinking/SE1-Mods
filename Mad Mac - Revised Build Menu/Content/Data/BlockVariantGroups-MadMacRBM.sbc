@@ -1106,20 +1106,19 @@
             <DisplayName>DisplayName_Block_Assembler</DisplayName>
             <Description>Description_Assembler</Description>
             <Blocks>
+                <Block Type="MyObjectBuilder_Assembler" Subtype="LargeAssembler" />
+                <Block Type="MyObjectBuilder_Assembler" Subtype="LargeAssemblerIndustrial" />
                 <Block Type="MyObjectBuilder_Assembler" Subtype="BasicAssembler" />
                 <Block Type="MyObjectBuilder_Assembler" Subtype="AQD_SG_BasicAssembler" />
                 <Block Type="MyObjectBuilder_Assembler" Subtype="Assembling Bench" /> <!-- Ares at War -->
-                <Block Type="MyObjectBuilder_Assembler" Subtype="LargeAssembler" />
-                <Block Type="MyObjectBuilder_Assembler" Subtype="LargeAssemblerIndustrial" />
                 <Block Type="MyObjectBuilder_Refinery" Subtype="LargeRefinery" />
                 <Block Type="MyObjectBuilder_Refinery" Subtype="LargeRefineryIndustrial" />
                 <Block Type="MyObjectBuilder_Refinery" Subtype="Blast Furnace" />
-                <Block Type="MyObjectBuilder_Refinery" Subtype="Blast Furnace" />
+                <Block Type="MyObjectBuilder_Refinery" Subtype="AQD_SG_BasicRefinery" />
                 <Block Type="MyObjectBuilder_Refinery" Subtype="GravelMuncher" />
                 <Block Type="MyObjectBuilder_UpgradeModule" Subtype="LargeProductivityModule" />
                 <Block Type="MyObjectBuilder_UpgradeModule" Subtype="LargeEffectivenessModule" />
                 <Block Type="MyObjectBuilder_UpgradeModule" Subtype="LargeEnergyModule" />
-                <Block Type="MyObjectBuilder_Assembler" Subtype="Assembling Bench" />
             </Blocks>
         </BlockVariantGroup>
 
