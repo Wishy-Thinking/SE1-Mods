@@ -391,15 +391,11 @@
 			<Position><X>0</X><Y>17</Y></Position>
 		</BlockPosition>
 		<BlockPosition>
-			<Name>AlgaeFarm</Name>
+			<Name>Blast Furnace</Name>
 			<Position><X>1</X><Y>17</Y></Position>
 		</BlockPosition>
 		<BlockPosition>
-			<Name>Assembler</Name>
-			<Position><X>2</X><Y>17</Y></Position>
-		</BlockPosition>
-		<BlockPosition>
-			<Name>BasicAssembler</Name> <!-- For AaW/AQD small grid expansion -->
+			<Name>AlgaeFarm</Name>
 			<Position><X>2</X><Y>17</Y></Position>
 		</BlockPosition>
 		<BlockPosition>

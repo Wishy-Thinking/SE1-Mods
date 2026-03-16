@@ -786,9 +786,31 @@
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeStorageBin1" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeStorageBin2" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeStorageBin3" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="StorageShelf1" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="StorageShelf2" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="StorageShelf3" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Wheels Rack" />
             </Blocks>
         </BlockVariantGroup>
 
+
+        <!-- Moved to ConnectorGroup -->
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="WeldPads" />
+            <Icon>Textures\GUI\Icons\Cubes\MergeBlock.dds</Icon>
+            <DisplayName>Weld Pads</DisplayName>
+            <Description>Single-use slim pads that can merge two grids without extra space required.</Description>
+            <Blocks/>
+        </BlockVariantGroup>
+        <!-- Moved to ConnectorGroup -->
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="MergeBlockGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\MergeBlock.dds</Icon>
+            <DisplayName>DisplayName_Block_MergeBlock</DisplayName>
+            <Description>Description_MergeBlock</Description>
+            <Blocks>
+            </Blocks>
+        </BlockVariantGroup>
         <!-- Moved to ConnectorGroup -->
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="AQD_BVG_AirlockConnectors" />
@@ -805,7 +827,7 @@
             <Description>Description_BlockGroup_InputOutputGroup</Description>
             <Blocks/>
         </BlockVariantGroup>
-        <!-- Moved AQD_BVG_AirlockConnectors, Collector here -->
+        <!-- Moved AQD_BVG_AirlockConnectors. MergeBlockGroup, WeldPads, Collector here -->
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ConnectorGroup" />
             <Icon>Textures\GUI\Icons\Cubes\Connector.dds</Icon>
@@ -825,6 +847,11 @@
                 <Block Type="MyObjectBuilder_Collector" Subtype="Collector" />
                 <Block Type="MyObjectBuilder_Collector" Subtype="CollectorSmall" />
                 <Block Type="MyObjectBuilder_Collector" Subtype="JSCompactCollector" />
+                <Block Type="MyObjectBuilder_MergeBlock" Subtype="LargeShipMergeBlock" />
+                <Block Type="MyObjectBuilder_MergeBlock" Subtype="SmallShipMergeBlock" />
+                <Block Type="MyObjectBuilder_MergeBlock" Subtype="SmallShipSmallMergeBlock" />
+                <Block Type="MyObjectBuilder_TerminalBlock" Subtype="LargeWeldPad" />
+                <Block Type="MyObjectBuilder_TerminalBlock" Subtype="SmallWeldPad" />
             </Blocks>
         </BlockVariantGroup>
 
@@ -1010,6 +1037,8 @@
                 <Block Type="MyObjectBuilder_Cockpit" Subtype="LargeBlockBathroomOpen" />
                 <Block Type="MyObjectBuilder_Cockpit" Subtype="LargeBlockBathroom" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="Shower" />
+                <Block Type="MyObjectBuilder_TerminalBlock" Subtype="LargeFreezer" />
+                <Block Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockLabCabinet" />
             </Blocks>
         </BlockVariantGroup>
         <!-- Added Decorative SN Table Sci Fi -->
@@ -1022,6 +1051,7 @@
             <Blocks>
                 <Block Type="MyObjectBuilder_Cockpit" Subtype="LargeBlockCouch" />
                 <Block Type="MyObjectBuilder_Cockpit" Subtype="LargeBlockCouchCorner" />
+                <Block Type="MyObjectBuilder_Cockpit" Subtype="LargeBlockInsetPlantCouch" />
                 <Block Type="MyObjectBuilder_Planter" Subtype="LargeBlockPlanters" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockBarCounter" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockBarCounterCorner" />
@@ -1082,15 +1112,7 @@
             </Blocks>
         </BlockVariantGroup>
 
-        <!-- Moved to AssemblerGroup -->
-        <BlockVariantGroup>
-            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="RefineryGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\refinery.dds</Icon>
-            <DisplayName>DisplayName_Block_Refinery</DisplayName>
-            <Description>Description_Refinery</Description>
-            <Blocks/>
-        </BlockVariantGroup>
-        <!-- Moved to AssemblerGroup -->
+        <!-- Moved to RefineryGroup -->
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="UpgradeModuleGroup" />
             <Icon>Textures\GUI\Icons\Cubes\UpgradeProductivity.dds</Icon>
@@ -1098,23 +1120,31 @@
             <Description>Description_BlockGroup_UpgradeModuleGroup</Description>
             <Blocks/>
         </BlockVariantGroup>
-        <!-- Added Assembling Bench from Ares at War, GravelMuncher from Concrete Podcast -->
-        <!-- Moved RefineryGroup, UpgradeModuleGroup here -->
+        <!-- Moved to RefineryGroup -->
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="AssemblerGroup" />
             <Icon>Textures\GUI\Icons\Cubes\assembler.dds</Icon>
             <DisplayName>DisplayName_Block_Assembler</DisplayName>
             <Description>Description_Assembler</Description>
+            <Blocks/>
+        </BlockVariantGroup>
+        <!-- Added Assembling Bench from Ares at War, GravelMuncher from Concrete Podcast -->
+        <!-- Moved AssemblerGroup, UpgradeModuleGroup here -->
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="RefineryGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\Blastfurnace.dds</Icon>
+            <DisplayName>DisplayName_Block_Refinery</DisplayName>
+            <Description>Description_Refinery</Description>
             <Blocks>
-                <Block Type="MyObjectBuilder_Assembler" Subtype="LargeAssembler" />
-                <Block Type="MyObjectBuilder_Assembler" Subtype="LargeAssemblerIndustrial" />
+                <Block Type="MyObjectBuilder_Refinery" Subtype="Blast Furnace" />
+                <Block Type="MyObjectBuilder_Refinery" Subtype="AQD_SG_BasicRefinery" />
+                <Block Type="MyObjectBuilder_Refinery" Subtype="LargeRefinery" />
+                <Block Type="MyObjectBuilder_Refinery" Subtype="LargeRefineryIndustrial" />
                 <Block Type="MyObjectBuilder_Assembler" Subtype="BasicAssembler" />
                 <Block Type="MyObjectBuilder_Assembler" Subtype="AQD_SG_BasicAssembler" />
                 <Block Type="MyObjectBuilder_Assembler" Subtype="Assembling Bench" /> <!-- Ares at War -->
-                <Block Type="MyObjectBuilder_Refinery" Subtype="LargeRefinery" />
-                <Block Type="MyObjectBuilder_Refinery" Subtype="LargeRefineryIndustrial" />
-                <Block Type="MyObjectBuilder_Refinery" Subtype="Blast Furnace" />
-                <Block Type="MyObjectBuilder_Refinery" Subtype="AQD_SG_BasicRefinery" />
+                <Block Type="MyObjectBuilder_Assembler" Subtype="LargeAssembler" />
+                <Block Type="MyObjectBuilder_Assembler" Subtype="LargeAssemblerIndustrial" />
                 <Block Type="MyObjectBuilder_Refinery" Subtype="GravelMuncher" />
                 <Block Type="MyObjectBuilder_UpgradeModule" Subtype="LargeProductivityModule" />
                 <Block Type="MyObjectBuilder_UpgradeModule" Subtype="LargeEffectivenessModule" />
@@ -1265,29 +1295,6 @@
                 <Block Type="MyObjectBuilder_LandingGear" Subtype="SmallBlockSmallMagneticPlate" />
                 <Block Type="MyObjectBuilder_LandingGear" Subtype="ThumperGear" />
                 <Block Type="MyObjectBuilder_LandingGear" Subtype="SmallTumperGear" />
-            </Blocks>
-        </BlockVariantGroup>
-
-        <!-- Moved to MergeBlockGroup -->
-        <BlockVariantGroup>
-            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="WeldPads" />
-            <Icon>Textures\GUI\Icons\Cubes\MergeBlock.dds</Icon>
-            <DisplayName>Weld Pads</DisplayName>
-            <Description>Single-use slim pads that can merge two grids without extra space required.</Description>
-            <Blocks/>
-        </BlockVariantGroup>
-        <!-- Moved WeldPads here -->
-        <BlockVariantGroup>
-            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="MergeBlockGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\MergeBlock.dds</Icon>
-            <DisplayName>DisplayName_Block_MergeBlock</DisplayName>
-            <Description>Description_MergeBlock</Description>
-            <Blocks>
-                <Block Type="MyObjectBuilder_MergeBlock" Subtype="LargeShipMergeBlock" />
-                <Block Type="MyObjectBuilder_MergeBlock" Subtype="SmallShipMergeBlock" />
-                <Block Type="MyObjectBuilder_MergeBlock" Subtype="SmallShipSmallMergeBlock" />
-                <Block Type="MyObjectBuilder_TerminalBlock" Subtype="LargeWeldPad" />
-                <Block Type="MyObjectBuilder_TerminalBlock" Subtype="SmallWeldPad" />
             </Blocks>
         </BlockVariantGroup>
 
