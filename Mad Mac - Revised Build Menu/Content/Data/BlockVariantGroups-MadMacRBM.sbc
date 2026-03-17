@@ -1160,6 +1160,14 @@
             <Description>Description_WindTurbine</Description>
             <Blocks/>
         </BlockVariantGroup>
+        <!-- Also gotta disable this one that huge wind turbine mod creates -->
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="WindTurbines" />
+            <Icon>Textures\GUI\Icons\Cubes\WindTurbine.dds</Icon>
+            <DisplayName>DisplayName_Block_WindTurbine</DisplayName>
+            <Description>Description_WindTurbine</Description>
+            <Blocks/>
+        </BlockVariantGroup>
         <!-- Moved WindTurbineGroup here -->
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="SolarGroup" />
@@ -1177,6 +1185,8 @@
                 <Block Type="MyObjectBuilder_SolarPanel" Subtype="SmallBlockColorableSolarPanelCornerInverted" />
                 <Block Type="MyObjectBuilder_WindTurbine" Subtype="LargeBlockWindTurbine" />
                 <Block Type="MyObjectBuilder_WindTurbine" Subtype="LargeBlockWindTurbineReskin" />
+                <Block Type="MyObjectBuilder_WindTurbine" Subtype="HugeWindTurbine" />
+                <Block Type="MyObjectBuilder_WindTurbine" Subtype="HugeWindTurbineCentred" />
             </Blocks>
         </BlockVariantGroup>
 
@@ -1271,8 +1281,8 @@
                 <Block Type="MyObjectBuilder_OreDetector" Subtype="SmallOreDetectorReskin" />
                 <Block Type="MyObjectBuilder_LandingGear" Subtype="ThumperGear" />
                 <Block Type="MyObjectBuilder_LandingGear" Subtype="SmallTumperGear" />
-                <Block Type="MyObjectBuilder_Drill" Subtype="StaticDrill" />
                 <Block Type="MyObjectBuilder_Drill" Subtype="BasicStaticDrill" />
+                <Block Type="MyObjectBuilder_Drill" Subtype="StaticDrill" />
                 <Block Type="MyObjectBuilder_Drill" Subtype="AdvancedStaticDrill" />
                 <Block Type="MyObjectBuilder_Drill" Subtype="ReinforcedDrill" />
             </Blocks>
