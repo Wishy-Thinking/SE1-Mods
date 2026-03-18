@@ -918,6 +918,29 @@
             </Blocks>
         </BlockVariantGroup>
 
+        <!-- Added flanged pipes from Missing Pipeline Blocks mod -->
+        <!-- Disabling for now, since it's already included in mod and no other supported mods use this group yet
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ConveyorPipeGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\PipeNode.dds</Icon>
+            <DisplayName>DisplayName_Block_ConveyorPipes</DisplayName>
+            <Description>Description_ConveyorTube</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_Conveyor" Subtype="LargeBlockConveyorPipeJunction" />
+                <Block Type="MyObjectBuilder_Conveyor" Subtype="LargeBlockConveyorPipeIntersection" />
+                <Block Type="MyObjectBuilder_Conveyor" Subtype="LargeBlockConveyorPipeT" />
+                <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="LargeBlockConveyorPipeSeamless" />
+                <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="LargeBlockConveyorPipeFlange" />
+                <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="PipeDoubleFlange" />
+                <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="LargeBlockConveyorPipeEnd" />
+                <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="PipeEndFlange" />
+                <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="LargeBlockConveyorPipeCorner" />
+                <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="LargeBlockConveyorSorterIndustrial" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockConveyorPipeCap" />
+            </Blocks>
+        </BlockVariantGroup>
+        -->
+
         <!-- Moved to FoodProductionGroup -->
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="OxygenFarmGroup" />
