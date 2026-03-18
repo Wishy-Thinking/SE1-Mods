@@ -244,7 +244,7 @@
             </Blocks>
         </BlockVariantGroup>
 
-        <!-- Added LG_TransparentLCD_ButtonPanel from AaW -->
+        <!-- Added LG_TransparentLCD_ButtonPanel from AaW, SelfDestructButton from Spaceballs mod -->
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ButtonPanelGroup" />
             <Icon>Textures\GUI\Icons\Cubes\ButtonPanel.dds</Icon>
@@ -267,10 +267,12 @@
                 <Block Type="MyObjectBuilder_TerminalBlock" Subtype="LargeControlPanelPedestal" />
                 <Block Type="MyObjectBuilder_TerminalBlock" Subtype="SmallControlPanelPedestal" />
                 <Block Type="MyObjectBuilder_ButtonPanel" Subtype="LG_TransparentLCD_ButtonPanel" />
+                <Block Type="MyObjectBuilder_ButtonPanel" Subtype="Eikester_Spaceballs_SelfDestructButton_LB" />
+                <Block Type="MyObjectBuilder_ButtonPanel" Subtype="Eikester_Spaceballs_SelfDestructButton" />
             </Blocks>
         </BlockVariantGroup>
 
-        <!-- Added Inverted TransparentLCD -->
+        <!-- Added Inverted TransparentLCD, MrRadar (from Spaceballs mod) -->
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="LCDGroup" />
             <Icon>Textures\GUI\Icons\Cubes\TextPanel.dds</Icon>
@@ -306,6 +308,8 @@
                 <Block Type="MyObjectBuilder_TextPanel" Subtype="SmallBlockCorner_LCD_2" />
                 <Block Type="MyObjectBuilder_TextPanel" Subtype="SmallBlockCorner_LCD_Flat_1" />
                 <Block Type="MyObjectBuilder_TextPanel" Subtype="SmallBlockCorner_LCD_Flat_2" />
+                <Block Type="MyObjectBuilder_TextPanel" Subtype="Eikester_Spaceballs_MrRadar_LB" />
+                <Block Type="MyObjectBuilder_TextPanel" Subtype="Eikester_Spaceballs_MrRadar" />
             </Blocks>
         </BlockVariantGroup>
 
@@ -359,7 +363,7 @@
             <Description>Description_BlockGroup_MedicalGroup</Description>
             <Blocks/>
         </BlockVariantGroup>
-        <!-- Added PowerbankChargers (Mod) -->
+        <!-- Added MrCoffee, PowerbankChargers (Mod) -->
         <!-- Moved MedicalGroup, RefillStation here -->
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="SurvivalKitGroup" />
@@ -376,6 +380,8 @@
                 <Block Type="MyObjectBuilder_MedicalRoom" Subtype="LargeRefillStation" />
                 <Block Type="MyObjectBuilder_MedicalRoom" Subtype="SmallRefillStation" />
                 <Block Type="MyObjectBuilder_MedicalRoom" Subtype="InsetRefillStation" />
+                <Block Type="MyObjectBuilder_MedicalRoom" Subtype="Eikester_Spaceballs_MrCoffee_LB" />
+                <Block Type="MyObjectBuilder_MedicalRoom" Subtype="Eikester_Spaceballs_MrCoffee" />
                 <Block Type="MyObjectBuilder_CryoChamber" Subtype="LargeBlockCryoChamber" />
                 <Block Type="MyObjectBuilder_CryoChamber" Subtype="LargeBlockCryoRoom" />
                 <Block Type="MyObjectBuilder_CryoChamber" Subtype="SmallBlockCryoChamber" />
@@ -475,6 +481,63 @@
             </Blocks>
         </BlockVariantGroup>
 
+        <!-- Added signs from Spaceballs mod --> 
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="WarningSignGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\WarningSign_Arrow.dds</Icon>
+            <DisplayName>DisplayName_Block_WarningSignEaster9</DisplayName>
+            <Description>Description_SignBlocks</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeWarningSignEaster9" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallWarningSignEaster9" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeWarningSignEaster10" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallWarningSignEaster10" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeWarningSignEaster11" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallWarningSignEaster11" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeWarningSignEaster13" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallWarningSignEaster13" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeWarningSignEaster2" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallWarningSignEaster2" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeWarningSignEaster3" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallWarningSignEaster3" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeWarningSign1" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeWarningSign2" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeWarningSign3" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeWarningSign4" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeWarningSign5" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeWarningSign6" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeWarningSign7" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeWarningSign8" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeWarningSign9" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeWarningSign10" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeWarningSign11" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeWarningSign12" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeWarningSign13" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeWarningSign14" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeWarningSign15" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeWarningSign16" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallWarningSign1" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallWarningSign2" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallWarningSign3" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallWarningSign4" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallWarningSign5" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallWarningSign6" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallWarningSign7" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallWarningSign8" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallWarningSign9" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallWarningSign10" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallWarningSign11" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallWarningSign12" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallWarningSign13" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallWarningSign14" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallWarningSign15" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallWarningSign16" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Eikester_Spaceballs_Eagle5Logo_LB" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Eikester_Spaceballs_Eagle5" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Eikester_Spaceballs_Eagle5Logo" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Eikester_Spaceballs_UranusSticker" />
+            </Blocks>
+        </BlockVariantGroup>
 
         <!-- Moved to WindowSmallGroup -->
         <BlockVariantGroup>
