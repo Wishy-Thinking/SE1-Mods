@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <BlockVariantGroups>
+        <!-- Takeshi's Plane Parts -->
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="aero-wing_1x5x1_rounded_edge_Group" />
+            <DisplayName>Wing_1x5x1_rounded_edge</DisplayName>
+            <Description>rounded Wings</Description>
+            <Blocks>
+                <Block Type="TerminalBlock" Subtype="aero-wing_1x5x1_rounded_edge_Large" />
+                <Block Type="TerminalBlock" Subtype="aero-wing_1x5x1_rounded_edge_Small" />
+                <Block Type="TerminalBlock" Subtype="aero-wing_2x5x1_rounded_edge_Large" />
+                <Block Type="TerminalBlock" Subtype="aero-wing_2x5x1_rounded_edge_Small" />
+                <Block Type="TerminalBlock" Subtype="aero-wing_3x5x1_rounded_edge_Large" />
+                <Block Type="TerminalBlock" Subtype="aero-wing_3x5x1_rounded_edge_Small" />
+                <Block Type="TerminalBlock" Subtype="aero-wing_4x5x1_rounded_edge_Large" />
+                <Block Type="TerminalBlock" Subtype="aero-wing_4x5x1_rounded_edge_Small" />
+                <Block Type="TerminalBlock" Subtype="aero-wing_5x5x1_rounded_edge_Large" />
+                <Block Type="TerminalBlock" Subtype="aero-wing_5x5x1_rounded_edge_Small" />
+                <Block Type="TerminalBlock" Subtype="aero-wing_6x5x1_rounded_edge_Large" />
+                <Block Type="TerminalBlock" Subtype="aero-wing_6x5x1_rounded_edge_Small" />
+                <Block Type="TerminalBlock" Subtype="aero-wing_5x3x1_rounded_edge_Large" />
+                <Block Type="TerminalBlock" Subtype="aero-wing_5x3x1_rounded_edge_Small" />
+                <Block Type="TerminalBlock" Subtype="aero-wing_5x2x1_rounded_edge_Large" />
+                <Block Type="TerminalBlock" Subtype="aero-wing_5x2x1_rounded_edge_Small" />
+                <Block Type="TerminalBlock" Subtype="aero-wing_5x1x1_rounded_edge_Large" />
+                <Block Type="TerminalBlock" Subtype="aero-wing_5x1x1_rounded_edge_Small" />
+                <Block Type="CubeBlock" Subtype="aero-wing_1x1x1_rounded_edge_Large" />
+                <Block Type="CubeBlock" Subtype="aero-wing_1x1x1_rounded_edge_Small" />
+            </Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="aero-wing_2x5x1_pointed_edge_Group" />
+            <DisplayName>Wing_2x5x1_pointed_edge</DisplayName>
+            <Description>pointed Wings</Description>
+            <Blocks>
+                <Block Type="TerminalBlock" Subtype="aero-wing_2x5x1_pointed_edge_Large" />
+                <Block Type="TerminalBlock" Subtype="aero-wing_2x5x1_pointed_edge_Small" />
+                <Block Type="TerminalBlock" Subtype="aero-wing_3x5x1_pointed_edge_Large" />
+                <Block Type="TerminalBlock" Subtype="aero-wing_3x5x1_pointed_edge_Small" />
+                <Block Type="TerminalBlock" Subtype="aero-wing_4x5x1_pointed_edge_Large" />
+                <Block Type="TerminalBlock" Subtype="aero-wing_4x5x1_pointed_edge_Small" />
+                <Block Type="TerminalBlock" Subtype="aero-wing_5x5x1_pointed_edge_Large" />
+                <Block Type="TerminalBlock" Subtype="aero-wing_5x5x1_pointed_edge_Small" />
+                <Block Type="TerminalBlock" Subtype="aero-wing_6x5x1_pointed_edge_Large" />
+                <Block Type="TerminalBlock" Subtype="aero-wing_6x5x1_pointed_edge_Small" />
+                <Block Type="TerminalBlock" Subtype="aero-wing_7x5x1_pointed_edge_Large" />
+                <Block Type="TerminalBlock" Subtype="aero-wing_7x5x1_pointed_edge_Small" />
+                <Block Type="CubeBlock" Subtype="aero-wing_2x1x1_pointed_edge_Large" />
+                <Block Type="CubeBlock" Subtype="aero-wing_2x1x1_pointed_edge_Small" />
+            </Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="aero-wing_tip_A_1x1x1_rounded_half_Group" />
+            <DisplayName>Wing_tip_A_1x1x1_rounded_half</DisplayName>
+            <Description>Wing tips</Description>
+            <Blocks>
+                <Block Type="CubeBlock" Subtype="aero-wing_tip_A_1x1x1_rounded_half_Large" />
+                <Block Type="CubeBlock" Subtype="aero-wing_tip_A_1x1x1_rounded_half_Small" />
+                <Block Type="CubeBlock" Subtype="aero-wing_tip_B_1x1x1_rounded_half_Large" />
+                <Block Type="CubeBlock" Subtype="aero-wing_tip_B_1x1x1_rounded_half_Small" />
+                <Block Type="CubeBlock" Subtype="aero-wing_tip_C_1x1x1_rounded_full_Large" />
+                <Block Type="CubeBlock" Subtype="aero-wing_tip_C_1x1x1_rounded_full_Small" />
+                <Block Type="CubeBlock" Subtype="aero-wing_tip_D_2x1x1_rounded_full_to_edge_Large" />
+                <Block Type="CubeBlock" Subtype="aero-wing_tip_D_2x1x1_rounded_full_to_edge_Small" />
+                <Block Type="CubeBlock" Subtype="aero-wing_tip_E_2x1x1_rounded_half_to_edge_Large" />
+                <Block Type="CubeBlock" Subtype="aero-wing_tip_E_2x1x1_rounded_half_to_edge_Small" />
+                <Block Type="CubeBlock" Subtype="aero-wing_tip_F_2x2x1_edge_to_edge_Large" />
+                <Block Type="CubeBlock" Subtype="aero-wing_tip_F_2x2x1_edge_to_edge_Small" />
+                <Block Type="CubeBlock" Subtype="aero-wing_tip_G_05x05x1_rounded_half_Large" />
+                <Block Type="CubeBlock" Subtype="aero-wing_tip_G_05x05x1_rounded_half_Small" />
+                <Block Type="CubeBlock" Subtype="aero-wing_inside_curved_1x1x1_rounded_Large" />
+                <Block Type="CubeBlock" Subtype="aero-wing_inside_curved_1x1x1_rounded_Small" />
+            </Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="aero-wing_fill_1x1x01_Group" />
+            <DisplayName>Wing_flat_1x1x0.1</DisplayName>
+            <Description>Wing fill</Description>
+            <Blocks>
+                <Block Type="CubeBlock" Subtype="aero-wing_fill_1x1x01_Large" />
+                <Block Type="CubeBlock" Subtype="aero-wing_fill_1x1x01_Small" />
+                <Block Type="CubeBlock" Subtype="aero-wing_fill_edge_1x1x01_Large" />
+                <Block Type="CubeBlock" Subtype="aero-wing_fill_edge_1x1x01_Small" />
+                <Block Type="CubeBlock" Subtype="aero-wing_fill_edge_1x05x01_Large" />
+                <Block Type="CubeBlock" Subtype="aero-wing_fill_edge_1x05x01_Small" />
+                <Block Type="CubeBlock" Subtype="aero-wing_fill_edge_1x01x01_Large" />
+                <Block Type="CubeBlock" Subtype="aero-wing_fill_edge_1x01x01_Small" />
+                <Block Type="CubeBlock" Subtype="aero-wing_fill_corner_1x1x01_Large" />
+                <Block Type="CubeBlock" Subtype="aero-wing_fill_corner_1x1x01_Small" />
+                <Block Type="CubeBlock" Subtype="aero-wing_fill_invcorner_1x1x01_Large" />
+                <Block Type="CubeBlock" Subtype="aero-wing_fill_invcorner_1x1x01_Small" />
+                <Block Type="CubeBlock" Subtype="aero-wing_fill_corner_05x05x01_Large" />
+                <Block Type="CubeBlock" Subtype="aero-wing_fill_corner_05x05x01_Small" />
+                <Block Type="CubeBlock" Subtype="aero-wing_fill_invcorner_05x05x01_Large" />
+                <Block Type="CubeBlock" Subtype="aero-wing_fill_invcorner_05x05x01_Small" />
+                <Block Type="CubeBlock" Subtype="aero-wing_fill_corner_01x01x01_Large" />
+                <Block Type="CubeBlock" Subtype="aero-wing_fill_corner_01x01x01_Small" />
+                <Block Type="CubeBlock" Subtype="aero-wing_fill_invcorner_01x01x01_Large" />
+                <Block Type="CubeBlock" Subtype="aero-wing_fill_invcorner_01x01x01_Small" />
+            </Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="aero-wing_fill_corner_1x1x01_Group" />
+            <Icon>Textures\GUI\Icons\Cubes\RoundArmorSlope.dds</Icon>
+            <DisplayName>Wing_flat_corner_1x1x0.1</DisplayName>
+            <Description>Wing fill corner 1x1</Description>
+            <Blocks/>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="aero-wing_fill_corner_05x05x01_Group" />
+            <Icon>Textures\GUI\Icons\Cubes\RoundArmorSlope.dds</Icon>
+            <DisplayName>Wing_flat_corner_0.5x0.5x0.1</DisplayName>
+            <Description>Wing fill corner 0.5x0.5</Description>
+            <Blocks/>
+        </BlockVariantGroup>
+        
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="aero-wing_fill_corner_01x01x01_Group" />
+            <Icon>Textures\GUI\Icons\Cubes\RoundArmorSlope.dds</Icon>
+            <DisplayName>Wing_flat_corner_0.1x0.1x0.1</DisplayName>
+            <Description>Wing fill corner 0.1x0.1</Description>
+            <Blocks/>
+        </BlockVariantGroup>
+        
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="aero-wing_rigging_straight_1x1x1_Group" />
+            <DisplayName>Wing_rigging_straight_1x1x1</DisplayName>
+            <Description>Wing rigging</Description>
+            <Blocks>
+                <Block Type="CubeBlock" Subtype="aero-wing_rigging_straight_1x1x1_Large" />
+                <Block Type="CubeBlock" Subtype="aero-wing_rigging_straight_1x1x1_Small" />
+                <Block Type="CubeBlock" Subtype="aero-wing_rigging_sloped_3x3x1_Large" />
+                <Block Type="CubeBlock" Subtype="aero-wing_rigging_sloped_3x3x1_Small" />
+                <Block Type="CubeBlock" Subtype="aero-wing_rigging_sloped_2x2x1_Large" />
+                <Block Type="CubeBlock" Subtype="aero-wing_rigging_sloped_2x2x1_Small" />
+                <Block Type="MotorStator" Subtype="aero-wing-plane-motorstator_1x1x5_Large" />
+                <Block Type="MotorStator" Subtype="aero-wing-plane-motorstator_1x1x5_Small" />
+                <Block Type="MotorStator" Subtype="aero-wing-plane-motorstator_1x1x11_Large" />
+                <Block Type="MotorStator" Subtype="aero-wing-plane-motorstator_1x1x11_Small" />
+                <Block Type="MotorStator" Subtype="aero-wing-plane-motorstator_1x1x15_Large" />
+                <Block Type="MotorStator" Subtype="aero-wing-plane-motorstator_1x1x15_Small" />
+                <Block Type="AdvancedDoor" Subtype="aero-wing-plane-air_brake_double_1x1x1_Large" />
+                <Block Type="AdvancedDoor" Subtype="aero-wing-plane-air_brake_double_1x1x1_Small" />
+                <Block Type="AdvancedDoor" Subtype="aero-wing-plane-air_brake_single_1x1x1_Large" />
+                <Block Type="AdvancedDoor" Subtype="aero-wing-plane-air_brake_single_1x1x1_Small" />
+            </Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="aero-wing-plane-air_brake_double_1x1x1_Group" />
+            <Icon>Textures\GUI\Icons\Cubes\RoundArmorSlope.dds</Icon>
+            <DisplayName>Plane Air Brake double</DisplayName>
+            <Description>Air Brakes</Description>
+            <Blocks/>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="aero-wing-plane-motorstator_1x1x5_Group" />
+            <Icon>Textures\GUI\Icons\Cubes\RoundArmorSlope.dds</Icon>
+            <DisplayName>Wing Motor 1x1x5</DisplayName>
+            <Description>Wing Motors</Description>
+            <Blocks>
+            </Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="aero-wing-plane-wheel-motorstator_1to1_Group" />
+            <Icon>Textures\GUI\Icons\Cubes\RoundArmorSlope.dds</Icon>
+            <DisplayName>Plane Wheel Motor 1to1</DisplayName>
+            <Description>Wheel Motors</Description>
+            <Blocks/>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="aero-wing-plane-twin-landing-gear-door5x5_Group" />
+            <Icon>Textures\GUI\Icons\Cubes\RoundArmorSlope.dds</Icon>
+            <DisplayName>Plane Landing Gear Door Twin 5x5</DisplayName>
+            <Description>Landing Gear Doors</Description>
+            <Blocks/>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="aero-wing-plane-wheel_suspension_Group" />
+            <DisplayName>Plane wheel suspension large (2x2 Wheel double)</DisplayName>
+            <Description>Plane Wheels</Description>
+            <Blocks>
+                <Block Type="MotorSuspension" Subtype="aero-wing-plane-wheel_suspension_Large" />
+                <Block Type="MotorSuspension" Subtype="aero-wing-plane-wheel_suspension_Small" />
+                <Block Type="MotorSuspension" Subtype="aero-wing-plane-2x2wheel_suspension_in_wing_Large" />
+                <Block Type="MotorSuspension" Subtype="aero-wing-plane-2x2wheel_suspension_in_wing_Small" />
+                <Block Type="MotorSuspension" Subtype="aero-wing-plane-2xwheel_suspension_Large" />
+                <Block Type="MotorSuspension" Subtype="aero-wing-plane-2xwheel_suspension_Small" />
+                <Block Type="MotorSuspension" Subtype="aero-wing-plane-2x2wheel_suspension_side_Large" />
+                <Block Type="MotorSuspension" Subtype="aero-wing-plane-2x2wheel_suspension_side_Small" />
+                <Block Type="MotorSuspension" Subtype="aero-wing-plane-1x1wheel_suspension_front_Large" />
+                <Block Type="MotorSuspension" Subtype="aero-wing-plane-1x1wheel_suspension_front_Small" />
+                <Block Type="MotorStator" Subtype="aero-wing-plane-wheel-motorstator_1to1_Large" />
+                <Block Type="MotorStator" Subtype="aero-wing-plane-wheel-motorstator_1to1_Small" />
+                <Block Type="MotorStator" Subtype="aero-wing-plane-wheel-motorstator_1to2_Large" />
+                <Block Type="MotorStator" Subtype="aero-wing-plane-wheel-motorstator_1to2_Small" />
+                <Block Type="AdvancedDoor" Subtype="aero-wing-plane-twin-landing-gear-door5x5_Large" />
+                <Block Type="AdvancedDoor" Subtype="aero-wing-plane-twin-landing-gear-door5x5_Small" />
+                <Block Type="AdvancedDoor" Subtype="aero-wing-plane-landing-gear-door_side_5x3_Large" />
+                <Block Type="AdvancedDoor" Subtype="aero-wing-plane-landing-gear-door_side_5x3_Small" />
+                <Block Type="AdvancedDoor" Subtype="aero-wing-plane-landing-gear-door_front_5x3_Large" />
+                <Block Type="AdvancedDoor" Subtype="aero-wing-plane-landing-gear-door_front_5x3_Small" />
+                <Block Type="AdvancedDoor" Subtype="aero-wing-plane-landing-gear-door_tiny_1x3_Large" />
+                <Block Type="AdvancedDoor" Subtype="aero-wing-plane-landing-gear-door_tiny_1x3_Small" />
+                <Block Type="AdvancedDoor" Subtype="aero-wing-plane-landing-gear-door_in_wing_5x3_Large" />
+                <Block Type="AdvancedDoor" Subtype="aero-wing-plane-landing-gear-door_in_wing_5x3_Small" />
+            </Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="aero-wing-plane-thr-cover-largeA_Group" />
+            <DisplayName>Plane 3x3 Tube Cover A</DisplayName>
+            <Description>Thruster cover3x3</Description>
+            <Blocks>
+                <Block Type="CubeBlock" Subtype="aero-wing-plane-thr-cover-largeA_Large" />
+                <Block Type="CubeBlock" Subtype="aero-wing-plane-thr-cover-largeA_Small" />
+                <Block Type="CubeBlock" Subtype="aero-wing-plane-thr-cover-largeB_Large" />
+                <Block Type="CubeBlock" Subtype="aero-wing-plane-thr-cover-largeB_Small" />
+                <Block Type="CubeBlock" Subtype="aero-wing-plane-thr-cover-largeC_Large" />
+                <Block Type="CubeBlock" Subtype="aero-wing-plane-thr-cover-largeC_Small" />
+                <Block Type="CubeBlock" Subtype="aero-wing-plane-thr-cover-largeD_Large" />
+                <Block Type="CubeBlock" Subtype="aero-wing-plane-thr-cover-largeD_Small" />
+                <Block Type="CubeBlock" Subtype="aero-wing-plane-1x1tube-cover-A_Large" />
+                <Block Type="CubeBlock" Subtype="aero-wing-plane-1x1tube-cover-A_Small" />
+                <Block Type="CubeBlock" Subtype="aero-wing-plane-1x1tube-cover-B_Large" />
+                <Block Type="CubeBlock" Subtype="aero-wing-plane-1x1tube-cover-B_Small" />
+                <Block Type="CubeBlock" Subtype="aero-wing-plane-1x1tube-cover-C_Large" />
+                <Block Type="CubeBlock" Subtype="aero-wing-plane-1x1tube-cover-C_Small" />
+                <Block Type="CubeBlock" Subtype="aero-wing-plane-1x1tube-cover-D_Large" />
+                <Block Type="CubeBlock" Subtype="aero-wing-plane-1x1tube-cover-D_Small" />
+            </Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="aero-wing-plane-1x1tube-cover-A_Group" />
+            <Icon>Textures\GUI\Icons\Cubes\RoundArmorSlope.dds</Icon>
+            <DisplayName>Plane 1x1 Tube Cover A</DisplayName>
+            <Description>Thruster cover1x1</Description>
+            <Blocks/>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="Plane_BlockArmorBlock_Group" />
+            <DisplayName>Plane Light Armor Block</DisplayName>
+            <Description>Plane Armor</Description>
+            <Blocks>
+                <Block Type="CubeBlock" Subtype="Plane_LargeBlockArmorBlock" />
+                <Block Type="CubeBlock" Subtype="Plane_SmallBlockArmorBlock" />
+                <Block Type="CubeBlock" Subtype="Plane_LargeBlockArmorSlope" />
+                <Block Type="CubeBlock" Subtype="Plane_SmallBlockArmorSlope" />
+                <Block Type="CubeBlock" Subtype="Plane_LargeBlockArmorCorner" />
+                <Block Type="CubeBlock" Subtype="Plane_SmallBlockArmorCorner" />
+                <Block Type="CubeBlock" Subtype="Plane_LargeBlockArmorCornerInv" />
+                <Block Type="CubeBlock" Subtype="Plane_SmallBlockArmorCornerInv" />
+                <Block Type="CubeBlock" Subtype="Plane_LargeBlockArmorRoundSlope" />
+                <Block Type="CubeBlock" Subtype="Plane_LargeBlockArmorRoundCorner" />
+                <Block Type="CubeBlock" Subtype="Plane_LargeBlockArmorRoundCornerInv" />
+                <Block Type="CubeBlock" Subtype="Plane_SmallBlockArmorRoundSlope" />
+                <Block Type="CubeBlock" Subtype="Plane_SmallBlockArmorRoundCorner" />
+                <Block Type="CubeBlock" Subtype="Plane_SmallBlockArmorRoundCornerInv" />
+            </Blocks>
+        </BlockVariantGroup>
+        
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="Plane_BlockArmorSlope2Base_Group" />
+            <DisplayName>Plane Light Armor 2x1x1 Base</DisplayName>
+            <Description>Plane Armor Slope Base</Description>
+            <Blocks>
+                <Block Type="CubeBlock" Subtype="Plane_LargeBlockArmorSlope2Base" />
+                <Block Type="CubeBlock" Subtype="Plane_SmallBlockArmorSlope2Base" />
+                <Block Type="CubeBlock" Subtype="Plane_LargeBlockArmorSlope2Tip" />
+                <Block Type="CubeBlock" Subtype="Plane_SmallBlockArmorSlope2Tip" />
+                <Block Type="CubeBlock" Subtype="Plane_LargeHalfArmorBlock" />
+                <Block Type="CubeBlock" Subtype="Plane_SmallHalfArmorBlock" />
+                <Block Type="CubeBlock" Subtype="Plane_LargeHalfSlopeArmorBlock" />
+                <Block Type="CubeBlock" Subtype="Plane_SmallHalfSlopeArmorBlock" />
+                <Block Type="CubeBlock" Subtype="Plane_LargeBlockArmorCorner2Base" />
+                <Block Type="CubeBlock" Subtype="Plane_SmallBlockArmorCorner2Base" />
+                <Block Type="CubeBlock" Subtype="Plane_LargeBlockArmorCorner2Tip" />
+                <Block Type="CubeBlock" Subtype="Plane_SmallBlockArmorCorner2Tip" />
+                <Block Type="CubeBlock" Subtype="Plane_LargeBlockArmorInvCorner2Base" />
+                <Block Type="CubeBlock" Subtype="Plane_SmallBlockArmorInvCorner2Base" />
+                <Block Type="CubeBlock" Subtype="Plane_LargeBlockArmorInvCorner2Tip" />
+                <Block Type="CubeBlock" Subtype="Plane_SmallBlockArmorInvCorner2Tip" />
+            </Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="Plane_BlockArmorRoundSlope_Group" />
+            <Icon>Textures\GUI\Icons\Cubes\RoundArmorSlope.dds</Icon>
+            <DisplayName>Plane Round Armor Slope</DisplayName>
+            <Description>Plane Armor Slope</Description>
+            <Blocks/>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="Plane_BlockArmorCorner2Base_Group" />
+            <Icon>Textures\GUI\Icons\Cubes\RoundArmorSlope.dds</Icon>
+            <DisplayName>Plane_Block_LightArmorCorner2Base</DisplayName>
+            <Description>Plane Armor Slope Corner Base</Description>
+            <Blocks/>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="Plane_BlockArmorInvCorner2Base_Group" />
+            <Icon>Textures\GUI\Icons\Cubes\RoundArmorSlope.dds</Icon>
+            <DisplayName>Plane_Block_LightArmorInvCorner2Base</DisplayName>
+            <Description>Plane Armor Slope InvCorner Base</Description>
+            <Blocks/>
+        </BlockVariantGroup>
+
+        <!-- Digi's Aerodynamic Wings -->
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="AerodynamicWingBlocks" />
+            <DisplayName>Aerodynamic Wing Straight</DisplayName>
+            <Description>Aerodynamic Wings</Description>
+            <Blocks>
+                <Block Type="TerminalBlock" Subtype="WingStreight" />
+                <Block Type="TerminalBlock" Subtype="WingAngled1" />
+                <Block Type="TerminalBlock" Subtype="WingAngled2" />
+            </Blocks>
+        </BlockVariantGroup>
+
+        <!-- DraygoKorvan's Aerodynamic Control Surfaces -->
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ControlSurfaces1" />
+            <DisplayName>Control Surface 5x2 Flat</DisplayName>
+            <Description>Aerodynamic Control Surfaces</Description>
+            <Blocks>
+                <Block Type="TerminalBlock" Subtype="Small_Flap_Straight" />
+                <Block Type="TerminalBlock" Subtype="Small_Rudder_Straight_Flat" />
+                <Block Type="TerminalBlock" Subtype="Small_Elevator_Straight" />
+                <Block Type="TerminalBlock" Subtype="Small_2x1_Control_Flat" />
+                <Block Type="TerminalBlock" Subtype="Small_3x3_Angled_Flat" />
+                <Block Type="TerminalBlock" Subtype="Small_3x3_Angled_Flat_Inv" />
+                <Block Type="TerminalBlock" Subtype="Small_5x3_Angled_Flat" />
+                <Block Type="TerminalBlock" Subtype="Small_5x3_Angled_Flat_Inv" />
+            </Blocks>
+        </BlockVariantGroup>
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ControlSurfaces2" />
+            <DisplayName>Control Surface 5x2 Centered</DisplayName>
+            <Description>Aerodynamic Control Surfaces</Description>
+            <Blocks>
+                <Block Type="TerminalBlock" Subtype="Small_Flap_Straight_Centered" />
+                <Block Type="TerminalBlock" Subtype="Small_Rudder_Straight" />
+                <Block Type="TerminalBlock" Subtype="Small_Elevator_Straight_Centered" />
+                <Block Type="TerminalBlock" Subtype="Small_2x1_Control_Centered" />
+                <Block Type="TerminalBlock" Subtype="Small_3x3_Angled_Centered" />
+                <Block Type="TerminalBlock" Subtype="Small_5x3_Angled_Centered" />
+            </Blocks>
+        </BlockVariantGroup>
+        
+    </BlockVariantGroups>
+</Definitions>

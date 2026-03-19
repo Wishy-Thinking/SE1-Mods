@@ -469,7 +469,37 @@
 			<Position><X>4</X><Y>20</Y></Position>
 		</BlockPosition>
 
-		<!-- RowS 21-26 is now unused -->
+		<!-- Rows 21-25 now unused -->
+
+		<!-- Row 26 -->
+		<BlockPosition>
+			<Name>LCD_Terminal_Streight</Name>
+			<Position><X>0</X><Y>26</Y></Position>
+		</BlockPosition>
+		<BlockPosition>
+			<Name>LCD_Terminal_Transition</Name>
+			<Position><X>1</X><Y>26</Y></Position>
+		</BlockPosition>
+		<BlockPosition>
+			<Name>LCDWallTwoSidedStreight</Name>
+			<Position><X>2</X><Y>26</Y></Position>
+		</BlockPosition>
+		<BlockPosition>
+			<Name>Glass_Wall_Streight</Name>
+			<Position><X>3</X><Y>26</Y></Position>
+		</BlockPosition>
+		<BlockPosition>
+			<Name>LG_LCDWallArmored_Streight</Name>
+			<Position><X>4</X><Y>26</Y></Position>
+		</BlockPosition>
+		<BlockPosition>
+			<Name>GlassWallArmored_Streight</Name>
+			<Position><X>5</X><Y>26</Y></Position>
+		</BlockPosition>
+		<BlockPosition>
+			<Name>Holograpic_Standing_Sign</Name>
+			<Position><X>6</X><Y>26</Y></Position>
+		</BlockPosition>
 
 		<!-- Row 27 -->
 		<BlockPosition>
@@ -836,46 +866,97 @@
 			<Position><X>9</X><Y>38</Y></Position>
 		</BlockPosition>
 
+		<!-- 40-41 Plane parts, wings, control surfaces -->
+		<BlockPosition>
+			<Name>aero-wing_1x5x1_rounded_edge</Name>
+			<Position><X>0</X><Y>40</Y></Position>
+		</BlockPosition>
+		<BlockPosition>
+			<Name>aero-wing_2x5x1_pointed_edge</Name>
+			<Position><X>1</X><Y>40</Y></Position>
+		</BlockPosition>
+		<BlockPosition>
+			<Name>aero-wing_tip_A_1x1x1_rounded_half</Name>
+			<Position><X>2</X><Y>40</Y></Position>
+		</BlockPosition>
+		<BlockPosition>
+			<Name>aero-wing_fill_1x1x01</Name>
+			<Position><X>3</X><Y>40</Y></Position>
+		</BlockPosition>
+		<BlockPosition>
+			<Name>Plane_LightArmorBlock</Name>
+			<Position><X>4</X><Y>40</Y></Position>
+		</BlockPosition>
+		<BlockPosition>
+			<Name>Plane_LargeBlockArmorSlope2Base</Name>
+			<Position><X>5</X><Y>40</Y></Position>
+		</BlockPosition>
+		<BlockPosition>
+			<Name>aero-wing-plane-thr-cover-largeA</Name>
+			<Position><X>6</X><Y>40</Y></Position>
+		</BlockPosition>
+		<BlockPosition>
+			<Name>aero-wing_rigging_straight_1x1x1</Name>
+			<Position><X>7</X><Y>40</Y></Position>
+		</BlockPosition>
+		<BlockPosition>
+			<Name>aero-wing-plane-wheel_suspension</Name>
+			<Position><X>8</X><Y>40</Y></Position>
+		</BlockPosition>
+
+		<BlockPosition>
+			<Name>WingStraight</Name>
+			<Position><X>0</X><Y>41</Y></Position>
+		</BlockPosition>
+		<BlockPosition>
+			<Name>Flap_Straight</Name>
+			<Position><X>1</X><Y>41</Y></Position>
+		</BlockPosition>
+		<BlockPosition>
+			<Name>Flap_Straight_Centered</Name>
+			<Position><X>2</X><Y>41</Y></Position>
+		</BlockPosition>
+
 		<BlockPosition>
 			<Name>TSOCorRndTWCStraightDoorAirlockA</Name>
-			<Position><X>0</X><Y>39</Y></Position>
+			<Position><X>0</X><Y>49</Y></Position>
 		</BlockPosition>
 		<BlockPosition>
 			<Name>TSOCorRndConveyorCornerA</Name>
-			<Position><X>1</X><Y>39</Y></Position>
+			<Position><X>1</X><Y>49</Y></Position>
 		</BlockPosition>
 		<BlockPosition>
 			<Name>TSOCorRndTVentFanLSingle</Name>
-			<Position><X>2</X><Y>39</Y></Position>
+			<Position><X>2</X><Y>49</Y></Position>
 		</BlockPosition>
 		<BlockPosition>
 			<Name>TSOCorRndLadderBottomXWA</Name>
-			<Position><X>3</X><Y>39</Y></Position>
+			<Position><X>3</X><Y>49</Y></Position>
 		</BlockPosition>
 		<BlockPosition>
 			<Name>TSOCorRndCargoCornerA</Name>
-			<Position><X>4</X><Y>39</Y></Position>
+			<Position><X>4</X><Y>49</Y></Position>
 		</BlockPosition>
 
 		<BlockPosition>
 			<Name>TSOCorStraightDoorWDB</Name>
-			<Position><X>0</X><Y>40</Y></Position>
+			<Position><X>0</X><Y>50</Y></Position>
 		</BlockPosition>
 		<BlockPosition>
 			<Name>TSOCorConveyorCornerA</Name>
-			<Position><X>1</X><Y>40</Y></Position>
+			<Position><X>1</X><Y>50</Y></Position>
 		</BlockPosition>
 		<BlockPosition>
 			<Name>TSOCorTVentFanLSingle</Name>
-			<Position><X>2</X><Y>40</Y></Position>
+			<Position><X>2</X><Y>50</Y></Position>
 		</BlockPosition>
 		<BlockPosition>
 			<Name>TSOCorLadderDoubleA</Name>
-			<Position><X>3</X><Y>40</Y></Position>
+			<Position><X>3</X><Y>50</Y></Position>
 		</BlockPosition>
 		<BlockPosition>
 			<Name>TSOCorCargoCornerA</Name>
-			<Position><X>4</X><Y>40</Y></Position>
+			<Position><X>4</X><Y>50</Y></Position>
 		</BlockPosition>
 	</BlockPositions>
 </Definitions>
