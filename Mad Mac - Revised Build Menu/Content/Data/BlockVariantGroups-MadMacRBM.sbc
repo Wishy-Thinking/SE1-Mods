@@ -1156,6 +1156,7 @@
                 <Block Type="MyObjectBuilder_Ladder2" Subtype="LadderSmall" />
                 <Block Type="MyObjectBuilder_Ladder2" Subtype="LadderShaft" />
                 <Block Type="MyObjectBuilder_Ladder2" Subtype="TrussLadder" />
+                <Block Type="MyObjectBuilder_Cockpit" Subtype="Large_Handhold" />
             </Blocks>
         </BlockVariantGroup>
 
