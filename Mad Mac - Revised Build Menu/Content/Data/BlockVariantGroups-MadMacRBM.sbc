@@ -1042,7 +1042,7 @@
             </Blocks>
         </BlockVariantGroup>
 
-        <!-- Moved SmallBlockBunkBed to SmallBlockKitchenGroup -->
+        <!-- Moved SmallBlockBunkBed to LockersGroup, because it breaks the group -->
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="BedGroup" />
             <Icon>Textures\GUI\Icons\Cubes\Bed.dds</Icon>
@@ -1064,9 +1064,11 @@
             <Description>Description_StorageShelf</Description>
             <Blocks/>
         </BlockVariantGroup>
-        <!-- Moved FirstAidCabinet to SmallBlockKitchenGroup -->
         <!-- Added Decorative SN Wheels Rack -->
+        <!-- Added AQD_SG_OpenBed, CoffeeMachineFunctional, JSFireExtinguisher, SmallBlockJukeboxReskin -->
         <!-- Moved StorageShelves here -->
+        <!-- Moved SmallBlockBunkBed here because it breaks the bed group -->
+        <!-- Merged SmallBlockKitchenGroup into this group -->
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="LockersGroup" />
             <Icon>Textures\GUI\Icons\Cubes\WeaponRack.dds</Icon>
@@ -1075,38 +1077,40 @@
             <Blocks>
                 <Block Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockWeaponRack" />
                 <Block Type="MyObjectBuilder_CargoContainer" Subtype="SmallBlockWeaponRack" />
-                <Block Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockLockerRoom" />
-                <Block Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockLockerRoomCorner" />
+                <Block Type="MyObjectBuilder_TerminalBlock" Subtype="SmallBlockFirstAidCabinet" />
                 <Block Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockLockers" />
+                <Block Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockLockerRoomCorner" />
+                <Block Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockLockerRoom" />
+                <Block Type="MyObjectBuilder_Kitchen" Subtype="LargeBlockKitchen" />
                 <Block Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockLabCabinet" />
                 <Block Type="MyObjectBuilder_TerminalBlock" Subtype="LargeFreezer" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="StorageShelf1" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="StorageShelf2" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="StorageShelf3" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Wheels Rack" />
-            </Blocks>
-        </BlockVariantGroup>
-        <!-- Added AQD_SG_OpenBed, CoffeeMachineFunctional, SmallBlockWeaponRack, SmallBlockJukeboxReskin -->
-        <!-- Moved SmallBlockBunkBed here -->
-        <BlockVariantGroup>
-            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="SmallBlockKitchenGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\BunkBed_Small.dds</Icon>
-            <DisplayName>DisplayName_Block_Kitchen</DisplayName>
-            <Description>Description_Kitchen</Description>
-            <Blocks>
-                <Block Type="MyObjectBuilder_CryoChamber" Subtype="SmallBlockBunkBed" />
-                <Block Type="MyObjectBuilder_CryoChamber" Subtype="AQD_SG_OpenBed" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockKitchenSink" />
                 <Block Type="MyObjectBuilder_TerminalBlock" Subtype="SmallBlockKitchenOven" />
                 <Block Type="MyObjectBuilder_TerminalBlock" Subtype="SmallBlockKitchenMicrowave" />
                 <Block Type="MyObjectBuilder_TerminalBlock" Subtype="SmallBlockKitchenFridge" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockKitchenCoffeeMachine" />
                 <Block Type="MyObjectBuilder_Assembler" Subtype="CoffeeMachineFunctional" />
-                <Block Type="MyObjectBuilder_TerminalBlock" Subtype="SmallBlockFirstAidCabinet" />
+                <Block Type="MyObjectBuilder_TerminalBlock" Subtype="JSFireExtinguisher_LG" />
+                <Block Type="MyObjectBuilder_TerminalBlock" Subtype="JSFireExtinguisher_SG" />
                 <Block Type="MyObjectBuilder_Jukebox" Subtype="SmallBlockJukeboxReskin" />
+                <Block Type="MyObjectBuilder_CryoChamber" Subtype="SmallBlockBunkBed" />
+                <Block Type="MyObjectBuilder_CryoChamber" Subtype="AQD_SG_OpenBed" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="StorageShelf1" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="StorageShelf2" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="StorageShelf3" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Wheels Rack" />
             </Blocks>
         </BlockVariantGroup>
+        <!-- Merged into LockersGroup (Mostly so SG weapon rack isn't on its own there) -->
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="SmallBlockKitchenGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\BunkBed_Small.dds</Icon>
+            <DisplayName>DisplayName_Block_Kitchen</DisplayName>
+            <Description>Description_Kitchen</Description>
+            <Blocks/>
+        </BlockVariantGroup>
 
+        <!-- Moved to WarheadGroup -->
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="SoundGroup" />
             <Icon>Textures\GUI\Icons\Cubes\SoundBlock.dds</Icon>
@@ -1130,20 +1134,20 @@
             <Description>Description_Planters</Description>
             <Blocks/>
         </BlockVariantGroup>
-        <!-- Added TrussLadder LargeBlockInsetButtonPanel here -->
+        <!-- Added LargeBlockInsetBed, LargeBlockKitchen, LargeBlockInsetButtonPanel -->
         <!-- Moved BathroomGroup, InsetPlanter, Entertainment, Aquarium, Terrariums here -->
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="KitchenGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\Kitchen.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\InteriorKitchen.dds</Icon>
             <DisplayName>DisplayName_Block_Kitchen</DisplayName>
             <Description>Description_Kitchen</Description>
             <Blocks>
-                <Block Type="MyObjectBuilder_Kitchen" Subtype="LargeBlockKitchen" />
                 <Block Type="MyObjectBuilder_InteriorLight" Subtype="LargeBlockInsetKitchen" />
                 <Block Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockInsetBookshelf" />
                 <Block Type="MyObjectBuilder_Jukebox" Subtype="LargeBlockInsetEntertainmentCorner" />
                 <Block Type="MyObjectBuilder_ButtonPanel" Subtype="LargeBlockInsetButtonPanel" />
                 <Block Type="MyObjectBuilder_Cockpit" Subtype="LargeBlockInsetPlantCouch" />
+                <Block Type="MyObjectBuilder_CryoChamber" Subtype="LargeBlockInsetBed" />
                 <Block Type="MyObjectBuilder_InteriorLight" Subtype="LargeInsetPlanter" />
                 <Block Type="MyObjectBuilder_InteriorLight" Subtype="LargeBlockInsetAquarium" />
                 <Block Type="MyObjectBuilder_InteriorLight" Subtype="LargeBlockInsetTerrariumDesert" />
@@ -1154,6 +1158,7 @@
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="Shower" />
                 <Block Type="MyObjectBuilder_TerminalBlock" Subtype="LargeFreezer" />
                 <Block Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockLabCabinet" />
+                <Block Type="MyObjectBuilder_Kitchen" Subtype="LargeBlockKitchen" />
             </Blocks>
         </BlockVariantGroup>
         <!-- Added Decorative SN Table Sci Fi -->
