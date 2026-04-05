@@ -163,6 +163,8 @@
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="CorridorRoundCorner" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="CorridorRoundT" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="CorridorRoundX" />
+                <Block Type="MyObjectBuilder_AdvancedDoor" Subtype="JSRetractableTunnel" />
+                <Block Type="MyObjectBuilder_AdvancedDoor" Subtype="JSRetractableTunnel_CorridorRound_Flat" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="CorridorRoundTransition" />
             </Blocks>
         </BlockVariantGroup>
@@ -1169,6 +1171,26 @@
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockBarCounter" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockBarCounterCorner" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="Table Sci Fi" />
+            </Blocks>
+        </BlockVariantGroup>
+
+        <!-- Added JSFireExtinguisher -->
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="AccesPanelGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\MaintenancePanel_Large.dds</Icon>
+            <DisplayName>DisplayName_Block_AccessPanel1</DisplayName>
+            <Description>Description_AccessPanel</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_TerminalBlock" Subtype="LargeBlockAccessPanel1" />
+                <Block Type="MyObjectBuilder_TerminalBlock" Subtype="LargeBlockAccessPanel2" />
+                <Block Type="MyObjectBuilder_ButtonPanel" Subtype="LargeBlockAccessPanel3" />
+                <Block Type="MyObjectBuilder_TerminalBlock" Subtype="LargeBlockAccessPanel4" />
+                <Block Type="MyObjectBuilder_TerminalBlock" Subtype="SmallBlockAccessPanel1" />
+                <Block Type="MyObjectBuilder_TerminalBlock" Subtype="SmallBlockAccessPanel2" />
+                <Block Type="MyObjectBuilder_TerminalBlock" Subtype="SmallBlockAccessPanel3" />
+                <Block Type="MyObjectBuilder_TerminalBlock" Subtype="SmallBlockAccessPanel4" />
+                <Block Type="MyObjectBuilder_TerminalBlock" Subtype="JSFireExtinguisher_LG" />
+                <Block Type="MyObjectBuilder_TerminalBlock" Subtype="JSFireExtinguisher_SG" />
             </Blocks>
         </BlockVariantGroup>
 
