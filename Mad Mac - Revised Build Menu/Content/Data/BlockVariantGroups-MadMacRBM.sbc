@@ -1690,7 +1690,15 @@
             </Blocks>
         </BlockVariantGroup>
 
-        <!-- Added JejeServeur empty frames -->
+        <!-- Moved to ThrusterAtmoGroup -->
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="Vacuumcells"/>
+            <Icon>Textures\GUI\Icons\Cubes\AtmosphericThrusterLargeLarge.dds</Icon>
+            <DisplayName>Federal Industrial</DisplayName>
+            <Description>Vacuum Cells</Description>
+            <Blocks/>
+        </BlockVariantGroup>
+        <!-- Moved VacuumCells, JejeServeur empty frames here -->
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ThrusterAtmoGroup" />
             <Icon>Textures\GUI\Icons\Cubes\AtmosphericThrusterLargeLarge.dds</Icon>
@@ -1725,6 +1733,9 @@
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallFullEmpty" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeDShapeEmpty" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallDShapeEmpty" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="SmallVacuumCell"/>
+                <Block Type="MyObjectBuilder_Thrust" Subtype="MediumVacuumCell"/>
+                <Block Type="MyObjectBuilder_Thrust" Subtype="LargeVacuumCell"/>
             </Blocks>
         </BlockVariantGroup>
 
@@ -1858,7 +1869,7 @@
             </Blocks>
         </BlockVariantGroup>
 
-        <!-- Added Decorative SN Floor Sci Fi, RoofScifi* -->
+        <!-- Added Decorative SN Floor Sci Fi, RoofScifi*, Runways -->
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="FloorBlockGroup" />
             <Icon>Textures\GUI\Icons\Cubes\DecorativeFloorCenter.dds</Icon>
@@ -1872,6 +1883,13 @@
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockFloorSlab" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockFloorCenter" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockFloorSlab" />
+                <Block Type="MyObjectBuilder_TextPanel" Subtype="RunwayStart" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="RunwayMiddle" />
+                <Block Type="MyObjectBuilder_TextPanel" Subtype="RunwayStartAngled" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="RunwayMiddleAngled" />
+                <Block Type="MyObjectBuilder_TextPanel" Subtype="NarrowRunwayStart" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="NarrowRunwayMiddle" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Helipad_Runway" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="Floor Sci Fi" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="RoofScifi01" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="RoofScifi02" />
