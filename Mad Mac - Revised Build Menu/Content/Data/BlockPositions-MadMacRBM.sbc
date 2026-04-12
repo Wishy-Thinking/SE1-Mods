@@ -118,6 +118,14 @@
 			<Name>NeonTubesStraight1</Name>
 			<Position><X>6</X><Y>4</Y></Position>
 		</BlockPosition>
+		<BlockPosition>
+			<Name>Arc_Truss_I</Name> <!-- Future proof -->
+			<Position><X>7</X><Y>4</Y></Position>
+		</BlockPosition>
+		<BlockPosition>
+			<Name>ARC Truss "I"</Name>
+			<Position><X>7</X><Y>4</Y></Position>
+		</BlockPosition>
 
 		<!-- Row 5 - catwalks, scaffolding, ladders (Moved from 12) -->
 		<BlockPosition>
@@ -533,6 +541,65 @@
 		<BlockPosition>
 			<Name>EmissiveSymbolHyphenPair</Name>
 			<Position><X>8</X><Y>27</Y></Position>
+		</BlockPosition>
+
+		<!-- Row 28 (windows 1) -->
+		<BlockPosition>
+			<Name>Window1x1Flat</Name>
+			<Position>
+				<X>0</X>
+				<Y>28</Y>
+			</Position>
+		</BlockPosition>
+		<BlockPosition>
+			<Name>Window1x2Flat</Name>
+			<Position>
+				<X>1</X>
+				<Y>28</Y>
+			</Position>
+		</BlockPosition>
+		<BlockPosition>
+			<Name>Window2x3Flat</Name>
+			<Position>
+				<X>2</X>
+				<Y>28</Y>
+			</Position>
+		</BlockPosition>
+		<BlockPosition>
+			<Name>Window1x1Face</Name>
+			<Position>
+				<X>3</X>
+				<Y>28</Y>
+			</Position>
+		</BlockPosition>
+		<BlockPosition>
+			<Name>Window1x2Face</Name>
+			<Position>
+				<X>4</X>
+				<Y>28</Y>
+			</Position>
+		</BlockPosition>
+		<BlockPosition>
+			<Name>RoundWindow</Name>
+			<Position>
+				<X>5</X>
+				<Y>28</Y>
+			</Position>
+		</BlockPosition>
+		<!-- Half Windows mod -->
+		<BlockPosition>
+			<Name>HalfWindow1x1Flat</Name>
+			<Position>
+				<X>6</X>
+				<Y>28</Y>
+			</Position>
+		</BlockPosition>
+		<BlockPosition>
+			<Name>HalfWindow1x2Tip</Name>
+			<Position>
+				<X>7</X>
+				<Y>28</Y>
+			</Position>
 		</BlockPosition>
 
 		<!-- Row 29 (windows 2) -->

@@ -1255,6 +1255,14 @@
 
         <!-- Moved to RefineryGroup -->
         <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="GravelMuncher" />
+            <Icon>Textures\GUI\Icons\Cubes\Blastfurnace.dds</Icon>
+            <DisplayName>GravelMuncher</DisplayName>
+            <Description>GravelMuncher</Description>
+            <Blocks/>
+        </BlockVariantGroup>
+        <!-- Moved to RefineryGroup -->
+        <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="UpgradeModuleGroup" />
             <Icon>Textures\GUI\Icons\Cubes\UpgradeProductivity.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_UpgradeModuleGroup</DisplayName>
