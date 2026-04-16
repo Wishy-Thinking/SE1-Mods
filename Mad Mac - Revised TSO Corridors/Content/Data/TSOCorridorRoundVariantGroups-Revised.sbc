@@ -3,12 +3,14 @@
     <BlockVariantGroups>
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CorridorRoundGroup"/>
-            <Icon>Textures\GUI\Icons\Cubes\CorridorRound_Straight.dds</Icon>
             <DisplayName>DisplayName_Block_Corridor</DisplayName>
             <Description>Description_Passage</Description>
             <Blocks>
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="CorridorRound"/>
                 <Block Type="MyObjectBuilder_InteriorLight" Subtype="CorridorRoundLight"/>
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="TSOCorRndWSingleA"/>
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="TSOCorRndWRoofA"/>
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="TSOCorRndWDoubleA"/>
                 <Block Type="MyObjectBuilder_CargoContainer" Subtype="TSOCorRndCargoSingle"/>
                 <Block Type="MyObjectBuilder_AirVent" Subtype="TSOCorRndVentSingle"/>
                 <Block Type="MyObjectBuilder_AirVent" Subtype="TSOCorRndVentFanSingle"/>
@@ -23,6 +25,8 @@
                 <Block Type="MyObjectBuilder_InteriorLight" Subtype="TSOCorRndCornerLight"/>
 
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="CorridorRoundT"/>
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="TSOCorRndTLight"/>
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="TSOCorRndTWA"/>
                 <Block Type="MyObjectBuilder_CargoContainer" Subtype="TSOCorRndTCargoSingle"/>
                 <Block Type="MyObjectBuilder_AirVent" Subtype="TSOCorRndTVentSingle"/>
                 <Block Type="MyObjectBuilder_AirVent" Subtype="TSOCorRndTVentFanSingle"/>
@@ -31,16 +35,10 @@
                 <Block Type="MyObjectBuilder_ButtonPanel" Subtype="TSOCorRndTSciFiButtonPanel"/>
                 <Block Type="MyObjectBuilder_ButtonPanel" Subtype="TSOCorRndTButton"/>
                 <Block Type="MyObjectBuilder_SensorBlock" Subtype="TSOCorRndTSensor"/>
-                <Block Type="MyObjectBuilder_InteriorLight" Subtype="TSOCorRndTLight"/>
 
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="CorridorRoundX"/>
                 <Block Type="MyObjectBuilder_InteriorLight" Subtype="TSOCorRndXLight"/>
                 <Block Type="MyObjectBuilder_InteriorLight" Subtype="TSOCorRndXVentFan"/>
-
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="TSOCorRndWSingleA"/>
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="TSOCorRndWRoofA"/>
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="TSOCorRndWDoubleA"/>
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="TSOCorRndTWA"/>
             </Blocks>
         </BlockVariantGroup>
 

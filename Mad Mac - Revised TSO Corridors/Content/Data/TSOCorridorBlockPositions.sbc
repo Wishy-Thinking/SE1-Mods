@@ -4,68 +4,45 @@
     <BlockPositions>
         <BlockPosition>
             <Name>Passage</Name>
-            <Position>
-                <X>0</X>
-                <Y>10</Y>
-            </Position>
+            <Position><X>0</X><Y>10</Y></Position>
         </BlockPosition>
         <BlockPosition>
             <Name>Corridor</Name>
-            <Position>
-                <X>1</X>
-                <Y>10</Y>
-            </Position>
+            <Position><X>1</X><Y>10</Y></Position>
         </BlockPosition>
         <BlockPosition>
             <Name>TSOCorCargoSingle</Name>
-            <Position>
-                <X>2</X>
-                <Y>10</Y>
-            </Position>
+            <Position><X>2</X><Y>10</Y></Position>
+        </BlockPosition>
+        <BlockPosition>
+            <Name>TSOCorExtT</Name>
+            <Position><X>3</X><Y>10</Y></Position>
         </BlockPosition>
         <BlockPosition>
             <Name>TSOCorStairs</Name>
-            <Position>
-                <X>3</X>
-                <Y>10</Y>
-            </Position>
+            <Position><X>4</X><Y>10</Y></Position>
         </BlockPosition>
         <BlockPosition>
             <Name>CorridorRound</Name>
-            <Position>
-                <X>4</X>
-                <Y>10</Y>
-            </Position>
+            <Position><X>5</X><Y>10</Y></Position>
         </BlockPosition>
         <BlockPosition>
             <Name>TSOCorRndStairs</Name>
-            <Position>
-                <X>5</X>
-                <Y>10</Y>
-            </Position>
+            <Position><X>6</X><Y>10</Y></Position>
         </BlockPosition>
         <BlockPosition>
             <Name>AirDuct1</Name>
-            <Position>
-                <X>6</X>
-                <Y>10</Y>
-            </Position>
+            <Position><X>7</X><Y>10</Y></Position>
         </BlockPosition>
 
         <!-- Put these at the end of row 11, which includes doors -->
         <BlockPosition>
             <Name>TSOCorStraightDoor</Name>
-            <Position>
-                <X>7</X>
-                <Y>11</Y>
-            </Position>
+            <Position><X>7</X><Y>11</Y></Position>
         </BlockPosition>
         <BlockPosition>
             <Name>TSOCorRndStraightDoor</Name>
-            <Position>
-                <X>8</X>
-                <Y>11</Y>
-            </Position>
+            <Position><X>8</X><Y>11</Y></Position>
         </BlockPosition>
     </BlockPositions>
 </Definitions>
