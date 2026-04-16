@@ -134,14 +134,6 @@
         </BlockVariantGroup>
 
         <BlockVariantGroup>
-            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CorridorVentGroup"/>
-            <Icon>Textures\GUI\Icons\Cubes\CorridorLight.dds</Icon>
-            <DisplayName>Corridor - Vent Fan</DisplayName>
-            <Description>Description_Passage</Description>
-            <Blocks/>
-        </BlockVariantGroup>
-
-        <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CorridorVentLightGroup"/>
             <Icon>Textures\GUI\Icons\Cubes\CorridorLight.dds</Icon>
             <DisplayName>Corridor - Vent Fan Light</DisplayName>
@@ -151,6 +143,14 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CorridorVentGroup"/>
+            <Icon>Textures\GUI\Icons\Cubes\CorridorLight.dds</Icon>
+            <DisplayName>Corridor - Vent</DisplayName>
+            <Description>Description_Passage</Description>
+            <Blocks/>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CorridorVentFanGroup"/>
             <Icon>Textures\GUI\Icons\Cubes\CorridorLight.dds</Icon>
             <DisplayName>Corridor - Vent</DisplayName>
             <Description>Description_Passage</Description>
@@ -238,10 +238,26 @@
         </BlockVariantGroup>
 
         <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CorridorDoorLightGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\CorridorLight.dds</Icon>
+            <DisplayName>DisplayName_Block_Door</DisplayName>
+            <Description>Description_Door</Description>
+            <Blocks/>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CorridorCameraGroup"/>
             <Icon>Textures\GUI\Icons\Cubes\CorridorLight.dds</Icon>
             <DisplayName>Corridor Camera</DisplayName>
             <Description>Description_Camera</Description>
+            <Blocks/>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CorridorCargoExtGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\CorridorLight.dds</Icon>
+            <DisplayName>Corridor - Cargo Access Ext</DisplayName>
+            <Description>Description_Passage</Description>
             <Blocks/>
         </BlockVariantGroup>
 
@@ -254,12 +270,29 @@
         </BlockVariantGroup>
 
         <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CorridorVentExtLightGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\CorridorLight.dds</Icon>
+            <DisplayName>Corridor Ext - Vent</DisplayName>
+            <Description>Description_Passage</Description>
+            <Blocks/>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CorridorExtVentFanGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\CorridorLight.dds</Icon>
+            <DisplayName>Corridor Ext - Vent Fan</DisplayName>
+            <Description>Description_Passage</Description>
+            <Blocks/>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CorridorExtConveyorGroup" />
             <Icon>Textures\GUI\Icons\Cubes\CorridorLight.dds</Icon>
             <DisplayName>Corridor  Ext - Conveyor</DisplayName>
             <Description>Description_Passage</Description>
             <Blocks/>
         </BlockVariantGroup>
+
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CorridorExtRefillGroup" />
             <Icon>Textures\GUI\Icons\Cubes\CorridorLight.dds</Icon>
