@@ -8,7 +8,10 @@
             <DisplayName>Corridor TSO</DisplayName>
             <Description>Description_Passage</Description>
             <Blocks>
-                <!--				Corridor Straight -->
+                <!--
+                  Adding the regular corridor blocks here breaks the original group,
+                  so we have to keep them separate, unlike the round corridors.
+                -->
                 <Block Type="MyObjectBuilder_CargoContainer" Subtype="TSOCorCargoSingle"/>
                 <Block Type="MyObjectBuilder_AirVent" Subtype="TSOCorVentSingle"/>
                 <Block Type="MyObjectBuilder_AirVent" Subtype="TSOCorVentFanSingle"/>
@@ -22,6 +25,7 @@
                 <Block Type="MyObjectBuilder_InteriorLight" Subtype="TSOCorCornerLight"/>
 
                 <Block Type="MyObjectBuilder_InteriorLight" Subtype="TSOCorTLight"/>
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="TSOCorTWA"/>
                 <Block Type="MyObjectBuilder_CargoContainer" Subtype="TSOCorTCargoSingle"/>
                 <Block Type="MyObjectBuilder_AirVent" Subtype="TSOCorTVentSingle"/>
                 <Block Type="MyObjectBuilder_AirVent" Subtype="TSOCorTVentFanSingle"/>
@@ -33,8 +37,38 @@
 
                 <Block Type="MyObjectBuilder_InteriorLight" Subtype="TSOCorXLight"/>
                 <Block Type="MyObjectBuilder_AirVent" Subtype="TSOCorXVentFan"/>
+            </Blocks>
+        </BlockVariantGroup>
 
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="TSOCorTWA"/>
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CorridorExtGroup" />
+            <DisplayName>Corridor Extension</DisplayName>
+            <Description>Description_Passage</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="TSOCorExtT" />
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="TSOCorExtTLight" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="TSOCorExtTWA" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="TSOCorExtTWDA" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="TSOCorExtTWRA" />
+                <Block Type="MyObjectBuilder_CargoContainer" Subtype="TSOCorExtTCargoSingle"/>
+                <Block Type="MyObjectBuilder_AirVent" Subtype="TSOCorExtTVentSingle" />
+                <Block Type="MyObjectBuilder_AirVent" Subtype="TSOCorExtTVentFanSingle"/>
+                <Block Type="MyObjectBuilder_MedicalRoom" Subtype="TSOCorExtTRefillSingle" />
+                <Block Type="MyObjectBuilder_TextPanel"   Subtype="TSOCorExtTLCD" />
+                <Block Type="MyObjectBuilder_ButtonPanel" Subtype="TSOCorExtTSciFiButtonPanel" />
+                <Block Type="MyObjectBuilder_ButtonPanel" Subtype="TSOCorExtTButton" />
+                <Block Type="MyObjectBuilder_CameraBlock" Subtype="TSOCorExtTCameraWall" />
+                <Block Type="MyObjectBuilder_SensorBlock" Subtype="TSOCorExtTSensor" />
+
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="TSOCorExtA" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="TSOCorExtCorner" />
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="TSOCorExtCornerLight" />
+
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="TSOCorExtX" />
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="TSOCorExtXLight" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="TSOCorExtXB" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="TSOCorExtXWA" />
+                <Block Type="MyObjectBuilder_AirVent" Subtype="TSOCorExtXVentFan"/>
             </Blocks>
         </BlockVariantGroup>
 
@@ -80,6 +114,11 @@
             </Blocks>
         </BlockVariantGroup>
 
+        <!--
+          Need to use a base game icon when disabling groups, because the original icon is not
+          present in this mod and the game will also throw an error if there is no icon specified
+          when the block list is empty
+        -->
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CorridorLadderGroup"/>
             <Icon>Textures\GUI\Icons\Cubes\CorridorLight.dds</Icon>
@@ -97,14 +136,6 @@
         </BlockVariantGroup>
 
         <BlockVariantGroup>
-            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CorridorVentGroup"/>
-            <Icon>Textures\GUI\Icons\Cubes\CorridorLight.dds</Icon>
-            <DisplayName>Corridor - Vent Fan</DisplayName>
-            <Description>Description_Passage</Description>
-            <Blocks/>
-        </BlockVariantGroup>
-
-        <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CorridorVentLightGroup"/>
             <Icon>Textures\GUI\Icons\Cubes\CorridorLight.dds</Icon>
             <DisplayName>Corridor - Vent Fan Light</DisplayName>
@@ -114,6 +145,14 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CorridorVentGroup"/>
+            <Icon>Textures\GUI\Icons\Cubes\CorridorLight.dds</Icon>
+            <DisplayName>Corridor - Vent</DisplayName>
+            <Description>Description_Passage</Description>
+            <Blocks/>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CorridorVentFanGroup"/>
             <Icon>Textures\GUI\Icons\Cubes\CorridorLight.dds</Icon>
             <DisplayName>Corridor - Vent</DisplayName>
             <Description>Description_Passage</Description>
@@ -201,12 +240,92 @@
         </BlockVariantGroup>
 
         <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CorridorDoorLightGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\CorridorLight.dds</Icon>
+            <DisplayName>DisplayName_Block_Door</DisplayName>
+            <Description>Description_Door</Description>
+            <Blocks/>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CorridorCameraGroup"/>
             <Icon>Textures\GUI\Icons\Cubes\CorridorLight.dds</Icon>
             <DisplayName>Corridor Camera</DisplayName>
             <Description>Description_Camera</Description>
             <Blocks/>
         </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CorridorCargoExtGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\CorridorLight.dds</Icon>
+            <DisplayName>Corridor - Cargo Access Ext</DisplayName>
+            <Description>Description_Passage</Description>
+            <Blocks/>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CorridorExtVentGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\CorridorLight.dds</Icon>
+            <DisplayName>Corridor Ext - Vent</DisplayName>
+            <Description>Description_Passage</Description>
+            <Blocks/>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CorridorVentExtLightGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\CorridorLight.dds</Icon>
+            <DisplayName>Corridor Ext - Vent</DisplayName>
+            <Description>Description_Passage</Description>
+            <Blocks/>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CorridorExtVentFanGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\CorridorLight.dds</Icon>
+            <DisplayName>Corridor Ext - Vent Fan</DisplayName>
+            <Description>Description_Passage</Description>
+            <Blocks/>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CorridorExtConveyorGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\CorridorLight.dds</Icon>
+            <DisplayName>Corridor  Ext - Conveyor</DisplayName>
+            <Description>Description_Passage</Description>
+            <Blocks/>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CorridorExtRefillGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\CorridorLight.dds</Icon>
+            <DisplayName>Corridor Ext - Refill</DisplayName>
+            <Description>Description_Passage</Description>
+            <Blocks/>
+        </BlockVariantGroup>
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CorridorWindowExtGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\CorridorLight.dds</Icon>
+            <DisplayName>Corridor Ext - Window</DisplayName>
+            <Description>Description_Passage</Description>
+            <Blocks/>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CorridorExtLightGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\CorridorLight.dds</Icon>
+            <DisplayName>Corridor Ext Light</DisplayName>
+            <Description>Description_Passage</Description>
+            <Blocks/>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="MedicalExtGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\CorridorLight.dds</Icon>
+            <DisplayName>DisplayName_Block_MedicalRoom</DisplayName>
+            <Description>Description_MedicalRoom</Description>
+            <Blocks/>
+        </BlockVariantGroup>
+
         <!-- Round -->
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CorridorRoundDoorGroup"/>
