@@ -49,6 +49,7 @@
             </Blocks>
         </BlockVariantGroup>
 
+        <!-- Addee JSTransition -->
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="LightArmorPanelsGroup" />
             <Icon>Textures\GUI\Icons\Cubes\LightArmorPanel.dds</Icon>
@@ -57,36 +58,48 @@
             <Blocks>
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmorPanelLight" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmorSlopedPanelLight" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="JSTransitions_Slope" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmorSlopedSidePanelLight" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmor2x1SlopedPanelLight" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmor2x1SlopedPanelTipLight" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="JSTransitions_HalfSlope" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmor2x1SlopedSideBasePanelLight" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmor2x1SlopedSideTipPanelLight" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmor2x1SlopedSideBasePanelLightInv" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmor2x1SlopedSideTipPanelLightInv" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmorHalfSlopedPanelLight" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="JSTransitions_SlopeHalf" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="JSTransitions_SlopeHalfMirrored" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmor2x1HalfSlopedPanelLightRight" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmor2x1HalfSlopedTipPanelLightRight" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="JSTransitions_HalfSlopeHalfMirrored" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmor2x1HalfSlopedPanelLightLeft" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmor2x1HalfSlopedTipPanelLightLeft" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="JSTransitions_HalfSlopeHalf" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmorHalfCenterPanelLight" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmorHalfPanelLight" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmorQuarterPanelLight" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmorCenterPanelLight" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmorPanelLight" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmorSlopedPanelLight" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="JSTransitions_Slope_SG" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmorSlopedSidePanelLight" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmor2x1SlopedPanelLight" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmor2x1SlopedPanelTipLight" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="JSTransitions_HalfSlope_SG" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmor2x1SlopedSideBasePanelLight" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmor2x1SlopedSideTipPanelLight" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmor2x1SlopedSideBasePanelLightInv" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmor2x1SlopedSideTipPanelLightInv" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmorHalfSlopedPanelLight" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="JSTransitions_SlopeHalfMirrored_SG" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="JSTransitions_SlopeHalf_SG" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmor2x1HalfSlopedPanelLightRight" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmor2x1HalfSlopedTipPanelLightRight" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="JSTransitions_HalfSlopeHalfMirrored_SG" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmor2x1HalfSlopedPanelLightLeft" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmor2x1HalfSlopedTipPanelLightLeft" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="JSTransitions_HalfSlopeHalf_SG" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmorHalfCenterPanelLight" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmorHalfPanelLight" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmorQuarterPanelLight" />
@@ -94,6 +107,7 @@
             </Blocks>
         </BlockVariantGroup>
 
+        <!-- Addee JSTransition -->
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="HeavyArmorPanelsGroup" />
             <Icon>Textures\GUI\Icons\Cubes\HeavyArmorPanel.dds</Icon>
@@ -102,36 +116,48 @@
             <Blocks>
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmorPanelHeavy" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmorSlopedPanelHeavy" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="JSTransitions_Slope" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmorSlopedSidePanelHeavy" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmor2x1SlopedPanelHeavy" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmor2x1SlopedPanelTipHeavy" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="JSTransitions_HalfSlope" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmor2x1SlopedSideBasePanelHeavy" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmor2x1SlopedSideTipPanelHeavy" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmor2x1SlopedSideBasePanelHeavyInv" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmor2x1SlopedSideTipPanelHeavyInv" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmorHalfSlopedPanelHeavy" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="JSTransitions_SlopeHalf" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="JSTransitions_SlopeHalfMirrored" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmor2x1HalfSlopedPanelHeavyRight" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmor2x1HalfSlopedTipPanelHeavyRight" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="JSTransitions_HalfSlopeHalfMirrored" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmor2x1HalfSlopedPanelHeavyLeft" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmor2x1HalfSlopedTipPanelHeavyLeft" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="JSTransitions_HalfSlopeHalf" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmorHalfCenterPanelHeavy" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmorHalfPanelHeavy" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmorQuarterPanelHeavy" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmorCenterPanelHeavy" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmorPanelHeavy" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmorSlopedPanelHeavy" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="JSTransitions_Slope_SG" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmorSlopedSidePanelHeavy" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmor2x1SlopedPanelHeavy" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmor2x1SlopedPanelTipHeavy" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="JSTransitions_HalfSlope_SG" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmor2x1SlopedSideBasePanelHeavy" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmor2x1SlopedSideTipPanelHeavy" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmor2x1SlopedSideBasePanelHeavyInv" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmor2x1SlopedSideTipPanelHeavyInv" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmorHalfSlopedPanelHeavy" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="JSTransitions_SlopeHalfMirrored_SG" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="JSTransitions_SlopeHalf_SG" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmor2x1HalfSlopedPanelHeavyRight" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmor2x1HalfSlopedTipPanelHeavyRight" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="JSTransitions_HalfSlopeHalfMirrored_SG" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmor2x1HalfSlopedPanelHeavyLeft" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmor2x1HalfSlopedTipPanelHeavyLeft" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="JSTransitions_HalfSlopeHalf_SG" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmorHalfCenterPanelHeavy" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmorHalfPanelHeavy" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmorQuarterPanelHeavy" />
@@ -169,6 +195,14 @@
             </Blocks>
         </BlockVariantGroup>
 
+        <!-- Moved to ContainerGroup and DecorativeStorageGroup2 -->
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ImmersiveContainerGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\container.dds</Icon>
+            <DisplayName>Immersive Cargo</DisplayName>
+            <Description>Immersive Cargo</Description>
+            <Blocks/>
+        </BlockVariantGroup>
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ContainerGroup" />
             <Icon>Textures\GUI\Icons\Cubes\container.dds</Icon>
@@ -187,6 +221,7 @@
                 <Block Type="MyObjectBuilder_CargoContainer" Subtype="JSCargoTerminalPlate" />
                 <Block Type="MyObjectBuilder_CargoContainer" Subtype="JSCargoTerminalPlate_1_SG" />
                 <Block Type="MyObjectBuilder_CargoContainer" Subtype="JSCargoTerminalPlate_3_SG" />
+                <Block Type="MyObjectBuilder_CargoContainer" Subtype="OreWagon" />
             </Blocks>
         </BlockVariantGroup>
 
@@ -724,7 +759,15 @@
             </Blocks>
         </BlockVariantGroup>
 
-        <!-- Added Grated Stairs here -->
+        <!-- Moved to the relevant groups -->
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="JSTransitionsGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\LightArmorPanel.dds</Icon>
+            <DisplayName>JSTransitions_Slope</DisplayName>
+            <Description>JSTransitions_Slope</Description>
+            <Blocks/>
+        </BlockVariantGroup>
+        <!-- Added Grated Stairs, JSTransitions_GratedStairs here -->
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="DecoCatwalkGroup" />
             <Icon>Textures\GUI\Icons\Cubes\GratedCatwalk.dds</Icon>
@@ -742,8 +785,11 @@
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="CatwalkHalfRailing" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="CatwalkHalfCenterRailing" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="CatwalkHalfOuterRailing" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="JSTransitions_GratedHalfStairs" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="GratedHalfStairs" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="JSTransitions_GratedHalfStairsMirrored" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="GratedHalfStairsMirrored" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="JSTransitions_GratedStairs" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="GratedStairs" />
             </Blocks>
         </BlockVariantGroup>
@@ -854,6 +900,9 @@
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="StorageShelf1" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="StorageShelf2" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="StorageShelf3" />
+                <Block Type="MyObjectBuilder_CargoContainer" Subtype="StorageRack" />
+                <Block Type="MyObjectBuilder_CargoContainer" Subtype="IngotsShelfType2" />
+                <Block Type="MyObjectBuilder_CargoContainer" Subtype="IngotsShelf" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="Wheels Rack" />
             </Blocks>
         </BlockVariantGroup>
@@ -1869,8 +1918,11 @@
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeRamp" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeStairs" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="GratedStairs" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="JSTransitions_GratedStairs" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="GratedHalfStairs" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="JSTransitions_GratedHalfStairs" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="GratedHalfStairsMirrored" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="JSTransitions_GratedHalfStairsMirrored" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="Scifi Spiral Staircase" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="Scifi Spiral Staircase Cover" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="Scifi Spiral Staircase End Cover" />
