@@ -164,19 +164,7 @@
                         <Efficiency>1</Efficiency>
                     </FuelConverter>
 
-                    <FlameLengthScale>1.2</FlameLengthScale>
-                    <!--<FlameIdleColor>
-            <X>0.2745098</X>
-            <Y>0.4090196</Y>
-            <Z>0.6505882</Z>
-            <W>0.75</W>
-          </FlameIdleColor>
-          <FlameFullColor>
-            <X>0.2745098</X>
-            <Y>0.4090196</Y>
-            <Z>0.6505882</Z>
-            <W>0.75</W>
-          </FlameFullColor>-->
+                    <FlameLengthScale>0.3</FlameLengthScale>
                     <FlameIdleColor>
                         <X>0.08</X>
                         <Y>0.47</Y>
@@ -609,19 +597,7 @@
                         <Efficiency>1</Efficiency>
                     </FuelConverter>
 
-                    <FlameLengthScale>1.2</FlameLengthScale>
-                    <!--<FlameIdleColor>
-            <X>0.2745098</X>
-            <Y>0.4090196</Y>
-            <Z>0.6505882</Z>
-            <W>0.75</W>
-          </FlameIdleColor>
-          <FlameFullColor>
-            <X>0.2745098</X>
-            <Y>0.4090196</Y>
-            <Z>0.6505882</Z>
-            <W>0.75</W>
-          </FlameFullColor>-->
+                    <FlameLengthScale>0.3</FlameLengthScale>
                     <FlameIdleColor>
                         <X>0.08</X>
                         <Y>0.47</Y>
@@ -1053,19 +1029,7 @@
                         <Efficiency>1</Efficiency>
                     </FuelConverter>
 
-                    <FlameLengthScale>1.2</FlameLengthScale>
-                    <!--<FlameIdleColor>
-            <X>0.2745098</X>
-            <Y>0.4090196</Y>
-            <Z>0.6505882</Z>
-            <W>0.75</W>
-          </FlameIdleColor>
-          <FlameFullColor>
-            <X>0.2745098</X>
-            <Y>0.4090196</Y>
-            <Z>0.6505882</Z>
-            <W>0.75</W>
-          </FlameFullColor>-->
+                    <FlameLengthScale>0.6</FlameLengthScale>
                     <FlameIdleColor>
                         <X>0.08</X>
                         <Y>0.47</Y>
@@ -1498,19 +1462,7 @@
                         <Efficiency>1</Efficiency>
                     </FuelConverter>
 
-                    <FlameLengthScale>1.2</FlameLengthScale>
-                    <!--<FlameIdleColor>
-            <X>0.2745098</X>
-            <Y>0.4090196</Y>
-            <Z>0.6505882</Z>
-            <W>0.75</W>
-          </FlameIdleColor>
-          <FlameFullColor>
-            <X>0.2745098</X>
-            <Y>0.4090196</Y>
-            <Z>0.6505882</Z>
-            <W>0.75</W>
-          </FlameFullColor>-->
+                    <FlameLengthScale>0.6</FlameLengthScale>
                     <FlameIdleColor>
                         <X>0.08</X>
                         <Y>0.47</Y>
@@ -1942,19 +1894,7 @@
                         <Efficiency>1</Efficiency>
                     </FuelConverter>
 
-                    <FlameLengthScale>1.2</FlameLengthScale>
-                    <!--<FlameIdleColor>
-            <X>0.2745098</X>
-            <Y>0.4090196</Y>
-            <Z>0.6505882</Z>
-            <W>0.75</W>
-          </FlameIdleColor>
-          <FlameFullColor>
-            <X>0.2745098</X>
-            <Y>0.4090196</Y>
-            <Z>0.6505882</Z>
-            <W>0.75</W>
-          </FlameFullColor>-->
+                    <FlameLengthScale>0.9</FlameLengthScale>
                     <FlameIdleColor>
                         <X>0.08</X>
                         <Y>0.47</Y>
@@ -2387,19 +2327,7 @@
                         <Efficiency>1</Efficiency>
                     </FuelConverter>
 
-                    <FlameLengthScale>1.2</FlameLengthScale>
-                    <!--<FlameIdleColor>
-            <X>0.2745098</X>
-            <Y>0.4090196</Y>
-            <Z>0.6505882</Z>
-            <W>0.75</W>
-          </FlameIdleColor>
-          <FlameFullColor>
-            <X>0.2745098</X>
-            <Y>0.4090196</Y>
-            <Z>0.6505882</Z>
-            <W>0.75</W>
-          </FlameFullColor>-->
+                    <FlameLengthScale>0.9</FlameLengthScale>
                     <FlameIdleColor>
                         <X>0.08</X>
                         <Y>0.47</Y>
@@ -2832,18 +2760,6 @@
                     </FuelConverter>
 
                     <FlameLengthScale>1.2</FlameLengthScale>
-                    <!--<FlameIdleColor>
-            <X>0.2745098</X>
-            <Y>0.4090196</Y>
-            <Z>0.6505882</Z>
-            <W>0.75</W>
-          </FlameIdleColor>
-          <FlameFullColor>
-            <X>0.2745098</X>
-            <Y>0.4090196</Y>
-            <Z>0.6505882</Z>
-            <W>0.75</W>
-          </FlameFullColor>-->
                     <FlameIdleColor>
                         <X>0.08</X>
                         <Y>0.47</Y>
@@ -3277,18 +3193,6 @@
                     </FuelConverter>
 
                     <FlameLengthScale>1.2</FlameLengthScale>
-                    <!--<FlameIdleColor>
-            <X>0.2745098</X>
-            <Y>0.4090196</Y>
-            <Z>0.6505882</Z>
-            <W>0.75</W>
-          </FlameIdleColor>
-          <FlameFullColor>
-            <X>0.2745098</X>
-            <Y>0.4090196</Y>
-            <Z>0.6505882</Z>
-            <W>0.75</W>
-          </FlameFullColor>-->
                     <FlameIdleColor>
                         <X>0.08</X>
                         <Y>0.47</Y>
