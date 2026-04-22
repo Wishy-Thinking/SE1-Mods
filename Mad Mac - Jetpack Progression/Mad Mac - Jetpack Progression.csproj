@@ -32,6 +32,7 @@
             <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
         </AdditionalFiles>
         <AdditionalFiles Remove="Content\*\**\*.cs"/>
+        <AdditionalFiles Remove="Reference\*"/>
         <AdditionalFiles Remove="*mdk.ini"/>
         <AdditionalFiles Remove="*mdk.local.ini"/>
         <AdditionalFiles Remove="Content\Other content folders"/>
