@@ -31,7 +31,7 @@
             </InventorySpawnContainerId>
 
             <Inventory>
-                <InventoryVolume>0.4</InventoryVolume>
+                <InventoryVolume>0.7</InventoryVolume>
             </Inventory>
 
             <SpawnInventoryOnBodyRemoval>true</SpawnInventoryOnBodyRemoval>
@@ -474,7 +474,7 @@
             </InventorySpawnContainerId>
 
             <Inventory>
-                <InventoryVolume>0.4</InventoryVolume>
+                <InventoryVolume>0.7</InventoryVolume>
             </Inventory>
 
             <SpawnInventoryOnBodyRemoval>true</SpawnInventoryOnBodyRemoval>
@@ -894,10 +894,10 @@
         <Character>
             <Id>
                 <TypeId>MyObjectBuilder_Character</TypeId>
-                <SubtypeId>Default_Astronaut</SubtypeId>
+                <SubtypeId>Mad_Mac_Tier1_Jetpack</SubtypeId>
             </Id>
 
-            <Name>Default_Astronaut</Name>
+            <Name>Mad_Mac_Tier1_Jetpack</Name>
             <Model>Models\Characters\Astronaut\SE_astronaut.mwm</Model>
             <Gender>Male</Gender>
             <Mass>100</Mass>
@@ -920,7 +920,7 @@
             </InventorySpawnContainerId>
 
             <Inventory>
-                <InventoryVolume>0.4</InventoryVolume>
+                <InventoryVolume>0.6</InventoryVolume>
             </Inventory>
 
             <SpawnInventoryOnBodyRemoval>true</SpawnInventoryOnBodyRemoval>
@@ -1335,10 +1335,10 @@
         <Character>
             <Id>
                 <TypeId>MyObjectBuilder_Character</TypeId>
-                <SubtypeId>Default_Astronaut_Female</SubtypeId>
+                <SubtypeId>Mad_Mac_Tier1_Jetpack_Female</SubtypeId>
             </Id>
 
-            <Name>Default_Astronaut_Female</Name>
+            <Name>Mad_Mac_Tier1_Jetpack_Female</Name>
             <Model>Models\Characters\Astronaut\Female\SE_astronaut.mwm</Model>
             <Gender>Female</Gender>
             <Mass>100</Mass>
@@ -1363,7 +1363,7 @@
             </InventorySpawnContainerId>
 
             <Inventory>
-                <InventoryVolume>0.4</InventoryVolume>
+                <InventoryVolume>0.6</InventoryVolume>
             </Inventory>
 
             <SpawnInventoryOnBodyRemoval>true</SpawnInventoryOnBodyRemoval>
@@ -1783,10 +1783,10 @@
         <Character>
             <Id>
                 <TypeId>MyObjectBuilder_Character</TypeId>
-                <SubtypeId>Default_Astronaut</SubtypeId>
+                <SubtypeId>Mad_Mac_Tier2_Jetpack</SubtypeId>
             </Id>
 
-            <Name>Default_Astronaut</Name>
+            <Name>Mad_Mac_Tier2_Jetpack</Name>
             <Model>Models\Characters\Astronaut\SE_astronaut.mwm</Model>
             <Gender>Male</Gender>
             <Mass>100</Mass>
@@ -1809,7 +1809,7 @@
             </InventorySpawnContainerId>
 
             <Inventory>
-                <InventoryVolume>0.4</InventoryVolume>
+                <InventoryVolume>0.5</InventoryVolume>
             </Inventory>
 
             <SpawnInventoryOnBodyRemoval>true</SpawnInventoryOnBodyRemoval>
@@ -2224,10 +2224,10 @@
         <Character>
             <Id>
                 <TypeId>MyObjectBuilder_Character</TypeId>
-                <SubtypeId>Default_Astronaut_Female</SubtypeId>
+                <SubtypeId>Mad_Mac_Tier2_Jetpack_Female</SubtypeId>
             </Id>
 
-            <Name>Default_Astronaut_Female</Name>
+            <Name>Mad_Mac_Tier2_Jetpack_Female</Name>
             <Model>Models\Characters\Astronaut\Female\SE_astronaut.mwm</Model>
             <Gender>Female</Gender>
             <Mass>100</Mass>
@@ -2252,7 +2252,7 @@
             </InventorySpawnContainerId>
 
             <Inventory>
-                <InventoryVolume>0.4</InventoryVolume>
+                <InventoryVolume>0.5</InventoryVolume>
             </Inventory>
 
             <SpawnInventoryOnBodyRemoval>true</SpawnInventoryOnBodyRemoval>
@@ -2672,10 +2672,10 @@
         <Character>
             <Id>
                 <TypeId>MyObjectBuilder_Character</TypeId>
-                <SubtypeId>Default_Astronaut</SubtypeId>
+                <SubtypeId>Mad_Mac_Tier3_Jetpack</SubtypeId>
             </Id>
 
-            <Name>Default_Astronaut</Name>
+            <Name>Mad_Mac_Tier3_Jetpack</Name>
             <Model>Models\Characters\Astronaut\SE_astronaut.mwm</Model>
             <Gender>Male</Gender>
             <Mass>100</Mass>
@@ -3113,10 +3113,10 @@
         <Character>
             <Id>
                 <TypeId>MyObjectBuilder_Character</TypeId>
-                <SubtypeId>Default_Astronaut_Female</SubtypeId>
+                <SubtypeId>Mad_Mac_Tier3_Jetpack_Female</SubtypeId>
             </Id>
 
-            <Name>Default_Astronaut_Female</Name>
+            <Name>Mad_Mac_Tier3_Jetpack_Female</Name>
             <Model>Models\Characters\Astronaut\Female\SE_astronaut.mwm</Model>
             <Gender>Female</Gender>
             <Mass>100</Mass>
