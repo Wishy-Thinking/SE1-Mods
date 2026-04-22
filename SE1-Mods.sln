@@ -12,6 +12,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mad Mac - Revised TSO Corri
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mad Mac - Revised Build Menu", "Mad Mac - Revised Build Menu\Mad Mac - Revised Build Menu.csproj", "{255C5A71-F9D9-4243-B914-0731FC050DE8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mad Mac - Jetpack Progression", "Mad Mac - Jetpack Progression\Mad Mac - Jetpack Progression.csproj", "{27B7581B-27C4-49D1-B7A3-03102674186F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -42,5 +44,9 @@ Global
 		{255C5A71-F9D9-4243-B914-0731FC050DE8}.Debug|x64.Build.0 = Debug|x64
 		{255C5A71-F9D9-4243-B914-0731FC050DE8}.Release|x64.ActiveCfg = Release|x64
 		{255C5A71-F9D9-4243-B914-0731FC050DE8}.Release|x64.Build.0 = Release|x64
+		{27B7581B-27C4-49D1-B7A3-03102674186F}.Debug|x64.ActiveCfg = Debug|x64
+		{27B7581B-27C4-49D1-B7A3-03102674186F}.Debug|x64.Build.0 = Debug|x64
+		{27B7581B-27C4-49D1-B7A3-03102674186F}.Release|x64.ActiveCfg = Release|x64
+		{27B7581B-27C4-49D1-B7A3-03102674186F}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 EndGlobal
