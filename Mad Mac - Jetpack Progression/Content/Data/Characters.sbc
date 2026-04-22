@@ -145,11 +145,11 @@
                 <ThrustProperties>
                     <!-- Properties applied once to each direction -->
                     <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-                    <ForceMagnitude>3200</ForceMagnitude>
-                    <SlowdownFactor>5</SlowdownFactor>
+                    <ForceMagnitude>100</ForceMagnitude>
+                    <SlowdownFactor>1</SlowdownFactor>
                     <MinPowerConsumption>0.000000001</MinPowerConsumption>
                     <MaxPowerConsumption>0.0001</MaxPowerConsumption>
-                    <ConsumptionFactorPerG>250</ConsumptionFactorPerG>
+                    <ConsumptionFactorPerG>100</ConsumptionFactorPerG>
 
                     <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
                     <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
@@ -578,11 +578,11 @@
                 <ThrustProperties>
                     <!-- Properties applied once to each direction -->
                     <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-                    <ForceMagnitude>3200</ForceMagnitude>
-                    <SlowdownFactor>5</SlowdownFactor>
+                    <ForceMagnitude>100</ForceMagnitude>
+                    <SlowdownFactor>1</SlowdownFactor>
                     <MinPowerConsumption>0.000000001</MinPowerConsumption>
                     <MaxPowerConsumption>0.0001</MaxPowerConsumption>
-                    <ConsumptionFactorPerG>250</ConsumptionFactorPerG>
+                    <ConsumptionFactorPerG>100</ConsumptionFactorPerG>
 
                     <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
                     <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
