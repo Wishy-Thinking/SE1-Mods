@@ -5,10 +5,10 @@
         <Character>
             <Id>
                 <TypeId>MyObjectBuilder_Character</TypeId>
-                <SubtypeId>Default_Astronaut</SubtypeId>
+                <SubtypeId>Mad_Mac_Feeble_Jetpack</SubtypeId>
             </Id>
 
-            <Name>Default_Astronaut</Name>
+            <Name>Feeble Jetpack</Name>
             <Model>Models\Characters\Astronaut\SE_astronaut.mwm</Model>
             <Gender>Male</Gender>
             <Mass>100</Mass>
@@ -435,10 +435,10 @@
         <Character>
             <Id>
                 <TypeId>MyObjectBuilder_Character</TypeId>
-                <SubtypeId>Default_Astronaut_Female</SubtypeId>
+                <SubtypeId>Mad_Mac_Feeble_Jetpack_Female</SubtypeId>
             </Id>
 
-            <Name>Default_Astronaut_Female</Name>
+            <Name>Feeble Jetpack Female</Name>
             <Model>Models\Characters\Astronaut\Female\SE_astronaut.mwm</Model>
             <Gender>Female</Gender>
             <Mass>100</Mass>
