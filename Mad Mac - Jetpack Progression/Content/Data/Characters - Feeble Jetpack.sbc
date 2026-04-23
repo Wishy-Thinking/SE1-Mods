@@ -19,11 +19,11 @@
             <Model>Models\Suit_Bag.mwm</Model>
             <PhysicalMaterial>Cloth</PhysicalMaterial>
             <DepositAllEnabled>false</DepositAllEnabled>
-            <Description>
-                Jetpack with a very weak strength. Only good for peering under objects.
+            <Description>Jetpack with a very weak strength.
+Only good for peering under objects.
 
-                [PEPCO]
-                suit=Feeble Jetpack
+[PEPCO]
+suit=Feeble Jetpack
             </Description>
         </PhysicalItem>
     </PhysicalItems>

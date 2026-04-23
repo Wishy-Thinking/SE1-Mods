@@ -19,11 +19,10 @@
             <Model>Models\Suit_Bag.mwm</Model>
             <PhysicalMaterial>Cloth</PhysicalMaterial>
             <DepositAllEnabled>false</DepositAllEnabled>
-            <Description>
-                A jetpack with regular strength
+            <Description>A jetpack with regular strength
 
-                [PEPCO]
-                suit=Tier 3 Jetpack
+[PEPCO]
+suit=Tier 3 Jetpack
             </Description>
         </PhysicalItem>
     </PhysicalItems>
