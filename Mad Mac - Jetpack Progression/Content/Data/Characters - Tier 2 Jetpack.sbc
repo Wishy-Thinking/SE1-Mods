@@ -1,5 +1,33 @@
 <?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <PhysicalItems>
+        <!-- PEPCO Suit Item -->
+        <PhysicalItem xsi:type="MyObjectBuilder_DatapadDefinition">
+            <Id>
+                <TypeId>Datapad</TypeId>
+                <SubtypeId>Mad_Mac_Tier2_Jetpack</SubtypeId>
+            </Id>
+            <DisplayName>Jetpack Tier 2</DisplayName>
+            <Icon>Textures\GUI\Icons\Jetpack_Tier_2.png</Icon>
+            <Size>
+                <X>0.5</X>
+                <Y>0.5</Y>
+                <Z>0.3</Z>
+            </Size>
+            <Mass>5</Mass>
+            <Volume>20</Volume>
+            <Model>Models\Suit_Bag.mwm</Model>
+            <PhysicalMaterial>Cloth</PhysicalMaterial>
+            <DepositAllEnabled>false</DepositAllEnabled>
+            <Description>
+                A somewhat useful jetpack
+
+                [PEPCO]
+                suit=Tier 2 Jetpack
+            </Description>
+        </PhysicalItem>
+    </PhysicalItems>
+
     <Characters>
         <!-- Tier 2 Male-->
         <Character>
