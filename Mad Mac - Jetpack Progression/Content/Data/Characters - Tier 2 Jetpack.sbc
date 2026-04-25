@@ -10,12 +10,12 @@
             <DisplayName>Jetpack Tier 2</DisplayName>
             <Icon>Textures\GUI\Icons\Jetpack_Tier_2.png</Icon>
             <Size>
-                <X>0.4</X>
-                <Y>0.4</Y>
-                <Z>0.3</Z>
+                <X>0.14</X>
+                <Y>0.14</Y>
+                <Z>0.05</Z>
             </Size>
-            <Mass>5</Mass>
-            <Volume>20</Volume>
+            <Mass>2</Mass>
+            <Volume>2</Volume>
             <Model>Models\Characters\Astronaut\AstronautBackpack.mwm</Model>
             <PhysicalMaterial>Cloth</PhysicalMaterial>
             <DepositAllEnabled>false</DepositAllEnabled>
