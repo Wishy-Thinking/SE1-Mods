@@ -16,7 +16,7 @@
             </Size>
             <Mass>5</Mass>
             <Volume>20</Volume>
-            <Model>Models\Items\TemporaryContainer.mwm</Model>
+            <Model>Models\Characters\Astronaut\AstronautBackpack.mwm</Model>
             <PhysicalMaterial>Cloth</PhysicalMaterial>
             <DepositAllEnabled>false</DepositAllEnabled>
             <Description>A weak jetpack
