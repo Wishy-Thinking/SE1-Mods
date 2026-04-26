@@ -172,7 +172,7 @@ suit=Tier 2 Jetpack
                 <ThrustProperties>
                     <!-- Properties applied once to each direction -->
                     <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-                    <ForceMagnitude>2600</ForceMagnitude>
+                    <ForceMagnitude>2500</ForceMagnitude>
                     <SlowdownFactor>2</SlowdownFactor>
                     <MinPowerConsumption>0.000000001</MinPowerConsumption>
                     <MaxPowerConsumption>0.0001</MaxPowerConsumption>
@@ -606,7 +606,7 @@ suit=Tier 2 Jetpack
                 <ThrustProperties>
                     <!-- Properties applied once to each direction -->
                     <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-                    <ForceMagnitude>2600</ForceMagnitude>
+                    <ForceMagnitude>2500</ForceMagnitude>
                     <SlowdownFactor>2</SlowdownFactor>
                     <MinPowerConsumption>0.000000001</MinPowerConsumption>
                     <MaxPowerConsumption>0.0001</MaxPowerConsumption>

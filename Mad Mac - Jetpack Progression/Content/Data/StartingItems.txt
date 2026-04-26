@@ -1,0 +1,4 @@
+# First Spawn Items (given once per player, or incrementally if TrackItemsPerPlayer=true)
+FirstSpawn,MyObjectBuilder_Datapad,Mad_Mac_Feeble_Jetpack,1
+# Respawn Items
+Respawn,MyObjectBuilder_Datapad,Mad_Mac_Feeble_Jetpack,1
