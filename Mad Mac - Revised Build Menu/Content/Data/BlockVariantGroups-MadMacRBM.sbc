@@ -165,6 +165,40 @@
             </Blocks>
         </BlockVariantGroup>
 
+        <!-- Moved Structural SupportBeam blocks here -->
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="BeamGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\LargeGirderStraight.dds</Icon>
+            <DisplayName>DisplayName_Block_BeamBlock</DisplayName>
+            <Description>Description_BeamBlock</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeGridBeamBlock" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeGridBeamBlockSlope" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeGridBeamBlockRound" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeGridBeamBlockSlope2x1Base" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeGridBeamBlockSlope2x1Tip" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeGridBeamBlockHalf" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeGridBeamBlockHalfSlope" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockStructural_Frame" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockStructural_SupportBeam3x3" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockStructural_SupportBeam4x4" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockStructural_SupportBeam5x5" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeGridBeamBlockEnd" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeGridBeamBlockJunction" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeGridBeamBlockTJunction" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallGridBeamBlock" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallGridBeamBlockSlope" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallGridBeamBlockRound" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallGridBeamBlockSlope2x1Base" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallGridBeamBlockSlope2x1Tip" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallGridBeamBlockHalf" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallGridBeamBlockHalfSlope" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallGridBeamBlockEnd" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallGridBeamBlockJunction" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallGridBeamBlockTJunction" />
+            </Blocks>
+        </BlockVariantGroup>
+
         <!-- Added JS_CorridorStairs -->
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CorridorGroup" />
@@ -218,6 +252,9 @@
                 <Block Type="MyObjectBuilder_CargoContainer" Subtype="SmallBlockLargeContainer" />
                 <Block Type="MyObjectBuilder_CargoContainer" Subtype="SmallBlockModularContainer" />
                 <Block Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockLargeIndustrialContainer" />
+                <Block Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockBulkContainerA" />
+                <Block Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockBulkContainerB" />
+                <Block Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockBulkContainerC" />
                 <Block Type="MyObjectBuilder_CargoContainer" Subtype="JSCargoTerminalPlate" />
                 <Block Type="MyObjectBuilder_CargoContainer" Subtype="JSCargoTerminalPlate_1_SG" />
                 <Block Type="MyObjectBuilder_CargoContainer" Subtype="JSCargoTerminalPlate_3_SG" />
@@ -345,6 +382,8 @@
                 <Block Type="MyObjectBuilder_TextPanel" Subtype="SmallBlockCorner_LCD_2" />
                 <Block Type="MyObjectBuilder_TextPanel" Subtype="SmallBlockCorner_LCD_Flat_1" />
                 <Block Type="MyObjectBuilder_TextPanel" Subtype="SmallBlockCorner_LCD_Flat_2" />
+                <Block Type="MyObjectBuilder_LCDPanelsBlock" Subtype="LargeBlockBillboard" />
+                <Block Type="MyObjectBuilder_LCDPanelsBlock" Subtype="LargeBlockBillboardRound" />
                 <Block Type="MyObjectBuilder_TextPanel" Subtype="Eikester_Spaceballs_MrRadar_LB" />
                 <Block Type="MyObjectBuilder_TextPanel" Subtype="Eikester_Spaceballs_MrRadar" />
             </Blocks>
@@ -852,15 +891,15 @@
             </Blocks>
         </BlockVariantGroup>
 
-        <!-- Moved to DecorativeStorageGroup2 -->
+        <!-- Moved to DecorativeStorageGroup1 -->
         <BlockVariantGroup>
-            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="DecorativeStorageGroup1" />
-            <Icon>Textures\GUI\Icons\Cubes\Freight_I.dds</Icon>
-            <DisplayName>DisplayName_Block_Freight1</DisplayName>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="DecorativeStorageGroup2" />
+            <Icon>Textures\GUI\Icons\Cubes\Barrel01.dds</Icon>
+            <DisplayName>DisplayName_Block_Barrel</DisplayName>
             <Description>Description_Freight</Description>
             <Blocks/>
         </BlockVariantGroup>
-        <!-- Moved to DecorativeStorageGroup2 -->
+        <!-- Moved to DecorativeStorageGroup1 -->
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="DecorativeStorageGroup3" />
             <Icon>Textures\GUI\Icons\Cubes\Crate01.dds</Icon>
@@ -868,7 +907,7 @@
             <Description>Description_CrateBlock</Description>
             <Blocks/>
         </BlockVariantGroup>
-        <!-- Moved to DecorativeStorageGroup2 -->
+        <!-- Moved to DecorativeStorageGroup1 -->
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="DecorativeStorageGroup4" />
             <Icon>Textures\GUI\Icons\Cubes\StorageBins_single.dds</Icon>
@@ -876,27 +915,27 @@
             <Description>Description_Freight</Description>
             <Blocks/>
         </BlockVariantGroup>
-        <!-- Added Freight, Crate, Bins here -->
+        <!-- Added Barrel, Crate, Bins here -->
         <BlockVariantGroup>
-            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="DecorativeStorageGroup2" />
-            <Icon>Textures\GUI\Icons\Cubes\Barrel01.dds</Icon>
-            <DisplayName>DisplayName_Block_Barrel</DisplayName>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="DecorativeStorageGroup1" />
+            <Icon>Textures\GUI\Icons\Cubes\Freight_I.dds</Icon>
+            <DisplayName>DisplayName_Block_Freight1</DisplayName>
             <Description>Description_Freight</Description>
             <Blocks>
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Freight1" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Freight1Small" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Freight2" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Freight2Small" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Freight3" />
+                <Block Type="MyObjectBuilder_TerminalBlock" Subtype="LargeCrate" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeStorageBin1" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallStorageBin1" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeStorageBin2" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeStorageBin3" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBarrel" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBarrel" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBarrelThree" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBarrelStack" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Freight1" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Freight2" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Freight3" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_SG_Freight_I" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_SG_Freight_II" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_SG_Freight_III" />
-                <Block Type="MyObjectBuilder_TerminalBlock" Subtype="LargeCrate" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeStorageBin1" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeStorageBin2" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeStorageBin3" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="StorageShelf1" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="StorageShelf2" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="StorageShelf3" />
@@ -906,7 +945,6 @@
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="Wheels Rack" />
             </Blocks>
         </BlockVariantGroup>
-
 
         <!-- Moved to ConnectorGroup -->
         <BlockVariantGroup>
@@ -933,6 +971,7 @@
             <Description>Description_AQD_AirlockConnector</Description>
             <Blocks/>
         </BlockVariantGroup>
+        <!-- Added LargeBlockStructural_PlatformConnector -->
         <!-- Moved AQD_BVG_AirlockConnectors. MergeBlockGroup, WeldPads here -->
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ConnectorGroup" />
@@ -945,6 +984,7 @@
                 <Block Type="MyObjectBuilder_ShipConnector" Subtype="ConnectorMedium" />
                 <Block Type="MyObjectBuilder_ShipConnector" Subtype="LargeBlockInsetConnector" />
                 <Block Type="MyObjectBuilder_ShipConnector" Subtype="LargeBlockInsetConnectorSmall" />
+                <Block Type="MyObjectBuilder_ShipConnector" Subtype="LargeBlockStructural_PlatformConnector" />
                 <Block Type="MyObjectBuilder_ShipConnector" Subtype="SmallBlockInsetConnector" />
                 <Block Type="MyObjectBuilder_ShipConnector" Subtype="SmallBlockInsetConnectorMedium" />
                 <Block Type="MyObjectBuilder_ShipConnector" Subtype="AQD_LG_AirlockConnector_Flat" />
@@ -1225,6 +1265,10 @@
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockBarCounter" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockBarCounterCorner" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="Table Sci Fi" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockSmallVivarium" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockSmallCornerVivarium" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockLargeVivarium" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockLargeCornerVivarium" />
             </Blocks>
         </BlockVariantGroup>
 
@@ -1744,6 +1788,7 @@
                 <Block Type="MyObjectBuilder_GravityGenerator" Subtype="AQD_SG_GravityGenerator" />
                 <Block Type="MyObjectBuilder_GravityGeneratorSphere" Subtype="" />
                 <Block Type="MyObjectBuilder_SafeZoneBlock" Subtype="SafeZoneBlock" />
+                <Block Type="MyObjectBuilder_SafeZoneBlock" Subtype="SafeZoneBlockReskin" />
             </Blocks>
         </BlockVariantGroup>
 
@@ -1902,6 +1947,16 @@
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="WindowWallRight" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="Viewport1" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="Viewport2" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockNarrowViewport" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockNarrowViewport_Double" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockNarrowViewport_2x1Base" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockNarrowViewport_2x1BaseInv" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockNarrowViewport_2x1Tip" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockNarrowViewport_2x1TipInv" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockNarrowViewport_HalfSlope" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockNarrowViewport_HalfSlopeInv" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockNarrowViewport_Slope" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockNarrowViewport_SlopeInv" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="Big Round Window" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="Big Round Window 2x2" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="RoundWindowHal" />
@@ -1929,7 +1984,15 @@
             </Blocks>
         </BlockVariantGroup>
 
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="StructualBlocksGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\Structural_5_platform.dds</Icon>
+            <DisplayName>DisplayName_Block_StructualBlocks</DisplayName>
+            <Description>Description_FloorplanSigns</Description>
+            <Blocks/>
+        </BlockVariantGroup>
         <!-- Added Decorative SN Floor Sci Fi, RoofScifi*, Runways -->
+        <!-- Moved Structual Platform blocks here -->
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="FloorBlockGroup" />
             <Icon>Textures\GUI\Icons\Cubes\DecorativeFloorCenter.dds</Icon>
@@ -1943,10 +2006,17 @@
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockFloorSlab" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockFloorCenter" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockFloorSlab" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockStructural_Platform" />
+                <Block Type="MyObjectBuilder_ShipConnector" Subtype="LargeBlockStructural_PlatformConnector" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockStructural_PlatformTriangle" />
                 <Block Type="MyObjectBuilder_TextPanel" Subtype="RunwayStart" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="RunwayMiddle" />
                 <Block Type="MyObjectBuilder_TextPanel" Subtype="RunwayStartAngled" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="RunwayMiddleAngled" />
+                <Block Type="MyObjectBuilder_TextPanel" Subtype="RunwayStartWide" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="RunwayMiddleWide" />
+                <Block Type="MyObjectBuilder_TextPanel" Subtype="RunwayStartAngledWide" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="RunwayMiddleAngledWide" />
                 <Block Type="MyObjectBuilder_TextPanel" Subtype="NarrowRunwayStart" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="NarrowRunwayMiddle" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="Helipad_Runway" />
@@ -2035,6 +2105,80 @@
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="Sculpture Human DNA" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="SculptureAlienDNA" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="SculptureMonolith" />
+            </Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id>
+                <TypeId>BlockVariantGroup</TypeId>
+                <SubtypeId>dxc1x1Windows</SubtypeId>
+            </Id>
+            <Icon>Textures\GUI\Icons\Cubes\Window1x1Face.dds</Icon>
+            <DisplayName>1x1 Custom Windows</DisplayName>
+            <Description>Transparent windows will keep the air in and space out while you enjoy the view.</Description>
+            <Blocks/>
+        </BlockVariantGroup>
+        <BlockVariantGroup>
+            <Id>
+                <TypeId>BlockVariantGroup</TypeId>
+                <SubtypeId>dxc1x1HalfWindows</SubtypeId>
+            </Id>
+            <DisplayName>1x1 Half Windows</DisplayName>
+            <Description>Provides a transparent safety barrier so you can enjoy the cosmos without accidentally stepping out into it.</Description>
+            <Blocks>
+                <Block Type="CubeBlock" Subtype="HalfWindow1x1Flat" />
+                <Block Type="CubeBlock" Subtype="HalfWindow1x1FlatInv" />
+                <Block Type="CubeBlock" Subtype="HalfWindow1x1FlatCenter" />
+                <Block Type="CubeBlock" Subtype="HalfWindow1x1FlatCenterInv" />
+                <Block Type="CubeBlock" Subtype="Window1x1FlatCentered" />
+                <Block Type="CubeBlock" Subtype="Window1x1FlatCenteredInv" />
+                <Block Type="CubeBlock" Subtype="HalfWindow1x1Slope" />
+                <Block Type="CubeBlock" Subtype="HalfWindow1x1SlopeInv" />
+                <Block Type="CubeBlock" Subtype="HalfWindow1x1Quarter" />
+                <Block Type="CubeBlock" Subtype="HalfWindow1x1QuarterInv" />
+                <Block Type="CubeBlock" Subtype="Window1x1Quarter" />
+                <Block Type="CubeBlock" Subtype="Window1x1QuarterInv" />
+                <Block Type="CubeBlock" Subtype="HalfWindow1x1InvQuarter" />
+                <Block Type="CubeBlock" Subtype="HalfWindow1x1InvQuarterInv" />
+                <Block Type="CubeBlock" Subtype="Window1x1InvQuarter" />
+                <Block Type="CubeBlock" Subtype="Window1x1InvQuarterInv" />
+                <Block Type="CubeBlock" Subtype="HalfWindow1x1Corner" />
+                <Block Type="CubeBlock" Subtype="HalfWindow1x1CornerInv" />
+            </Blocks>
+        </BlockVariantGroup>
+        <BlockVariantGroup>
+            <Id>
+                <TypeId>BlockVariantGroup</TypeId>
+                <SubtypeId>dxc1x2HalfWindows</SubtypeId>
+            </Id>
+            <DisplayName>1x2 Half Windows</DisplayName>
+            <Description>Transparent windows will keep the air in and space out while you enjoy the view.</Description>
+            <Blocks>
+                <Block Type="CubeBlock" Subtype="HalfWindow1x2Tip" />
+                <Block Type="CubeBlock" Subtype="HalfWindow1x2TipInv" />
+                <Block Type="CubeBlock" Subtype="HalfWindow1x2Base" />
+                <Block Type="CubeBlock" Subtype="HalfWindow1x2BaseInv" />
+                <Block Type="CubeBlock" Subtype="HalfWindowInv1x2Tip" />
+                <Block Type="CubeBlock" Subtype="HalfWindowInv1x2TipInv" />
+                <Block Type="CubeBlock" Subtype="HalfWindowInv1x2Base" />
+                <Block Type="CubeBlock" Subtype="HalfWindowInv1x2BaseInv" />
+                <Block Type="CubeBlock" Subtype="HalfWindowSlope1x2Tip" />
+                <Block Type="CubeBlock" Subtype="HalfWindowSlope1x2TipInv" />
+                <Block Type="CubeBlock" Subtype="HalfWindowSlope1x2Base" />
+                <Block Type="CubeBlock" Subtype="HalfWindowSlope1x2BaseInv" />
+
+                <Block Type="CubeBlock" Subtype="SmallHalfWindow1x2Tip" />
+                <Block Type="CubeBlock" Subtype="SmallHalfWindow1x2TipInv" />
+                <Block Type="CubeBlock" Subtype="SmallHalfWindow1x2Base" />
+                <Block Type="CubeBlock" Subtype="SmallHalfWindow1x2BaseInv" />
+                <Block Type="CubeBlock" Subtype="SmallHalfWindowInv1x2Tip" />
+                <Block Type="CubeBlock" Subtype="SmallHalfWindowInv1x2TipInv" />
+                <Block Type="CubeBlock" Subtype="SmallHalfWindowInv1x2Base" />
+                <Block Type="CubeBlock" Subtype="SmallHalfWindowInv1x2BaseInv" />
+                <Block Type="CubeBlock" Subtype="SmallHalfWindowSlope1x2Tip" />
+                <Block Type="CubeBlock" Subtype="SmallHalfWindowSlope1x2TipInv" />
+                <Block Type="CubeBlock" Subtype="SmallHalfWindowSlope1x2Base" />
+                <Block Type="CubeBlock" Subtype="SmallHalfWindowSlope1x2BaseInv" />
             </Blocks>
         </BlockVariantGroup>
 

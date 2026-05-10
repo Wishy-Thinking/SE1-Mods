@@ -421,7 +421,7 @@
 			<Position><X>0</X><Y>18</Y></Position>
 		</BlockPosition>
 		<BlockPosition>
-			<Name>Barrel</Name>
+			<Name>Freight1</Name>
 			<Position><X>1</X><Y>18</Y></Position>
 		</BlockPosition>
 
@@ -523,28 +523,32 @@
 			<Position><X>2</X><Y>27</Y></Position>
 		</BlockPosition>
 		<BlockPosition>
-			<Name>SymbolA</Name>
+			<Name>FloorPlanSign1</Name>
 			<Position><X>3</X><Y>27</Y></Position>
 		</BlockPosition>
 		<BlockPosition>
-			<Name>Symbol1</Name>
+			<Name>SymbolA</Name>
 			<Position><X>4</X><Y>27</Y></Position>
 		</BlockPosition>
 		<BlockPosition>
-			<Name>SymbolHyphen</Name>
+			<Name>Symbol1</Name>
 			<Position><X>5</X><Y>27</Y></Position>
 		</BlockPosition>
 		<BlockPosition>
-			<Name>EmissiveSymbolAPair</Name>
+			<Name>SymbolHyphen</Name>
 			<Position><X>6</X><Y>27</Y></Position>
 		</BlockPosition>
 		<BlockPosition>
-			<Name>EmissiveSymbol1Pair</Name>
+			<Name>EmissiveSymbolAPair</Name>
 			<Position><X>7</X><Y>27</Y></Position>
 		</BlockPosition>
 		<BlockPosition>
-			<Name>EmissiveSymbolHyphenPair</Name>
+			<Name>EmissiveSymbol1Pair</Name>
 			<Position><X>8</X><Y>27</Y></Position>
+		</BlockPosition>
+		<BlockPosition>
+			<Name>EmissiveSymbolHyphenPair</Name>
+			<Position><X>9</X><Y>27</Y></Position>
 		</BlockPosition>
 
 		<!-- Row 28 (windows 1) -->
