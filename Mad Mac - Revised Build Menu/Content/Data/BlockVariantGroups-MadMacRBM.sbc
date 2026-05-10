@@ -391,6 +391,14 @@
 
         <!-- Moved to ExhaustPipeGroup -->
         <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="Axe_Exhaust" />
+            <Icon>Textures\GUI\Icons\Cubes\ExhaustPipe_Racing_Large.dds</Icon>
+            <DisplayName>Exhaust</DisplayName>
+            <Description>Exhaust system blocks</Description>
+            <Blocks/>
+        </BlockVariantGroup>
+        <!-- Moved to ExhaustPipeGroup -->
+        <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="HeatVentGroup" />
             <Icon>Textures\GUI\Icons\Cubes\HeatVent.dds</Icon>
             <DisplayName>DisplayName_Block_HeatVent</DisplayName>
@@ -410,6 +418,16 @@
                 <Block Type="MyObjectBuilder_ExhaustBlock" Subtype="LargeExhaustCap" />
                 <Block Type="MyObjectBuilder_ExhaustBlock" Subtype="SmallExhaustCap" />
                 <Block Type="MyObjectBuilder_ExhaustBlock" Subtype="LargeExhaustPipeAaW" />
+                <Block Type="CubeBlock" Subtype="exhaust_straight_Large" />
+                <Block Type="CubeBlock" Subtype="exhaust_shroud_full_Large" />
+                <Block Type="CubeBlock" Subtype="exhaust_shroud_holes_Large" />
+                <Block Type="CubeBlock" Subtype="exhaust_corner_Large" />
+                <Block Type="CubeBlock" Subtype="exhaust_flare_Large" />
+                <Block Type="CubeBlock" Subtype="exhaust_straight_Small" />
+                <Block Type="CubeBlock" Subtype="exhaust_shroud_full_Small" />
+                <Block Type="CubeBlock" Subtype="exhaust_shroud_holes_Small" />
+                <Block Type="CubeBlock" Subtype="exhaust_corner_Small" />
+                <Block Type="CubeBlock" Subtype="exhaust_flare_Small" />
                 <Block Type="MyObjectBuilder_HeatVentBlock" Subtype="LargeHeatVentBlock" />
                 <Block Type="MyObjectBuilder_HeatVentBlock" Subtype="SmallHeatVentBlock" />
             </Blocks>
@@ -1292,6 +1310,14 @@
             </Blocks>
         </BlockVariantGroup>
 
+        <!-- Moved to LadderGroup -->
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="Axe_Handles" />
+            <Icon>Textures\GUI\Icons\Cubes\Ladder.dds</Icon>
+            <DisplayName>Handles</DisplayName>
+            <Description>Handles and other related accoutrements</Description>
+            <Blocks/>
+        </BlockVariantGroup>
         <!-- Added TrussLadder (Scaffold Ladder) here -->
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="LadderGroup" />
@@ -1304,6 +1330,14 @@
                 <Block Type="MyObjectBuilder_Ladder2" Subtype="LadderShaft" />
                 <Block Type="MyObjectBuilder_Ladder2" Subtype="TrussLadder" />
                 <Block Type="MyObjectBuilder_Cockpit" Subtype="Large_Handhold" />
+                <Block Type="CubeBlock" Subtype="handle_single_Large" />
+                <Block Type="CubeBlock" Subtype="handle_double_Large" />
+                <Block Type="CubeBlock" Subtype="handle_double_plate_Large" />
+                <Block Type="CubeBlock" Subtype="handle_single_3_Large" />
+                <Block Type="CubeBlock" Subtype="handle_single_Small" />
+                <Block Type="CubeBlock" Subtype="handle_double_Small" />
+                <Block Type="CubeBlock" Subtype="handle_double_plate_Small" />
+                <Block Type="CubeBlock" Subtype="handle_single_3_Small" />
             </Blocks>
         </BlockVariantGroup>
 
@@ -1339,6 +1373,11 @@
                 <Block Type="MyObjectBuilder_Cockpit" Subtype="SmallBlockSuspendedControlSeatB" />
                 <Block Type="MyObjectBuilder_Cockpit" Subtype="AQD_SG_CompactControlSeat" />
                 <Block Type="MyObjectBuilder_Cockpit" Subtype="AQD_SG_CompactSeat" />
+                <Block Type="MyObjectBuilder_Cockpit" Subtype="JSNarrowBridge" />
+                <Block Type="MyObjectBuilder_Cockpit" Subtype="JSNarrowBridge_2x1" />
+                <Block Type="MyObjectBuilder_Cockpit" Subtype="JSNarrowBridge_2x1_Inv" />
+                <Block Type="MyObjectBuilder_Cockpit" Subtype="JSNarrowBridge_halfSlope" />
+                <Block Type="MyObjectBuilder_Cockpit" Subtype="JSNarrowBridge_halfSlope_Inv" />
                 <Block Type="MyObjectBuilder_Cockpit" Subtype="PassengerSeatLarge" />
                 <Block Type="MyObjectBuilder_Cockpit" Subtype="PassengerSeatSmallNew" />
                 <Block Type="MyObjectBuilder_Cockpit" Subtype="PassengerSeatSmallOffset" />
