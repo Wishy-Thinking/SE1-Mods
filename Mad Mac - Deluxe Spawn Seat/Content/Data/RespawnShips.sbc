@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<RespawnShips>
+<Ship> <!-- Planetary Rover -->
+	  <Id>
+		<TypeId>RespawnShipDefinition</TypeId>
+		<SubtypeId>RespawnRover</SubtypeId>
+	  </Id>
+	  <DisplayName>DisplayName_PlanetaryLander</DisplayName>
+	  <Icon>Textures\GUI\Icons\RespawnShips\PlanetSeat.png</Icon>
+	  <CooldownSeconds>90</CooldownSeconds>
+	  <Prefab>Deluxe Emergency Seat</Prefab>
+
+	  <UseForSpace>false</UseForSpace>
+	  <UseForPlanetsWithAtmosphere>true</UseForPlanetsWithAtmosphere>
+	  <UseForPlanetsWithoutAtmosphere>false</UseForPlanetsWithoutAtmosphere>	  
+	  <PlanetDeployAltitude>4</PlanetDeployAltitude>
+
+	  <HelpTextLocalizationId>Gravity field drop-off</HelpTextLocalizationId>
+	</Ship>
+
+    <Ship> <!-- Moon Rover -->
+	  <Id>
+		<TypeId>RespawnShipDefinition</TypeId>
+		<SubtypeId>RespawnMoonRover</SubtypeId>
+	  </Id>
+	  <DisplayName>DisplayName_PlanetaryLander</DisplayName>
+	  <Icon>Textures\GUI\Icons\RespawnShips\PlanetSeat.png</Icon>
+	  <CooldownSeconds>90</CooldownSeconds>
+	  <Prefab>Deluxe Emergency Seat</Prefab>
+
+	  <UseForSpace>false</UseForSpace>
+	  <UseForPlanetsWithAtmosphere>false</UseForPlanetsWithAtmosphere>
+	  <UseForPlanetsWithoutAtmosphere>true</UseForPlanetsWithoutAtmosphere>
+	  <PlanetDeployAltitude>4</PlanetDeployAltitude>
+
+	  <HelpTextLocalizationId>Gravity field drop-off</HelpTextLocalizationId>
+	</Ship>
+	
+	<Ship> <!-- Space Start -->
+	  <Id>
+		<TypeId>RespawnShipDefinition</TypeId>
+		<SubtypeId>RespawnSpacePod</SubtypeId>
+	  </Id>
+	  <DisplayName>DisplayName_RespawnPodSpace</DisplayName>
+	  <Icon>Textures\GUI\Icons\RespawnShips\SpaceSeat.png</Icon>
+	  <CooldownSeconds>90</CooldownSeconds>
+	  <Prefab>Deluxe Emergency Seat</Prefab>
+
+	  <UseForSpace>true</UseForSpace>
+	  <SpawnNearProceduralAsteroids>true</SpawnNearProceduralAsteroids>
+
+	  <HelpTextLocalizationId>Space drop-off</HelpTextLocalizationId>
+	</Ship>
+</RespawnShips>
+</Definitions>
