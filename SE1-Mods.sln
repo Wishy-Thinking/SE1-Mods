@@ -16,6 +16,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mad Mac - Jetpack Progressi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mad Mac - Deluxe Spawn Seat", "Mad Mac - Deluxe Spawn Seat\Mad Mac - Deluxe Spawn Seat.csproj", "{74873C15-3E82-4511-B992-1D515071226C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mad Mac - C-23 Spawn Craft", "Mad Mac - C-23 Spawn Craft\Mad Mac - C-23 Spawn Craft.csproj", "{85ECEF42-B105-456D-A6F6-04CCAFA3C51A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -54,5 +56,13 @@ Global
 		{74873C15-3E82-4511-B992-1D515071226C}.Debug|x64.Build.0 = Debug|x64
 		{74873C15-3E82-4511-B992-1D515071226C}.Release|x64.ActiveCfg = Release|x64
 		{74873C15-3E82-4511-B992-1D515071226C}.Release|x64.Build.0 = Release|x64
+		{DD46974B-E7FE-4079-8EC2-374E2DE12858}.Debug|x64.ActiveCfg = Debug|x64
+		{DD46974B-E7FE-4079-8EC2-374E2DE12858}.Debug|x64.Build.0 = Debug|x64
+		{DD46974B-E7FE-4079-8EC2-374E2DE12858}.Release|x64.ActiveCfg = Release|x64
+		{DD46974B-E7FE-4079-8EC2-374E2DE12858}.Release|x64.Build.0 = Release|x64
+		{85ECEF42-B105-456D-A6F6-04CCAFA3C51A}.Debug|x64.ActiveCfg = Debug|x64
+		{85ECEF42-B105-456D-A6F6-04CCAFA3C51A}.Debug|x64.Build.0 = Debug|x64
+		{85ECEF42-B105-456D-A6F6-04CCAFA3C51A}.Release|x64.ActiveCfg = Release|x64
+		{85ECEF42-B105-456D-A6F6-04CCAFA3C51A}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 EndGlobal

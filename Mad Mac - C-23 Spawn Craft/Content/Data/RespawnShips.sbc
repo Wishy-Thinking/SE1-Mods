@@ -1,0 +1,102 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <RespawnShips>
+    <Ship> <!-- Planetary -->
+      <Id>
+        <TypeId>RespawnShipDefinition</TypeId>
+        <SubtypeId>RespawnRover</SubtypeId>
+      </Id>
+      <DisplayName>Planet: Cyclotron C-23</DisplayName>
+      <Icon>Textures\GUI\Icons\RespawnShips\C-23-Europa.png</Icon>
+      <CooldownSeconds>90</CooldownSeconds>
+      <Prefab>Cyclotron C-23</Prefab>
+
+      <UseForSpace>false</UseForSpace>
+      <UseForPlanetsWithAtmosphere>true</UseForPlanetsWithAtmosphere>
+      <UseForPlanetsWithoutAtmosphere>false</UseForPlanetsWithoutAtmosphere>
+      <PlanetDeployAltitude>4</PlanetDeployAltitude>
+
+      <HelpTextLocalizationId>Gravity field drop-off</HelpTextLocalizationId>
+    </Ship>
+    <Ship> <!-- Space (Anywhere) -->
+      <Id>
+        <TypeId>RespawnShipDefinition</TypeId>
+        <SubtypeId>RespawnSpacePod</SubtypeId>
+      </Id>
+      <DisplayName>Cyclotron C-23: Space</DisplayName>
+      <Icon>Textures\GUI\Icons\RespawnShips\C-23-Space.png</Icon>
+      <CooldownSeconds>90</CooldownSeconds>
+      <Prefab>Cyclotron C-23</Prefab>
+
+      <UseForSpace>true</UseForSpace>
+      <HelpTextLocalizationId>RespawnScreeenHelpTextSpaceSpawn</HelpTextLocalizationId>
+    </Ship>
+
+    <Ship> <!-- Space (Near Moon) -->
+      <Id>
+        <TypeId>RespawnShipDefinition</TypeId>
+        <SubtypeId>C23SpaceMoon</SubtypeId>
+      </Id>
+      <DisplayName>C-23: Space (Moon)</DisplayName>
+      <Icon>Textures\GUI\Icons\RespawnShips\C-23-Space.png</Icon>
+      <CooldownSeconds>90</CooldownSeconds>
+      <Prefab>Cyclotron C-23</Prefab>
+      <SpawnPosition x="14910.0" y="118750.0" z="-84800.0" />
+      <SpawnPositionDispersionMax>25000</SpawnPositionDispersionMax>
+      <SpawnPositionDispersionMin>5000</SpawnPositionDispersionMin>
+      <SpawnNearProceduralAsteroids>false</SpawnNearProceduralAsteroids>
+      <UseForSpace>true</UseForSpace>
+      <HelpTextLocalizationId>RespawnScreeenHelpTextSpaceSpawn</HelpTextLocalizationId>
+    </Ship>
+    <Ship> <!-- Space (Near Europa) -->
+      <Id>
+        <TypeId>RespawnShipDefinition</TypeId>
+        <SubtypeId>C23SpaceEuropa</SubtypeId>
+      </Id>
+      <DisplayName>C-23: Space (Europa)</DisplayName>
+      <Icon>Textures\GUI\Icons\RespawnShips\C-23-Space.png</Icon>
+      <CooldownSeconds>90</CooldownSeconds>
+      <Prefab>Cyclotron C-23</Prefab>
+      <SpawnPosition x="934870.0" y="23960.0" z="1614400.0" />
+      <SpawnPositionDispersionMax>25000</SpawnPositionDispersionMax>
+      <SpawnPositionDispersionMin>5000</SpawnPositionDispersionMin>
+      <SpawnNearProceduralAsteroids>false</SpawnNearProceduralAsteroids>
+      <UseForSpace>true</UseForSpace>
+      <HelpTextLocalizationId>RespawnScreeenHelpTextSpaceSpawn</HelpTextLocalizationId>
+    </Ship>
+    <Ship> <!-- Space (Near Titan) -->
+      <Id>
+        <TypeId>RespawnShipDefinition</TypeId>
+        <SubtypeId>C23SpaceTitan</SubtypeId>
+      </Id>
+      <DisplayName>C-23: Space (Titan)</DisplayName>
+      <Icon>Textures\GUI\Icons\RespawnShips\C-23-Space.png</Icon>
+      <CooldownSeconds>90</CooldownSeconds>
+      <Prefab>Cyclotron C-23</Prefab>
+      <SpawnPosition x="44250.0" y="248600.0" z="5833200.0" />
+      <SpawnPositionDispersionMax>25000</SpawnPositionDispersionMax>
+      <SpawnPositionDispersionMin>5000</SpawnPositionDispersionMin>
+      <SpawnNearProceduralAsteroids>false</SpawnNearProceduralAsteroids>
+      <UseForSpace>true</UseForSpace>
+      <HelpTextLocalizationId>RespawnScreeenHelpTextSpaceSpawn</HelpTextLocalizationId>
+    </Ship>
+
+    <Ship> <!-- Moon -->
+      <Id>
+        <TypeId>RespawnShipDefinition</TypeId>
+        <SubtypeId>RespawnMoonRover</SubtypeId>
+      </Id>
+      <DisplayName>Cyclotron C-23: Moon</DisplayName>
+      <Icon>Textures\GUI\Icons\RespawnShips\C-23-Moon.png</Icon>
+      <CooldownSeconds>90</CooldownSeconds>
+      <Prefab>Cyclotron C-23</Prefab>
+
+      <UseForSpace>false</UseForSpace>
+      <UseForPlanetsWithAtmosphere>false</UseForPlanetsWithAtmosphere>
+      <UseForPlanetsWithoutAtmosphere>true</UseForPlanetsWithoutAtmosphere>
+      <PlanetDeployAltitude>4</PlanetDeployAltitude>
+
+      <HelpTextLocalizationId>Gravity field drop-off</HelpTextLocalizationId>
+    </Ship>
+  </RespawnShips>
+</Definitions>

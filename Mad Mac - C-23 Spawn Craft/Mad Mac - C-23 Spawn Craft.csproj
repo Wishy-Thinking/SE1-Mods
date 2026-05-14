@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
     <PropertyGroup>
         <TargetFramework>netframework48</TargetFramework>
-        <RootNamespace>Mad_Mac_Deluxe_Spawn_Seat</RootNamespace>
+        <RootNamespace>Mad_Mac___C_23_Spawn_Craft</RootNamespace>
         <LangVersion>6</LangVersion>
         <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
         <Configurations>Release;Debug</Configurations>
@@ -33,5 +33,6 @@
         <AdditionalFiles Remove="*mdk.local.ini"/>
         <AdditionalFiles Remove="Content\Other content folders"/>
         <AdditionalFiles Remove="Content\Data\SBC files can go here"/>
+        <None Remove="thumb.jpg"/>
     </ItemGroup>
 </Project>
