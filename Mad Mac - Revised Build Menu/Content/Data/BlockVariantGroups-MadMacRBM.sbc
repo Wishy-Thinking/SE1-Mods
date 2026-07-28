@@ -369,6 +369,8 @@
                 <Block Type="MyObjectBuilder_TextPanel" Subtype="SmallDiagonalLCDPanel" />
                 <Block Type="MyObjectBuilder_TextPanel" Subtype="LargeCurvedLCDPanel" />
                 <Block Type="MyObjectBuilder_TextPanel" Subtype="SmallCurvedLCDPanel" />
+                <Block Type="MyObjectBuilder_EmotionControllerBlock" Subtype="EmotionControllerLarge" />
+                <Block Type="MyObjectBuilder_EmotionControllerBlock" Subtype="EmotionControllerSmall" />
                 <Block Type="MyObjectBuilder_TextPanel" Subtype="HoloLCDLarge" />
                 <Block Type="MyObjectBuilder_TextPanel" Subtype="HoloLCDSmall" />
                 <Block Type="MyObjectBuilder_TextPanel" Subtype="LargeLCDPanel5x5" />
@@ -389,7 +391,7 @@
             </Blocks>
         </BlockVariantGroup>
 
-        <!-- Moved to ExhaustPipeGroup -->
+        <!-- Moved to HeatVentGroup -->
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="Axe_Exhaust" />
             <Icon>Textures\GUI\Icons\Cubes\ExhaustPipe_Racing_Large.dds</Icon>
@@ -397,22 +399,15 @@
             <Description>Exhaust system blocks</Description>
             <Blocks/>
         </BlockVariantGroup>
-        <!-- Moved to ExhaustPipeGroup -->
+        <!-- Added LargeExhaustPipeAaW -->
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="HeatVentGroup" />
             <Icon>Textures\GUI\Icons\Cubes\HeatVent.dds</Icon>
             <DisplayName>DisplayName_Block_HeatVent</DisplayName>
             <Description>Description_HeatVent</Description>
-            <Blocks/>
-        </BlockVariantGroup>
-        <!-- Added LargeExhaustPipeAaW -->
-        <!-- Moved HeatVentGroup here -->
-        <BlockVariantGroup>
-            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ExhaustPipeGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\ExhaustPipe_Racing_Large.dds</Icon>
-            <DisplayName>DisplayName_Block_ExhaustPipe</DisplayName>
-            <Description>Description_ExhaustPipe</Description>
             <Blocks>
+                <Block Type="MyObjectBuilder_HeatVentBlock" Subtype="LargeHeatVentBlock" />
+                <Block Type="MyObjectBuilder_HeatVentBlock" Subtype="SmallHeatVentBlock" />
                 <Block Type="MyObjectBuilder_ExhaustBlock" Subtype="LargeExhaustPipe" />
                 <Block Type="MyObjectBuilder_ExhaustBlock" Subtype="SmallExhaustPipe" />
                 <Block Type="MyObjectBuilder_ExhaustBlock" Subtype="LargeExhaustCap" />
@@ -428,8 +423,6 @@
                 <Block Type="CubeBlock" Subtype="exhaust_shroud_holes_Small" />
                 <Block Type="CubeBlock" Subtype="exhaust_corner_Small" />
                 <Block Type="CubeBlock" Subtype="exhaust_flare_Small" />
-                <Block Type="MyObjectBuilder_HeatVentBlock" Subtype="LargeHeatVentBlock" />
-                <Block Type="MyObjectBuilder_HeatVentBlock" Subtype="SmallHeatVentBlock" />
             </Blocks>
         </BlockVariantGroup>
 
@@ -838,6 +831,8 @@
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="CatwalkRailingEnd" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="CatwalkRailingHalfRight" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="CatwalkRailingHalfLeft" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="CatwalkTriangular" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="CatwalkTriangularRailing" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="CatwalkHalf" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="CatwalkHalfRailing" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="CatwalkHalfCenterRailing" />
@@ -864,10 +859,23 @@
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="RailingCorner" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="RailingHalfRight" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="RailingHalfLeft" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="RailingHalf45" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="RailingCenter" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="Railing2x1Right" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="Railing2x1Left" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="RailingHalf45" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="ContinuousRailingStraight" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="ContinuousRailingDouble" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="ContinuousRailingDiagonal" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="ContinuousRailingCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="ContinuousRailingHalfRight" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="ContinuousRailingHalfLeft" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="ContinuousRailingCenter" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="ContinuousRailing2x1Right" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="ContinuousRailing2x1RightTip" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="ContinuousRailing2x1Left" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="ContinuousRailing2x1LeftTip" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="ContinuousRailingRound" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="ContinuousRailingGate" />
             </Blocks>
         </BlockVariantGroup>
 
@@ -909,30 +917,6 @@
             </Blocks>
         </BlockVariantGroup>
 
-        <!-- Moved to DecorativeStorageGroup1 -->
-        <BlockVariantGroup>
-            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="DecorativeStorageGroup2" />
-            <Icon>Textures\GUI\Icons\Cubes\Barrel01.dds</Icon>
-            <DisplayName>DisplayName_Block_Barrel</DisplayName>
-            <Description>Description_Freight</Description>
-            <Blocks/>
-        </BlockVariantGroup>
-        <!-- Moved to DecorativeStorageGroup1 -->
-        <BlockVariantGroup>
-            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="DecorativeStorageGroup3" />
-            <Icon>Textures\GUI\Icons\Cubes\Crate01.dds</Icon>
-            <DisplayName>DisplayName_Block_Crate</DisplayName>
-            <Description>Description_CrateBlock</Description>
-            <Blocks/>
-        </BlockVariantGroup>
-        <!-- Moved to DecorativeStorageGroup1 -->
-        <BlockVariantGroup>
-            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="DecorativeStorageGroup4" />
-            <Icon>Textures\GUI\Icons\Cubes\StorageBins_single.dds</Icon>
-            <DisplayName>DisplayName_Block_StorageBin1</DisplayName>
-            <Description>Description_Freight</Description>
-            <Blocks/>
-        </BlockVariantGroup>
         <!-- Added Barrel, Crate, Bins here -->
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="DecorativeStorageGroup1" />
@@ -945,15 +929,15 @@
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="Freight2" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="Freight2Small" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="Freight3" />
-                <Block Type="MyObjectBuilder_TerminalBlock" Subtype="LargeCrate" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeStorageBin1" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallStorageBin1" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeStorageBin2" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeStorageBin3" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBarrel" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBarrel" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBarrelThree" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBarrelStack" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeStorageBin1" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallStorageBin1" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeStorageBin2" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeStorageBin3" />
+                <Block Type="MyObjectBuilder_TerminalBlock" Subtype="LargeCrate" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="StorageShelf1" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="StorageShelf2" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="StorageShelf3" />
@@ -1025,6 +1009,7 @@
             <Blocks/>
         </BlockVariantGroup>
         <!-- Moved Collectors here -->
+        <!-- Added LargeBlockStructural_PlatformConveyor -->
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ConveyorGroup" />
             <Icon>Textures\GUI\Icons\Cubes\conveyor.dds</Icon>
@@ -1044,12 +1029,14 @@
                 <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="MediumBlockConveyorSorter" />
                 <Block Type="MyObjectBuilder_Collector" Subtype="Collector" />
                 <Block Type="MyObjectBuilder_Collector" Subtype="CollectorSmall" />
+                <Block Type="MyObjectBuilder_Collector" Subtype="CollectorFlat" />
                 <Block Type="MyObjectBuilder_Collector" Subtype="JSCompactCollector" />
                 <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="ConveyorTubeDuct" />
                 <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="ConveyorTubeDuctCurved" />
                 <Block Type="MyObjectBuilder_Conveyor" Subtype="ConveyorTubeDuctT" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockConveyorCap" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockConveyorCapMedium" />
+                <Block Type="MyObjectBuilder_Conveyor" Subtype="LargeBlockStructural_PlatformConveyor" />
             </Blocks>
         </BlockVariantGroup>
 
@@ -1141,6 +1128,8 @@
                 <Block Type="MyObjectBuilder_OxygenTank" Subtype="SmallHydrogenTank" />
                 <Block Type="MyObjectBuilder_OxygenTank" Subtype="SmallHydrogenTankSmall" />
                 <Block Type="MyObjectBuilder_OxygenTank" Subtype="LargeHydrogenTankIndustrial" />
+                <Block Type="MyObjectBuilder_OxygenTank" Subtype="LargeHydrogenTankBulk" />
+                <Block Type="MyObjectBuilder_OxygenTank" Subtype="SmallHydrogenTankBulk" />
                 <Block Type="MyObjectBuilder_OxygenTank" Subtype="WaterTank" />
                 <Block Type="MyObjectBuilder_OxygenGenerator" Subtype="" />
                 <Block Type="MyObjectBuilder_OxygenGenerator" Subtype="LargeBlockOxygenGeneratorLab" />
@@ -1171,6 +1160,7 @@
             <Description>Description_StorageShelf</Description>
             <Blocks/>
         </BlockVariantGroup>
+        <!-- Added LargeBlockServerRacks -->
         <!-- Added Decorative SN Wheels Rack -->
         <!-- Added AQD_SG_OpenBed, CoffeeMachineFunctional, JSFireExtinguisher, SmallBlockJukeboxReskin -->
         <!-- Moved StorageShelves here -->
@@ -1206,6 +1196,9 @@
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="StorageShelf2" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="StorageShelf3" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="Wheels Rack" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockServerRack1" />
+                <Block Type="MyObjectBuilder_TerminalBlock" Subtype="LargeBlockServerRack2" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockServerRack3" />
             </Blocks>
         </BlockVariantGroup>
         <!-- Merged into LockersGroup (Mostly so SG weapon rack isn't on its own there) -->
@@ -1292,7 +1285,7 @@
 
         <!-- Added JSFireExtinguisher -->
         <BlockVariantGroup>
-            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="AccesPanelGroup" />
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="AccessPanelGroup" />
             <Icon>Textures\GUI\Icons\Cubes\MaintenancePanel_Large.dds</Icon>
             <DisplayName>DisplayName_Block_AccessPanel1</DisplayName>
             <Description>Description_AccessPanel</Description>
@@ -1307,6 +1300,9 @@
                 <Block Type="MyObjectBuilder_TerminalBlock" Subtype="SmallBlockAccessPanel4" />
                 <Block Type="MyObjectBuilder_TerminalBlock" Subtype="JSFireExtinguisher_LG" />
                 <Block Type="MyObjectBuilder_TerminalBlock" Subtype="JSFireExtinguisher_SG" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockServerRack1" />
+                <Block Type="MyObjectBuilder_TerminalBlock" Subtype="LargeBlockServerRack2" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockServerRack3" />
             </Blocks>
         </BlockVariantGroup>
 
@@ -1483,6 +1479,9 @@
                 <Block Type="MyObjectBuilder_BatteryBlock" Subtype="SmallBlockSmallBatteryBlock" />
                 <Block Type="MyObjectBuilder_BatteryBlock" Subtype="LargeBlockBatteryBlockWarfare2" />
                 <Block Type="MyObjectBuilder_BatteryBlock" Subtype="SmallBlockBatteryBlockWarfare2" />
+                <Block Type="MyObjectBuilder_BatteryBlock" Subtype="LargeBlockBatteryReskin" />
+                <Block Type="MyObjectBuilder_BatteryBlock" Subtype="LargeBlockBatteryReskinOffset" />
+                <Block Type="MyObjectBuilder_BatteryBlock" Subtype="SmallBlockBatteryReskin" />
                 <Block Type="MyObjectBuilder_BatteryBlock" Subtype="LargePowerCoreFrame" />
                 <Block Type="MyObjectBuilder_BatteryBlock" Subtype="SmallPowerCoreFrame" />
             </Blocks>
@@ -1605,15 +1604,8 @@
             <Description>Description_BlockGroup_AutomationGroup</Description>
             <Blocks/>
         </BlockVariantGroup>
-        <!-- Moved to AutomationGroup2 -->
-        <BlockVariantGroup>
-            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="EmotionControllerGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\EmotionController.dds</Icon>
-            <DisplayName>DisplayName_EmotionController</DisplayName>
-            <Description>Description_EmotionController</Description>
-            <Blocks/>
-        </BlockVariantGroup>
         <!-- Moved TurretControlGroup, ProgrammableBlockGroup here -->
+        <!-- Added EmotionController, -->
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="AutomationGroup2" />
             <Icon>Textures\GUI\Icons\Cubes\EventController_large.dds</Icon>
@@ -1630,6 +1622,9 @@
                 <Block Type="MyObjectBuilder_MyProgrammableBlock" Subtype="SmallProgrammableBlock" />
                 <Block Type="MyObjectBuilder_MyProgrammableBlock" Subtype="LargeProgrammableBlockReskin" />
                 <Block Type="MyObjectBuilder_MyProgrammableBlock" Subtype="SmallProgrammableBlockReskin" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockServerRack1" />
+                <Block Type="MyObjectBuilder_TerminalBlock" Subtype="LargeBlockServerRack2" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockServerRack3" />
                 <Block Type="MyObjectBuilder_EmotionControllerBlock" Subtype="EmotionControllerLarge" />
                 <Block Type="MyObjectBuilder_EmotionControllerBlock" Subtype="EmotionControllerSmall" />
                 <Block Type="MyObjectBuilder_TransponderBlock" Subtype="LargeBlockTransponder" />
@@ -1773,6 +1768,10 @@
             <Blocks>
                 <Block Type="MyObjectBuilder_InteriorLight" Subtype="SmallLight" />
                 <Block Type="MyObjectBuilder_InteriorLight" Subtype="SmallBlockSmallLight" />
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="LargeBlockLightRound" />
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="SmallBlockLightRound" />
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="LargeBlockLightSquare" />
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="SmallBlockLightSquare" />
                 <Block Type="MyObjectBuilder_InteriorLight" Subtype="LargeBlockLight_1corner" />
                 <Block Type="MyObjectBuilder_InteriorLight" Subtype="LargeBlockLight_2corner" />
                 <Block Type="MyObjectBuilder_InteriorLight" Subtype="SmallBlockLight_1corner" />
@@ -2003,35 +2002,44 @@
         </BlockVariantGroup>
 
         <!-- Added Decorative SN Scifi Spiral Staircase -->
+        <!-- Added JSTransitions_Grated*Stairs -->
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="StairsGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\ramp.dds</Icon>
-            <DisplayName>DisplayName_Block_Ramp</DisplayName>
-            <Description>Description_Ramp</Description>
+            <Icon>Textures\GUI\Icons\Cubes\stairs.dds</Icon>
+            <DisplayName>DisplayName_Block_Stairs</DisplayName>
+            <Description>Description_Stairs</Description>
             <Blocks>
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeRamp" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeStairs" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeStairsShort" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeRamp" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="GratedStairs" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="JSTransitions_GratedStairs" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="GratedHalfStairs" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="JSTransitions_GratedHalfStairs" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="GratedHalfStairsMirrored" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="JSTransitions_GratedStairs" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="JSTransitions_GratedHalfStairs" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="JSTransitions_GratedHalfStairsMirrored" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeSteepStairsLeft" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeSteepStairsRight" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeSteepStairsCenter" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeSteepStairsRailingLeft" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeSteepStairsRailingRight" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeSteepStairsRailingCenter" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeStairsSolid" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeStairsSolidRailing" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeStairsSolidSideR" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeStairsSolidSideRailingR" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeStairsSolidSideL" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeStairsSolidSideRailingL" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeStairsSolidHalf" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeStairsSolidHalfRailing" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="Scifi Spiral Staircase" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="Scifi Spiral Staircase Cover" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="Scifi Spiral Staircase End Cover" />
             </Blocks>
         </BlockVariantGroup>
 
-        <BlockVariantGroup>
-            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="StructualBlocksGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\Structural_5_platform.dds</Icon>
-            <DisplayName>DisplayName_Block_StructualBlocks</DisplayName>
-            <Description>Description_FloorplanSigns</Description>
-            <Blocks/>
-        </BlockVariantGroup>
         <!-- Added Decorative SN Floor Sci Fi, RoofScifi*, Runways -->
-        <!-- Moved Structual Platform blocks here -->
+        <!-- Added Structural Platform blocks here -->
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="FloorBlockGroup" />
             <Icon>Textures\GUI\Icons\Cubes\DecorativeFloorCenter.dds</Icon>
@@ -2046,6 +2054,7 @@
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockFloorCenter" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockFloorSlab" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockStructural_Platform" />
+                <Block Type="MyObjectBuilder_Conveyor" Subtype="LargeBlockStructural_PlatformConveyor" />
                 <Block Type="MyObjectBuilder_ShipConnector" Subtype="LargeBlockStructural_PlatformConnector" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockStructural_PlatformTriangle" />
                 <Block Type="MyObjectBuilder_TextPanel" Subtype="RunwayStart" />

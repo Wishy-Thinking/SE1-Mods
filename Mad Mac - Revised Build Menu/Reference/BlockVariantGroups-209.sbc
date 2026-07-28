@@ -396,12 +396,12 @@
             <Blocks>
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="Truss" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="TrussSloped" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="TrussSmall" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="TrussSmall" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="TrussSlopedSmall" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="TrussAngled" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="TrussAngledSmall" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="TrussHalf" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="TrussHalfSmall" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="TrussAngledSmall" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="TrussHalf" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="TrussHalfSmall" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="TrussFloor" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="TrussFloorT" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="TrussFloorX" />
@@ -434,7 +434,7 @@
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockInsetWallSlope" />
             </Blocks>
         </BlockVariantGroup>
-		
+
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="BlastDoorGroup" />
             <Icon>Textures\GUI\Icons\Cubes\ArmorCenter.dds</Icon>
@@ -468,7 +468,7 @@
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="TrussPillarSmall" />
                 <Block Type="MyObjectBuilder_InteriorLight" Subtype="TrussPillarLight" />
                 <Block Type="MyObjectBuilder_InteriorLight" Subtype="TrussPillarLightSmall" />
-				<Block Type="MyObjectBuilder_Decoy" Subtype="TrussPillarDecoy" />
+                <Block Type="MyObjectBuilder_Decoy" Subtype="TrussPillarDecoy" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeInteriorPillar" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockCylindricalColumn" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockCylindricalColumn" />
@@ -483,8 +483,8 @@
             <Blocks>
                 <Block Type="MyObjectBuilder_CryoChamber" Subtype="LargeBlockBedFree" />
                 <Block Type="MyObjectBuilder_CryoChamber" Subtype="LargeBlockBed" />
-				<Block Type="MyObjectBuilder_CryoChamber" Subtype="LargeBlockHalfBed" />
-				<Block Type="MyObjectBuilder_CryoChamber" Subtype="LargeBlockHalfBedOffset" />
+                <Block Type="MyObjectBuilder_CryoChamber" Subtype="LargeBlockHalfBed" />
+                <Block Type="MyObjectBuilder_CryoChamber" Subtype="LargeBlockHalfBedOffset" />
                 <Block Type="MyObjectBuilder_CryoChamber" Subtype="LargeBlockInsetBed" />
                 <Block Type="MyObjectBuilder_CryoChamber" Subtype="SmallBlockBunkBed" />
             </Blocks>
@@ -559,13 +559,13 @@
             <Blocks>
                 <Block Type="MyObjectBuilder_Planter" Subtype="LargeBlockPlanters" />
                 <Block Type="MyObjectBuilder_InteriorLight" Subtype="LargeInsetPlanter" />
-				<Block Type="MyObjectBuilder_InteriorLight" Subtype="LargeBlockInsetAquarium" />
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="LargeBlockInsetAquarium" />
                 <Block Type="MyObjectBuilder_InteriorLight" Subtype="LargeBlockInsetTerrariumDesert" />
                 <Block Type="MyObjectBuilder_InteriorLight" Subtype="LargeBlockInsetTerrariumForest" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockSmallVivarium" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockSmallCornerVivarium" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockLargeVivarium" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockLargeCornerVivarium" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockSmallVivarium" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockSmallCornerVivarium" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockLargeVivarium" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockLargeCornerVivarium" />
             </Blocks>
         </BlockVariantGroup>
 
@@ -608,9 +608,9 @@
             <Blocks>
                 <Block Type="MyObjectBuilder_LCDPanelsBlock" Subtype="LabEquipment" />
                 <Block Type="MyObjectBuilder_LCDPanelsBlock" Subtype="MedicalStation" />
-				<Block Type="MyObjectBuilder_LCDPanelsBlock" Subtype="LabEquipment1" />
-				<Block Type="MyObjectBuilder_InteriorLight" Subtype="LabEquipment2" />
-				<Block Type="MyObjectBuilder_LCDPanelsBlock" Subtype="LabEquipment3" />
+                <Block Type="MyObjectBuilder_LCDPanelsBlock" Subtype="LabEquipment1" />
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="LabEquipment2" />
+                <Block Type="MyObjectBuilder_LCDPanelsBlock" Subtype="LabEquipment3" />
             </Blocks>
         </BlockVariantGroup>
 
@@ -660,7 +660,7 @@
                 <Block Type="MyObjectBuilder_TerminalBlock" Subtype="LargeFreezer" />
             </Blocks>
         </BlockVariantGroup>
-		
+
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="NeonTubes" />
             <Icon>Textures\GUI\Icons\Cubes\NeonTubesStraight1.dds</Icon>
@@ -708,8 +708,8 @@
             <Description>Description_EngineerPlushie</Description>
             <Blocks>
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="EngineerPlushie" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="EngineerPlushieSE2" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SabiroidPlushie" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="EngineerPlushieSE2" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SabiroidPlushie" />
             </Blocks>
         </BlockVariantGroup>
 
@@ -719,18 +719,18 @@
             <DisplayName>DisplayName_Block_WarningSignEaster9</DisplayName>
             <Description>Description_SignBlocks</Description>
             <Blocks>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeWarningSignEaster9" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallWarningSignEaster9" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeWarningSignEaster10" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallWarningSignEaster10" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeWarningSignEaster11" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallWarningSignEaster11" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeWarningSignEaster13" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallWarningSignEaster13" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeWarningSignEaster2" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallWarningSignEaster2" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeWarningSignEaster3" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallWarningSignEaster3" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeWarningSignEaster9" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallWarningSignEaster9" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeWarningSignEaster10" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallWarningSignEaster10" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeWarningSignEaster11" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallWarningSignEaster11" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeWarningSignEaster13" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallWarningSignEaster13" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeWarningSignEaster2" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallWarningSignEaster2" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeWarningSignEaster3" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallWarningSignEaster3" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeWarningSign1" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeWarningSign2" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeWarningSign3" />
@@ -765,7 +765,7 @@
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallWarningSign16" />
             </Blocks>
         </BlockVariantGroup>
-		
+
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="LettersAZ" />
             <Icon>Textures\GUI\Icons\Cubes\Symbol_A.dds</Icon>
@@ -914,7 +914,7 @@
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="PassageSciFiWindow" />
             </Blocks>
         </BlockVariantGroup>
-		
+
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CorridorGroup" />
             <Icon>Textures\GUI\Icons\Cubes\Corridor.dds</Icon>
@@ -1078,7 +1078,7 @@
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="Railing2x1Left" />
             </Blocks>
         </BlockVariantGroup>
-		
+
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="LadderGroup" />
             <Icon>Textures\GUI\Icons\Cubes\Ladder.dds</Icon>
@@ -1153,12 +1153,12 @@
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockModularBridgeCorner2x1BaseL" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockModularBridgeCorner2x1BaseLFloorless" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockModularBridgeCorner2x1BaseR" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockModularBridgeCorner2x1BaseRFloorless" />         
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockModularBridgeCorner2x1BaseRFloorless" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockModularBridgeSideL" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockModularBridgeSideR" />
             </Blocks>
         </BlockVariantGroup>
-		
+
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="PassengerSeatGroup" />
             <Icon>Textures\GUI\Icons\Cubes\PassengerSeat.dds</Icon>
@@ -1250,7 +1250,7 @@
             <DisplayName>DisplayName_Block_Hydrogen_Engine</DisplayName>
             <Description>Description_PowerGenerator</Description>
             <Blocks>
-		        <Block Type="MyObjectBuilder_HydrogenEngine" Subtype="LargeHydrogenEngine" />
+                <Block Type="MyObjectBuilder_HydrogenEngine" Subtype="LargeHydrogenEngine" />
                 <Block Type="MyObjectBuilder_HydrogenEngine" Subtype="LargeHydrogenEngineReskin" />
                 <Block Type="MyObjectBuilder_HydrogenEngine" Subtype="SmallHydrogenEngine" />
                 <Block Type="MyObjectBuilder_HydrogenEngine" Subtype="SmallHydrogenEngineReskin" />
@@ -1340,7 +1340,7 @@
                 <Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockSmallModularThruster" />
             </Blocks>
         </BlockVariantGroup>
-		
+
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="GyroscopeGroup" />
             <Icon>Textures\GUI\Icons\Cubes\gyro.dds</Icon>
@@ -1412,7 +1412,7 @@
                 <Block Type="MyObjectBuilder_MotorSuspension" Subtype="SmallShortSuspension2x2Mirrored" />
             </Blocks>
         </BlockVariantGroup>
-		
+
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="OffroadWheelSuspensionRightGroup" />
             <Icon>Textures\GUI\Icons\Cubes\WheelSuspension3x3_RacingRight.dds</Icon>
@@ -1511,7 +1511,7 @@
                 <Block Type="MyObjectBuilder_MedicalRoom" Subtype="LargeMedicalRoomReskin" />
             </Blocks>
         </BlockVariantGroup>
-		
+
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="RefillStation" />
             <Icon>Textures\GUI\Icons\Cubes\RefillStationCap.dds</Icon>
@@ -1520,7 +1520,7 @@
             <Blocks>
                 <Block Type="MyObjectBuilder_MedicalRoom" Subtype="LargeRefillStation" />
                 <Block Type="MyObjectBuilder_MedicalRoom" Subtype="SmallRefillStation" />
-				<Block Type="MyObjectBuilder_MedicalRoom" Subtype="InsetRefillStation" />
+                <Block Type="MyObjectBuilder_MedicalRoom" Subtype="InsetRefillStation" />
             </Blocks>
         </BlockVariantGroup>
 
@@ -1667,7 +1667,7 @@
                 <Block Type="MyObjectBuilder_ReflectorLight" Subtype="SmallBlockFloodlightAngledRotated" />
             </Blocks>
         </BlockVariantGroup>
-		
+
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="SoundGroup" />
             <Icon>Textures\GUI\Icons\Cubes\SoundBlock.dds</Icon>
@@ -1937,7 +1937,7 @@
                 <Block Type="MyObjectBuilder_AirVent" Subtype="SmallAirVentFanFull" />
             </Blocks>
         </BlockVariantGroup>
-		
+
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="GasGeneratorGroup" />
             <Icon>Textures\GUI\Icons\Cubes\OxygenGenerator.dds</Icon>
@@ -2056,7 +2056,7 @@
             <DisplayName>DisplayName_TurretControlBlock</DisplayName>
             <Description>Description_TurretControlBlock</Description>
             <Blocks>
-		        <Block Type="MyObjectBuilder_TurretControlBlock" Subtype="LargeTurretControlBlock" />
+                <Block Type="MyObjectBuilder_TurretControlBlock" Subtype="LargeTurretControlBlock" />
                 <Block Type="MyObjectBuilder_TurretControlBlock" Subtype="SmallTurretControlBlock" />
             </Blocks>
         </BlockVariantGroup>
@@ -2120,11 +2120,11 @@
                 <Block Type="MyObjectBuilder_TerminalBlock" Subtype="LargeBlockSciFiTerminal" />
                 <Block Type="MyObjectBuilder_ButtonPanel" Subtype="VerticalButtonPanelLarge" />
                 <Block Type="MyObjectBuilder_ButtonPanel" Subtype="VerticalButtonPanelSmall" />
-				<Block Type="MyObjectBuilder_ButtonPanel" Subtype="LargeButtonPanelPedestal" />
-				<Block Type="MyObjectBuilder_ButtonPanel" Subtype="SmallButtonPanelPedestal" />
+                <Block Type="MyObjectBuilder_ButtonPanel" Subtype="LargeButtonPanelPedestal" />
+                <Block Type="MyObjectBuilder_ButtonPanel" Subtype="SmallButtonPanelPedestal" />
                 <Block Type="MyObjectBuilder_ButtonPanel" Subtype="LargeBlockInsetButtonPanel" />
-				<Block Type="MyObjectBuilder_TerminalBlock" Subtype="LargeControlPanelPedestal" />
-				<Block Type="MyObjectBuilder_TerminalBlock" Subtype="SmallControlPanelPedestal" />
+                <Block Type="MyObjectBuilder_TerminalBlock" Subtype="LargeControlPanelPedestal" />
+                <Block Type="MyObjectBuilder_TerminalBlock" Subtype="SmallControlPanelPedestal" />
             </Blocks>
         </BlockVariantGroup>
 
@@ -2483,10 +2483,10 @@
             <Description>Description_SafeZone</Description>
             <Blocks>
                 <Block Type="MyObjectBuilder_SafeZoneBlock" Subtype="SafeZoneBlock" />
-				<Block Type="MyObjectBuilder_SafeZoneBlock" Subtype="SafeZoneBlockReskin" />
+                <Block Type="MyObjectBuilder_SafeZoneBlock" Subtype="SafeZoneBlockReskin" />
             </Blocks>
         </BlockVariantGroup>
-		
+
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="StoreGroup" />
             <Icon>Textures\GUI\Icons\Cubes\StoreBlock.dds</Icon>
@@ -2495,7 +2495,7 @@
             <Blocks>
                 <Block Type="MyObjectBuilder_StoreBlock" Subtype="StoreBlock" />
                 <Block Type="MyObjectBuilder_ContractBlock" Subtype="ContractBlock" />
-				<Block Type="MyObjectBuilder_FunctionalBlock" Subtype="ServicesTerminal" />
+                <Block Type="MyObjectBuilder_FunctionalBlock" Subtype="ServicesTerminal" />
                 <Block Type="MyObjectBuilder_StoreBlock" Subtype="AtmBlock" />
                 <Block Type="MyObjectBuilder_VendingMachine" Subtype="VendingMachine" />
                 <Block Type="MyObjectBuilder_VendingMachine" Subtype="FoodDispenser" />
@@ -2512,7 +2512,7 @@
                 <Block Type="MyObjectBuilder_JumpDrive" Subtype="LargeJumpDriveReskin" />
             </Blocks>
         </BlockVariantGroup>
-		
+
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="GravityGroup" />
             <Icon>Textures\GUI\Icons\Cubes\gravity_generator.dds</Icon>
@@ -2721,6 +2721,6 @@
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockStructural_SupportBeam5x5" />
             </Blocks>
         </BlockVariantGroup>
-        
+
     </BlockVariantGroups>
 </Definitions>

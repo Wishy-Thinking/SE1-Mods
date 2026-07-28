@@ -15,19 +15,11 @@
 			<Position><X>2</X><Y>0</Y></Position>
 		</BlockPosition>
 		<BlockPosition>
-			<Name>LargeBlockArmorInvCorner2Base</Name> <!-- Error in original file... -->
+			<Name>LightArmorSlopedCornerTip</Name>
 			<Position><X>3</X><Y>0</Y></Position>
 		</BlockPosition>
 		<BlockPosition>
-			<Name>LightArmorSlopedCornerTip</Name> <!-- ...correct name pulled from the BlockPairName -->
-			<Position><X>3</X><Y>0</Y></Position>
-		</BlockPosition>
-		<BlockPosition>
-			<Name>ArmorLightTransitionBlocks</Name> <!-- Error in original file... -->
-			<Position><X>4</X><Y>0</Y></Position>
-		</BlockPosition>
-		<BlockPosition>
-			<Name>LightArmorSlopeTransitionBase</Name> <!-- ...correct name pulled from the BlockPairName -->
+			<Name>LightArmorSlopeTransitionBase</Name>
 			<Position><X>4</X><Y>0</Y></Position>
 		</BlockPosition>
 
@@ -58,19 +50,11 @@
 			<Position><X>2</X><Y>1</Y></Position>
 		</BlockPosition>
 		<BlockPosition>
-			<Name>LargeHeavyBlockArmorInvCorner2Base</Name> <!-- Error in original file... -->
+			<Name>HeavyArmorSlopedCornerTip</Name>
 			<Position><X>3</X><Y>1</Y></Position>
 		</BlockPosition>
 		<BlockPosition>
-			<Name>HeavyArmorSlopedCornerTip</Name> <!-- ...correct name pulled from the BlockPairName -->
-			<Position><X>3</X><Y>1</Y></Position>
-		</BlockPosition>
-		<BlockPosition>
-			<Name>ArmorHeavyTransitionBlocks</Name> <!-- Error in original file... -->
-			<Position><X>4</X><Y>1</Y></Position>
-		</BlockPosition>
-		<BlockPosition>
-			<Name>HeavyArmorSlopeTransitionBase</Name> <!-- ...correct name pulled from the BlockPairName -->
+			<Name>HeavyArmorSlopeTransitionBase</Name>
 			<Position><X>4</X><Y>1</Y></Position>
 		</BlockPosition>
 
@@ -99,181 +83,191 @@
 			<Position><X>1</X><Y>4</Y></Position>
 		</BlockPosition>
 		<BlockPosition>
-			<Name>RoundEdge</Name>
+			<Name>LargeBlockStructuralPlatform</Name>
 			<Position><X>2</X><Y>4</Y></Position>
 		</BlockPosition>
 		<BlockPosition>
-			<Name>TrussPillar</Name>
+			<Name>RoundEdge</Name>
 			<Position><X>3</X><Y>4</Y></Position>
 		</BlockPosition>
 		<BlockPosition>
-			<Name>PipesStraight1</Name>
+			<Name>TrussPillar</Name>
 			<Position><X>4</X><Y>4</Y></Position>
 		</BlockPosition>
 		<BlockPosition>
-			<Name>ConduitStraight</Name>
+			<Name>Arc_Truss_I</Name> <!-- Future-proof -->
 			<Position><X>5</X><Y>4</Y></Position>
 		</BlockPosition>
 		<BlockPosition>
-			<Name>NeonTubesStraight1</Name>
-			<Position><X>6</X><Y>4</Y></Position>
-		</BlockPosition>
-		<BlockPosition>
-			<Name>Arc_Truss_I</Name> <!-- Future proof -->
-			<Position><X>7</X><Y>4</Y></Position>
-		</BlockPosition>
-		<BlockPosition>
 			<Name>ARC Truss "I"</Name>
-			<Position><X>7</X><Y>4</Y></Position>
+			<Position><X>5</X><Y>4</Y></Position>
 		</BlockPosition>
 
-		<!-- Row 5 - catwalks, scaffolding, ladders (Moved from 12) -->
+		<!-- Row 5 - Pipes, cable, conduit, tubes (Moved from 6) -->
 		<BlockPosition>
-			<Name>Ramp</Name>
+			<Name>PipesStraight1</Name>
 			<Position><X>0</X><Y>5</Y></Position>
 		</BlockPosition>
 		<BlockPosition>
-			<Name>SteelCatwalk</Name>
+			<Name>CableRun</Name>
 			<Position><X>1</X><Y>5</Y></Position>
 		</BlockPosition>
 		<BlockPosition>
-			<Name>FullCoverWall</Name>
+			<Name>ConduitStraight</Name>
 			<Position><X>2</X><Y>5</Y></Position>
 		</BlockPosition>
 		<BlockPosition>
-			<Name>Catwalk</Name>
+			<Name>NeonTubesStraight1</Name>
 			<Position><X>3</X><Y>5</Y></Position>
 		</BlockPosition>
-		<BlockPosition>
-			<Name>RailingStraight</Name>
-			<Position><X>4</X><Y>5</Y></Position>
-		</BlockPosition>
-		<BlockPosition>
-			<Name>Ladder2</Name>
-			<Position><X>5</X><Y>5</Y></Position>
-		</BlockPosition>
-		<BlockPosition>
-			<Name>Truss</Name> <!-- Scaffold -->
-			<Position><X>6</X><Y>5</Y></Position>
-		</BlockPosition>
-		<BlockPosition>
-			<Name>GCMHingeSupportStrut</Name>
-			<Position><X>7</X><Y>5</Y></Position>
-		</BlockPosition>
 
-		<!-- Row 6 - passages, corridors (moved from 11) -->
+		<!-- Row 6 - catwalks, scaffolding, ladders (Moved from 12) -->
 		<BlockPosition>
-			<Name>Passage</Name>
+			<Name>Stairs</Name>
+			<Position><X>0</X><Y>6</Y></Position>
+		</BlockPosition>
+		<BlockPosition>
+			<Name>SteelCatwalk</Name>
 			<Position><X>1</X><Y>6</Y></Position>
 		</BlockPosition>
 		<BlockPosition>
-			<Name>Corridor</Name>
+			<Name>FullCoverWall</Name>
 			<Position><X>2</X><Y>6</Y></Position>
 		</BlockPosition>
 		<BlockPosition>
-			<Name>TSOCorCargoSingle</Name>
+			<Name>Catwalk</Name>
 			<Position><X>3</X><Y>6</Y></Position>
 		</BlockPosition>
 		<BlockPosition>
-			<Name>TSOCorExtT</Name>
+			<Name>RailingStraight</Name>
 			<Position><X>4</X><Y>6</Y></Position>
 		</BlockPosition>
 		<BlockPosition>
-			<Name>TSOCorStairs</Name>
+			<Name>Ladder2</Name>
 			<Position><X>5</X><Y>6</Y></Position>
 		</BlockPosition>
 		<BlockPosition>
-			<Name>CorridorRound</Name>
+			<Name>Truss</Name> <!-- Scaffold -->
 			<Position><X>6</X><Y>6</Y></Position>
 		</BlockPosition>
 		<BlockPosition>
-			<Name>TSOCorRndStairs</Name>
+			<Name>GCMHingeSupportStrut</Name>
 			<Position><X>7</X><Y>6</Y></Position>
 		</BlockPosition>
-		<BlockPosition>
-			<Name>AQD_SleekCorridor_Straight</Name>
-			<Position><X>8</X><Y>6</Y></Position>
-		</BlockPosition>
-		<BlockPosition>
-			<Name>AirDuct1</Name>
-			<Position><X>9</X><Y>6</Y></Position>
-		</BlockPosition>
 
-		<!-- Row 7 doors (moved from 11) -->
+		<!-- Row 7 - passages, corridors (moved from 11) -->
 		<BlockPosition>
-			<Name>Door</Name>
-			<Position><X>0</X><Y>7</Y></Position>
-		</BlockPosition>
-		<BlockPosition>
-			<Name>Kham_WindowDoor_Frame</Name>
+			<Name>Passage</Name>
 			<Position><X>1</X><Y>7</Y></Position>
 		</BlockPosition>
 		<BlockPosition>
-			<Name>AirtightHangarDoor</Name>
+			<Name>Corridor</Name>
 			<Position><X>2</X><Y>7</Y></Position>
 		</BlockPosition>
 		<BlockPosition>
-			<Name>TSOCorStraightDoor</Name>
+			<Name>TSOCorCargoSingle</Name>
+			<Position><X>3</X><Y>7</Y></Position>
+		</BlockPosition>
+		<BlockPosition>
+			<Name>TSOCorExtT</Name>
+			<Position><X>4</X><Y>7</Y></Position>
+		</BlockPosition>
+		<BlockPosition>
+			<Name>TSOCorStairs</Name>
+			<Position><X>5</X><Y>7</Y></Position>
+		</BlockPosition>
+		<BlockPosition>
+			<Name>CorridorRound</Name>
+			<Position><X>6</X><Y>7</Y></Position>
+		</BlockPosition>
+		<BlockPosition>
+			<Name>TSOCorRndStairs</Name>
 			<Position><X>7</X><Y>7</Y></Position>
 		</BlockPosition>
 		<BlockPosition>
-			<Name>TSOCorRndStraightDoor</Name>
+			<Name>AQD_SleekCorridor_Straight</Name>
 			<Position><X>8</X><Y>7</Y></Position>
 		</BlockPosition>
 		<BlockPosition>
-			<Name>LargeBlockSlideDoorDouble</Name>
+			<Name>AirDuct1</Name>
 			<Position><X>9</X><Y>7</Y></Position>
 		</BlockPosition>
 
-		<!-- Row 8 - Beds & decorative (Moved from 3) -->
+		<!-- Row 8 doors (moved from 11) -->
 		<BlockPosition>
-			<Name>BedFree</Name>
+			<Name>Door</Name>
 			<Position><X>0</X><Y>8</Y></Position>
 		</BlockPosition>
 		<BlockPosition>
-			<Name>WeaponRack</Name>
+			<Name>Kham_WindowDoor_Frame</Name>
 			<Position><X>1</X><Y>8</Y></Position>
 		</BlockPosition>
 		<BlockPosition>
-			<Name>InsetKitchen</Name>
+			<Name>AirtightHangarDoor</Name>
 			<Position><X>2</X><Y>8</Y></Position>
 		</BlockPosition>
 		<BlockPosition>
-			<Name>Couch</Name>
-			<Position><X>3</X><Y>8</Y></Position>
+			<Name>TSOCorStraightDoor</Name>
+			<Position><X>7</X><Y>8</Y></Position>
 		</BlockPosition>
 		<BlockPosition>
-			<Name>Table Sci Fi</Name>
-			<Position><X>4</X><Y>8</Y></Position>
+			<Name>TSOCorRndStraightDoor</Name>
+			<Position><X>8</X><Y>8</Y></Position>
 		</BlockPosition>
 		<BlockPosition>
-			<Name>Arc Entrance</Name>
-			<Position><X>5</X><Y>8</Y></Position>
+			<Name>LargeBlockSlideDoorDouble</Name>
+			<Position><X>9</X><Y>8</Y></Position>
 		</BlockPosition>
 
-		<!-- Row 9 (moved from 4) -->
+		<!-- Row 9 - Beds & decorative (Moved from 3) -->
 		<BlockPosition>
-			<Name>LabEquipment</Name>
+			<Name>BedFree</Name>
 			<Position><X>0</X><Y>9</Y></Position>
 		</BlockPosition>
 		<BlockPosition>
-			<Name>ConsoleModule</Name>
+			<Name>WeaponRack</Name>
 			<Position><X>1</X><Y>9</Y></Position>
 		</BlockPosition>
 		<BlockPosition>
-			<Name>Desk</Name>
+			<Name>InsetKitchen</Name>
 			<Position><X>2</X><Y>9</Y></Position>
 		</BlockPosition>
 		<BlockPosition>
-			<Name>AccessPanel1</Name>
+			<Name>Couch</Name>
 			<Position><X>3</X><Y>9</Y></Position>
 		</BlockPosition>
+		<BlockPosition>
+			<Name>Table Sci Fi</Name>
+			<Position><X>4</X><Y>9</Y></Position>
+		</BlockPosition>
+		<BlockPosition>
+			<Name>Arc Entrance</Name>
+			<Position><X>5</X><Y>9</Y></Position>
+		</BlockPosition>
 
-		<!-- Rows 10, 11 -->
+		<!-- Row 10 (moved from 4) -->
+		<BlockPosition>
+			<Name>LabEquipment</Name>
+			<Position><X>0</X><Y>10</Y></Position>
+		</BlockPosition>
+		<BlockPosition>
+			<Name>ConsoleModule</Name>
+			<Position><X>1</X><Y>10</Y></Position>
+		</BlockPosition>
+		<BlockPosition>
+			<Name>Desk</Name>
+			<Position><X>2</X><Y>10</Y></Position>
+		</BlockPosition>
+		<BlockPosition>
+			<Name>AccessPanel1</Name>
+			<Position><X>3</X><Y>10</Y></Position>
+		</BlockPosition>
+
+		<!-- Row 11 -->
 		<!-- Open for future use and/or mods -->
 
-		<!-- Row 11 (Doors, etc) moved to 4 -->
-		<!-- Old row 12 (catwalks, ladders, etc) moved to 5 -->
+		<!-- Row 11 (Doors, etc) moved to 8 -->
+		<!-- Old row 12 (catwalks, ladders, etc) moved to 6 -->
 
 		<!-- Row 12 (shifted up from 13 -->
 		<BlockPosition>
@@ -363,7 +357,7 @@
 
 		<!-- Row 15 (thrusters, etc.) -->
 		<BlockPosition>
-			<Name>ExhaustPipe</Name>
+			<Name>HeatVentBlock</Name>
 			<Position><X>5</X><Y>15</Y></Position>
 		</BlockPosition>
 
